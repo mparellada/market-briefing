@@ -5,25 +5,23 @@ on:
     paths:
       - 'briefings/data-*.json'
 
+permissions:
+  contents: write
+
 jobs:
   send:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install puppeteer
-        run: npm install puppeteer
-
       - name: Find latest data file
         id: find
         run: |
           FILE=$(ls -t briefings/data-*.json | head -1)
+          DATE=$(echo "$FILE" | grep -oP '\d{4}-\d{2}-\d{2}')
           echo "file=$FILE" >> "$GITHUB_OUTPUT"
-          echo "Found: $FILE"
+          echo "date=$DATE" >> "$GITHUB_OUTPUT"
+          echo "Found: $FILE (date: $DATE)"
 
       - name: Build HTML with embedded data
         run: |
@@ -31,126 +29,53 @@ jobs:
           const fs = require('fs');
           const data = fs.readFileSync('${{ steps.find.outputs.file }}', 'utf8');
           let template = fs.readFileSync('template.html', 'utf8');
-          // Inject data as a script tag before the closing </script>
           const inject = '<script>var DATA = ' + data + '; render(DATA);</script>';
           template = template.replace('</body>', inject + '</body>');
-          fs.writeFileSync('/tmp/briefing.html', template);
-          console.log('HTML built successfully');
+          fs.writeFileSync('briefings/latest.html', template);
+          fs.writeFileSync('index.html', template);
+          console.log('HTML built');
           "
 
-      - name: Screenshot HTML
+      - name: Commit HTML to repo for GitHub Pages
         run: |
-          node -e "
-          const puppeteer = require('puppeteer');
-          (async () => {
-            const browser = await puppeteer.launch({args: ['--no-sandbox']});
-            const page = await browser.newPage();
-            await page.setViewport({width: 800, height: 600});
-            await page.goto('file:///tmp/briefing.html', {waitUntil: 'networkidle0', timeout: 30000});
-            // Wait for fonts to load
-            await page.evaluate(() => document.fonts.ready);
-            await new Promise(r => setTimeout(r, 2000));
-            const body = await page.\$('body');
-            const box = await body.boundingBox();
-            await page.screenshot({
-              path: '/tmp/briefing.png',
-              clip: {x: 0, y: 0, width: box.width, height: box.height},
-              type: 'png'
-            });
-            await browser.close();
-            console.log('Screenshot saved');
-          })();
-          "
+          git config user.name "Market Briefing Bot"
+          git config user.email "bot@market-briefing.local"
+          git add briefings/latest.html index.html
+          git commit -m "Render briefing ${{ steps.find.outputs.date }}" || echo "No changes"
+          git push
 
-      - name: Build text message
-        id: text
+      - name: Build text summary for Telegram
         run: |
           node -e "
           const d = JSON.parse(require('fs').readFileSync('${{ steps.find.outputs.file }}', 'utf8'));
-          let msg = '*MARKET BRIEFING — ' + d.date + '*\n\n';
-
-          if (d.sentiment) msg += '_' + d.sentiment + '_\n\n';
-          if (d.pulse) msg += d.pulse + '\n\n';
-
-          // Movers
+          const strip = s => (s||'').replace(/<[^>]*>/g, '');
+          let msg = '📊 *MARKET BRIEFING — ' + d.date + '*\n\n';
+          if (d.sentiment) msg += '_Sentiment: ' + d.sentiment + '_\n\n';
+          if (d.pulse) msg += strip(d.pulse) + '\n\n';
           if (d.movers && d.movers.length) {
             msg += '*Notable Movers*\n';
             d.movers.forEach(m => msg += '• *' + m.name + '* ' + m.change_pct + ' — ' + m.reason + '\n');
             msg += '\n';
           }
-
-          // Tables
-          function addTable(title, rows) {
-            if (!rows || !rows.length) return;
-            msg += '*' + title + '*\n\`\`\`\n';
-            rows.forEach(r => {
-              msg += (r[0]+'          ').slice(0,10) + (r[1]+'          ').slice(0,10) + (r[2]+'        ').slice(0,8) + r[3] + '\n';
-            });
-            msg += '\`\`\`\n\n';
-          }
-          addTable('Indices', d.indices);
-          addTable('Currencies', d.currencies);
-          addTable('Futures', d.futures);
-          addTable('Commodities', d.commodities);
-          addTable('Stocks', d.stocks);
-
-          // Portfolio
-          if (d.portfolio) msg += '*For Your Portfolio*\n' + d.portfolio.replace(/<[^>]*>/g, '') + '\n\n';
-
-          // Alerts
           if (d.alerts && d.alerts.length) {
-            msg += '*Risk Alerts*\n';
-            d.alerts.forEach(a => msg += '⚠ ' + a.text + '\n');
+            msg += '*⚠ Alerts*\n';
+            d.alerts.forEach(a => msg += '• ' + a.text + '\n');
             msg += '\n';
           }
-
-          // News
-          if (d.news && d.news.length) {
-            msg += '*Key News*\n';
-            d.news.forEach((n, i) => msg += (i+1) + '. *' + n.title + '* — ' + n.text + '\n');
-            msg += '\n';
-          }
-
-          if (d.day_ahead) msg += '*Day Ahead*\n' + d.day_ahead.replace(/<[^>]*>/g, '') + '\n';
-
-          // Truncate if needed (Telegram limit ~4096)
+          msg += '👉 *Full dashboard:* https://mparellada.github.io/market-briefing/\n';
           if (msg.length > 4000) msg = msg.slice(0, 3990) + '...\n';
-
           require('fs').writeFileSync('/tmp/message.txt', msg);
-          console.log('Text message built (' + msg.length + ' chars)');
+          console.log('Message built (' + msg.length + ' chars)');
           "
 
-      - name: Send photo to Telegram
+      - name: Send to Telegram
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto" \
-            -F "chat_id=${CHAT_ID}" \
-            -F "photo=@/tmp/briefing.png" \
-            -F "caption=Market Briefing — $(date -u +%Y-%m-%d)" \
-            | jq '.ok'
-
-      - name: Send text to Telegram
-        env:
-          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          # Split into chunks if needed
           MSG=$(cat /tmp/message.txt)
-          LEN=${#MSG}
-          if [ "$LEN" -le 4096 ]; then
-            curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
-              -H "Content-Type: application/json" \
-              -d "$(jq -n --arg chat "$CHAT_ID" --arg text "$MSG" '{chat_id: $chat, text: $text, parse_mode: "Markdown"}')" \
-              | jq '.ok'
-          else
-            # Send in chunks
-            echo "$MSG" | fold -w 4000 -s | while read -r CHUNK; do
-              curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
-                -H "Content-Type: application/json" \
-                -d "$(jq -n --arg chat "$CHAT_ID" --arg text "$CHUNK" '{chat_id: $chat, text: $text, parse_mode: "Markdown"}')" \
-                | jq '.ok'
-              sleep 1
-            done
-          fi
+          curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n --arg chat "$CHAT_ID" --arg text "$MSG" \
+              '{chat_id: $chat, text: $text, parse_mode: "Markdown", disable_web_page_preview: false}')" \
+            | jq '.ok'
