@@ -180,61 +180,100 @@ with sync_playwright() as p:
         page.screenshot(path="/tmp/notebooklm_timeout.png")
         sys.exit(1)
 
-    # Step 8: Download the MP3
+    # Step 8: Download the MP3 via network interception
     print("\nDownloading audio...")
     time.sleep(3)
 
-    # Find and click three-dot menu (try multiple selectors)
-    print("Looking for three-dot menu...")
-    three_dot = None
-    for selector in ['[aria-label*="More"]', '[aria-label*="more"]', '[aria-label*="opcions"]',
-                     '[aria-label*="Options"]', '[aria-label*="menu"]',
-                     'button:has(mat-icon:has-text("more_vert"))',
-                     'button mat-icon', '.mat-mdc-menu-trigger']:
-        try:
-            el = page.locator(selector)
-            if el.count() > 0:
-                el.first.click()
-                print(f"Clicked three-dot via: {selector}")
-                three_dot = True
-                time.sleep(2)
-                break
-        except:
-            pass
+    # Method: intercept network requests to find the audio URL
+    audio_urls = []
+    def handle_response(response):
+        url = response.url
+        ct = response.headers.get("content-type", "")
+        if "audio" in ct or url.endswith(".mp3") or "audio" in url:
+            audio_urls.append(url)
+            print(f"  Found audio URL: {url[:100]}")
+    page.on("response", handle_response)
 
-    if not three_dot:
-        # Fallback: right-click the audio item
-        print("Three-dot not found, trying right-click...")
-        audio_item = page.get_by_text("Deep Dive").or_(page.get_by_text("Audio")).or_(page.get_by_text("Resum"))
-        if audio_item.count() > 0:
-            audio_item.first.click(button="right")
-            time.sleep(2)
+    # Click the play button to trigger audio loading
+    print("Clicking play to trigger audio load...")
+    play_btn = page.locator('[aria-label*="play" i], [aria-label*="Play"], [aria-label*="Reprodueix"]')
+    if play_btn.count() > 0:
+        play_btn.first.click()
+        time.sleep(5)
+    else:
+        # Try clicking the audio item itself
+        audio_items = page.locator('[class*="audio"], [class*="overview-card"]')
+        if audio_items.count() > 0:
+            audio_items.first.click()
+            time.sleep(5)
 
-    # Click Download / Baixa
-    print("Looking for Download button...")
-    with page.expect_download(timeout=30000) as download_info:
-        for label in ["Download", "Baixa", "download", "baixa"]:
-            try:
-                dl = page.get_by_text(label)
-                if dl.count() > 0:
-                    dl.first.click()
-                    print(f"Clicked '{label}'")
-                    break
-            except:
-                pass
+    # Also try to find audio src directly from the DOM
+    audio_src = page.evaluate("""() => {
+        // Check for audio elements
+        const audios = document.querySelectorAll('audio');
+        for (const a of audios) {
+            if (a.src) return a.src;
+            const source = a.querySelector('source');
+            if (source && source.src) return source.src;
+        }
+        // Check for any elements with audio-related data attributes
+        const els = document.querySelectorAll('[data-audio-url], [data-src*="audio"]');
+        for (const el of els) {
+            return el.dataset.audioUrl || el.dataset.src || '';
+        }
+        return '';
+    }""")
+
+    if audio_src:
+        audio_urls.append(audio_src)
+        print(f"  Found audio src from DOM: {audio_src[:100]}")
+
+    page.remove_listener("response", handle_response)
+
+    if audio_urls:
+        # Download the audio file
+        print(f"Downloading from: {audio_urls[0][:100]}...")
+        # Use the browser context's cookies to download
+        response = page.evaluate("""async (url) => {
+            const resp = await fetch(url);
+            const blob = await resp.blob();
+            const reader = new FileReader();
+            return new Promise(resolve => {
+                reader.onloadend = () => resolve(reader.result);
+                reader.readAsDataURL(blob);
+            });
+        }""", audio_urls[0])
+        # Save the base64 data
+        if response and "base64," in response:
+            b64_data = response.split("base64,")[1]
+            import base64 as b64module
+            audio_bytes = b64module.b64decode(b64_data)
+            with open("/tmp/podcast.mp3", "wb") as f:
+                f.write(audio_bytes)
+            print(f"Saved podcast: {len(audio_bytes)} bytes")
         else:
-            # Last resort: click any menuitem
-            menuitems = page.locator('[role="menuitem"]')
-            print(f"Found {menuitems.count()} menu items")
-            for i in range(menuitems.count()):
-                text = menuitems.nth(i).inner_text()
-                print(f"  menuitem {i}: '{text}'")
-                if "down" in text.lower() or "baix" in text.lower():
-                    menuitems.nth(i).click()
-                    break
-
-    download = download_info.value
-    download.save_as("/tmp/podcast.mp3")
+            print("Failed to download audio via fetch")
+    else:
+        # Fallback: try the three-dot menu approach
+        print("No audio URL found, trying menu download...")
+        # Click all possible three-dot buttons
+        dots = page.locator('button:has(span:has-text("more_vert")), [aria-label*="More" i], [aria-label*="opcions" i]')
+        for i in range(dots.count()):
+            try:
+                dots.nth(i).click()
+                time.sleep(1)
+                # Try to click download in the menu
+                with page.expect_download(timeout=10000) as dl_info:
+                    dl_btn = page.get_by_text("Download").or_(page.get_by_text("Baixa"))
+                    dl_btn.first.click()
+                download = dl_info.value
+                download.save_as("/tmp/podcast.mp3")
+                print(f"Downloaded via menu: {os.path.getsize('/tmp/podcast.mp3')} bytes")
+                break
+            except:
+                page.keyboard.press("Escape")
+                time.sleep(0.5)
+                continue
     print(f"Saved podcast to /tmp/podcast.mp3 ({os.path.getsize('/tmp/podcast.mp3')} bytes)")
 
     # Cleanup: delete the notebook to avoid clutter
