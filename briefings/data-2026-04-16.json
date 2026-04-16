@@ -1,0 +1,63 @@
+{
+  "date": "Wednesday, April 16 2026",
+  "sentiment": "Risk-On",
+  "pulse": "Markets surging on Iran peace deal optimism. <strong>S&P 500 hit a fresh record</strong> at 7,023 while Nasdaq posted its strongest 11-day run ever (+1.59%). Oil cratered as Hormuz blockade tensions ease — WTI down 7%, Brent down 4%. Strong bank earnings (MS record revenue, BAC profit beat) reinforce bullish momentum.",
+  "movers": [
+    {"name": "IonQ (IONQ)", "change_pct": "+20.95%", "reason": "Quantum computing surge on new government contract + technical breakthrough announcement"},
+    {"name": "Tesla (TSLA)", "change_pct": "+7.0%", "reason": "New vehicle software updates and Musk highlights AI5 chip progress"},
+    {"name": "Morgan Stanley (MS)", "change_pct": "+5.0%", "reason": "Record Q1 revenue beat, strong investment banking and trading"},
+    {"name": "WTI Crude Oil", "change_pct": "-7.0%", "reason": "Iran-US peace deal hopes ease Hormuz blockade fears, massive risk premium unwind"},
+    {"name": "KOSPI", "change_pct": "+2.07%", "reason": "Korean tech rally as global risk appetite returns on Iran ceasefire extension"}
+  ],
+  "indices": [
+    ["SPX", "7,023", "+56", "+0.80%"],
+    ["NDX", "26,251", "+411", "+1.59%"],
+    ["DJI", "48,464", "-72", "-0.15%"],
+    ["N225", "58,134", "+255", "+0.44%"],
+    ["KOSPI", "6,091", "+124", "+2.07%"],
+    ["HSI", "26,029", "+111", "+0.43%"],
+    ["STI", "5,048", "+12", "+0.24%"],
+    ["STOXX50", "5,940", "-44", "-0.74%"],
+    ["IBEX35", "17,890", "-51", "-0.28%"]
+  ],
+  "currencies": [
+    ["EUR/USD", "1.1809", "+0.0014", "+0.12%"],
+    ["EUR/SGD", "1.4920", "+0.0022", "+0.15%"],
+    ["USD/THB", "32.04", "-0.03", "-0.09%"],
+    ["USD/SGD", "1.2635", "-0.0077", "-0.61%"],
+    ["BTC/USD", "70,818", "-2,564", "-3.49%"]
+  ],
+  "futures": [
+    ["ES1!", "7,048", "+25", "+0.36%"],
+    ["NQ1!", "26,320", "+69", "+0.26%"],
+    ["FESX1!", "5,952", "+12", "+0.20%"],
+    ["NK225F", "58,255", "+121", "+0.21%"]
+  ],
+  "commodities": [
+    ["Gold", "$4,826", "+19", "+0.39%"],
+    ["Brent", "$94.89", "-4.32", "-4.35%"],
+    ["WTI", "$91.00", "-6.80", "-6.95%"],
+    ["VIX", "19.23", "-0.26", "-1.33%"],
+    ["Bund 10Y", "3.06%", "+0.02", "N/A"]
+  ],
+  "stocks": [
+    ["9G2.SI", "0.073", "+0.004", "+5.80%"],
+    ["GCL", "0.600", "-0.006", "-1.00%"]
+  ],
+  "portfolio": "<strong>SGD strength</strong> — USD/SGD fell 0.61%, your SGD base gains purchasing power vs USD holdings. <strong>9G2.SI</strong> continues its momentum (+5.80%) — consider taking partial profits if position is oversized. <strong>IBEX35</strong> lagging (-0.28%) as European sentiment diverges from US risk-on. <strong>Oil collapse benefits</strong> — lower energy costs positive for Asia (STI, N225, KOSPI). <strong>BTC</strong> down 3.5% — risk-on in equities but crypto not participating, a divergence worth monitoring. <strong>Gold holding firm</strong> at $4,826 despite risk-on — safe haven bid still alive, suggesting markets not fully convinced on Iran peace.",
+  "alerts": [
+    {"level": "warn", "text": "BTC/USD down 3.49% — crypto diverging from equity risk-on. Watch for further weakness below $70K support."},
+    {"level": "info", "text": "Oil down 7% — Brent approaching $95 support. If Iran deal materializes, further 10-15% downside possible."},
+    {"level": "info", "text": "USD/SGD -0.61% — SGD strengthening. Your USD-denominated positions worth less in SGD terms."}
+  ],
+  "news": [
+    {"title": "Iran-US Peace Deal Hopes Lift Markets", "text": "Signs the US and Iran may extend ceasefire driving massive risk premium unwind across equities and oil."},
+    {"title": "S&P 500 Hits Fresh Record at 7,023", "text": "Nasdaq posts strongest 11-day run on record. Tech-led rally shows no signs of slowing."},
+    {"title": "Oil Craters on Hormuz De-escalation", "text": "WTI -7% to $91, Brent -4% to $95. War premium rapidly unwinding as peace talks progress."},
+    {"title": "Tesla +7% on AI5 Chip Progress", "text": "Broadcom +3%, Meta +2% on AI infrastructure deal. Tech momentum broadening."},
+    {"title": "IonQ Surges 21% on Quantum Breakthrough", "text": "New government contract plus technical milestone. Quantum computing theme heating up."},
+    {"title": "Bank Earnings Strong — MS Record Revenue", "text": "Morgan Stanley +5%, Bank of America +2.5%. Investment banking and trading driving beats."},
+    {"title": "Live Nation -3% on Antitrust Ruling", "text": "Federal jury finds illegal monopoly over ticketing market. Regulatory risk materializing."}
+  ],
+  "day_ahead": "<strong>Thursday April 17:</strong> US weekly jobless claims (8:30 AM ET). Earnings: UnitedHealth (UNH), Netflix (NFLX) after close — watch for subscriber guidance. ECB rate decision — markets pricing 25bp cut. Watch oil for Iran talks developments — any breakdown sends crude back above $100."
+}
