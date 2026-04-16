@@ -68,7 +68,7 @@ jobs:
           console.log('Message built (' + msg.length + ' chars)');
           "
 
-      - name: Send to Telegram
+      - name: Send summary to Telegram
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -79,3 +79,53 @@ jobs:
             -d "$(jq -n --arg chat "$CHAT_ID" --arg text "$MSG" \
               '{chat_id: $chat, text: $text, parse_mode: "Markdown", disable_web_page_preview: false}')" \
             | jq '.ok'
+
+  podcast:
+    runs-on: ubuntu-latest
+    needs: send
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install chromium
+          playwright install-deps
+
+      - name: Find latest data file
+        id: find
+        run: |
+          FILE=$(ls -t briefings/data-*.json | head -1)
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+          echo "Found: $FILE"
+
+      - name: Generate podcast via NotebookLM
+        env:
+          GOOGLE_AUTH_STATE: ${{ secrets.GOOGLE_AUTH_STATE }}
+        run: |
+          cp "${{ steps.find.outputs.file }}" /tmp/data.json
+          python notebooklm_podcast.py /tmp/data.json
+        timeout-minutes: 15
+
+      - name: Send podcast to Telegram
+        if: success()
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -f /tmp/podcast.mp3 ]; then
+            SIZE=$(stat -c%s /tmp/podcast.mp3)
+            echo "Sending podcast ($SIZE bytes)..."
+            curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendAudio" \
+              -F "chat_id=${CHAT_ID}" \
+              -F "audio=@/tmp/podcast.mp3" \
+              -F "title=Market Briefing Podcast" \
+              -F "performer=NotebookLM" \
+              | jq '.ok'
+          else
+            echo "No podcast file found"
+          fi
