@@ -12,18 +12,64 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Send to Telegram
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Screenshot HTML and send to Telegram
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          LATEST=$(ls -t briefings/*.md reports/*.txt 2>/dev/null | head -1)
-          if [ -z "$LATEST" ]; then echo "No report found"; exit 0; fi
-          python3 -c "
+          # Find latest HTML
+          HTML=$(ls -t briefings/*.html reports/*.html 2>/dev/null | head -1)
+          # Find latest text
+          TEXT=$(ls -t briefings/*.md briefings/*.txt reports/*.txt 2>/dev/null | head -1)
+
+          # If HTML exists, screenshot it and send as photo
+          if [ -n "$HTML" ]; then
+            npm install puppeteer
+            node << 'JSEOF'
+            const puppeteer = require('puppeteer');
+            const path = require('path');
+            const { execSync } = require('child_process');
+
+            (async () => {
+              const html = execSync("ls -t briefings/*.html reports/*.html 2>/dev/null | head -1").toString().trim();
+              const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
+              const page = await browser.newPage();
+              await page.setViewport({width: 800, height: 600});
+              await page.goto(`file://${path.resolve(html)}`, {waitUntil: 'networkidle0', timeout: 30000});
+              await page.evaluateHandle('document.fonts.ready');
+              await new Promise(r => setTimeout(r, 2000));
+              const body = await page.$('body');
+              const box = await body.boundingBox();
+              await page.screenshot({
+                path: '/tmp/briefing.png',
+                clip: {x: 0, y: 0, width: Math.ceil(box.width), height: Math.ceil(box.height)},
+                type: 'png'
+              });
+              await browser.close();
+              console.log('Screenshot saved');
+            })();
+          JSEOF
+
+            # Send photo
+            curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto" \
+              -F "chat_id=${CHAT_ID}" \
+              -F "photo=@/tmp/briefing.png" \
+              -F "caption=Market Briefing — $(date -u +%Y-%m-%d)"
+            echo "Photo sent!"
+          fi
+
+          # Also send text version
+          if [ -n "$TEXT" ]; then
+            python3 << 'PYEOF'
           import urllib.request, json, os, time
-          token = os.environ['BOT_TOKEN']
-          chat_id = os.environ['CHAT_ID']
-          latest = os.popen('ls -t briefings/*.md reports/*.txt 2>/dev/null | head -1').read().strip()
+          token = os.environ["BOT_TOKEN"]
+          chat_id = os.environ["CHAT_ID"]
+          latest = os.popen("ls -t briefings/*.md briefings/*.txt reports/*.txt 2>/dev/null | head -1").read().strip()
           with open(latest) as f:
               text = f.read()
           chunks = []
@@ -32,14 +78,15 @@ jobs:
               text = text[4000:]
           for chunk in chunks:
               try:
-                  data = json.dumps({'chat_id': chat_id, 'text': chunk, 'parse_mode': 'Markdown'}).encode()
-                  req = urllib.request.Request(f'https://api.telegram.org/bot{token}/sendMessage', data=data, headers={'Content-Type': 'application/json'})
+                  data = json.dumps({"chat_id": chat_id, "text": chunk, "parse_mode": "Markdown"}).encode()
+                  req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage", data=data, headers={"Content-Type": "application/json"})
                   resp = urllib.request.urlopen(req)
-                  print(f'Sent: {json.loads(resp.read())[\"ok\"]}')
+                  print(f"Sent: {json.loads(resp.read())['ok']}")
               except Exception as e:
-                  print(f'Markdown failed, sending plain: {e}')
-                  data = json.dumps({'chat_id': chat_id, 'text': chunk}).encode()
-                  req = urllib.request.Request(f'https://api.telegram.org/bot{token}/sendMessage', data=data, headers={'Content-Type': 'application/json'})
+                  print(f"Markdown failed, sending plain: {e}")
+                  data = json.dumps({"chat_id": chat_id, "text": chunk}).encode()
+                  req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage", data=data, headers={"Content-Type": "application/json"})
                   urllib.request.urlopen(req)
               time.sleep(1)
-          "
+          PYEOF
+          fi
