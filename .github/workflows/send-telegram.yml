@@ -1,0 +1,45 @@
+name: Send Briefing to Telegram
+
+on:
+  push:
+    paths:
+      - 'reports/**'
+      - 'briefings/**'
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send to Telegram
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          LATEST=$(ls -t briefings/*.md reports/*.txt 2>/dev/null | head -1)
+          if [ -z "$LATEST" ]; then echo "No report found"; exit 0; fi
+          python3 -c "
+          import urllib.request, json, os, time
+          token = os.environ['BOT_TOKEN']
+          chat_id = os.environ['CHAT_ID']
+          latest = os.popen('ls -t briefings/*.md reports/*.txt 2>/dev/null | head -1').read().strip()
+          with open(latest) as f:
+              text = f.read()
+          chunks = []
+          while text:
+              chunks.append(text[:4000])
+              text = text[4000:]
+          for chunk in chunks:
+              try:
+                  data = json.dumps({'chat_id': chat_id, 'text': chunk, 'parse_mode': 'Markdown'}).encode()
+                  req = urllib.request.Request(f'https://api.telegram.org/bot{token}/sendMessage', data=data, headers={'Content-Type': 'application/json'})
+                  resp = urllib.request.urlopen(req)
+                  print(f'Sent: {json.loads(resp.read())[\"ok\"]}')
+              except Exception as e:
+                  print(f'Markdown failed, sending plain: {e}')
+                  data = json.dumps({'chat_id': chat_id, 'text': chunk}).encode()
+                  req = urllib.request.Request(f'https://api.telegram.org/bot{token}/sendMessage', data=data, headers={'Content-Type': 'application/json'})
+                  urllib.request.urlopen(req)
+              time.sleep(1)
+          "
