@@ -182,18 +182,56 @@ with sync_playwright() as p:
 
     # Step 8: Download the MP3
     print("\nDownloading audio...")
-    time.sleep(2)
+    time.sleep(3)
 
-    # Click three-dot menu on the completed audio
-    three_dot = page.locator('[aria-label*="more"], [aria-label*="opcions"]')
-    if three_dot.count() > 0:
-        three_dot.first.click()
-        time.sleep(1)
+    # Find and click three-dot menu (try multiple selectors)
+    print("Looking for three-dot menu...")
+    three_dot = None
+    for selector in ['[aria-label*="More"]', '[aria-label*="more"]', '[aria-label*="opcions"]',
+                     '[aria-label*="Options"]', '[aria-label*="menu"]',
+                     'button:has(mat-icon:has-text("more_vert"))',
+                     'button mat-icon', '.mat-mdc-menu-trigger']:
+        try:
+            el = page.locator(selector)
+            if el.count() > 0:
+                el.first.click()
+                print(f"Clicked three-dot via: {selector}")
+                three_dot = True
+                time.sleep(2)
+                break
+        except:
+            pass
 
-    # Click "Baixa" (Download)
+    if not three_dot:
+        # Fallback: right-click the audio item
+        print("Three-dot not found, trying right-click...")
+        audio_item = page.get_by_text("Deep Dive").or_(page.get_by_text("Audio")).or_(page.get_by_text("Resum"))
+        if audio_item.count() > 0:
+            audio_item.first.click(button="right")
+            time.sleep(2)
+
+    # Click Download / Baixa
+    print("Looking for Download button...")
     with page.expect_download(timeout=30000) as download_info:
-        dl_btn = page.locator('button:has-text("Baixa"), button:has-text("Download"), [role="menuitem"]:has-text("Baixa"), [role="menuitem"]:has-text("Download")')
-        dl_btn.first.click()
+        for label in ["Download", "Baixa", "download", "baixa"]:
+            try:
+                dl = page.get_by_text(label)
+                if dl.count() > 0:
+                    dl.first.click()
+                    print(f"Clicked '{label}'")
+                    break
+            except:
+                pass
+        else:
+            # Last resort: click any menuitem
+            menuitems = page.locator('[role="menuitem"]')
+            print(f"Found {menuitems.count()} menu items")
+            for i in range(menuitems.count()):
+                text = menuitems.nth(i).inner_text()
+                print(f"  menuitem {i}: '{text}'")
+                if "down" in text.lower() or "baix" in text.lower():
+                    menuitems.nth(i).click()
+                    break
 
     download = download_info.value
     download.save_as("/tmp/podcast.mp3")
