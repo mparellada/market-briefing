@@ -1,240 +1,214 @@
 {
-  "date": "Wednesday, April 16 2026",
-  "sentiment": "Risk-On",
-  "pulse": "Markets surging on Iran peace deal optimism. <strong>S&P 500 hit a fresh record</strong> at 7,023 while Nasdaq posted its strongest 11-day run ever (+1.59%). Oil cratered as Hormuz blockade tensions ease \u00e2\u20ac\u201d WTI down 7%, Brent down 4%. Strong bank earnings (MS record revenue, BAC profit beat) reinforce bullish momentum.",
-  "movers": [
-    {
-      "name": "IonQ (IONQ)",
-      "change_pct": "+20.95%",
-      "reason": "Quantum computing surge on new government contract + technical breakthrough announcement"
-    },
-    {
-      "name": "Tesla (TSLA)",
-      "change_pct": "+7.0%",
-      "reason": "New vehicle software updates and Musk highlights AI5 chip progress"
-    },
-    {
-      "name": "Morgan Stanley (MS)",
-      "change_pct": "+5.0%",
-      "reason": "Record Q1 revenue beat, strong investment banking and trading"
-    },
-    {
-      "name": "WTI Crude Oil",
-      "change_pct": "-7.0%",
-      "reason": "Iran-US peace deal hopes ease Hormuz blockade fears, massive risk premium unwind"
-    },
-    {
-      "name": "KOSPI",
-      "change_pct": "+2.07%",
-      "reason": "Korean tech rally as global risk appetite returns on Iran ceasefire extension"
-    }
-  ],
-  "indices": [
-    [
-      "SPX",
-      "7,023",
-      "+56",
-      "+0.80%"
+  "date": "2026-04-16",
+  "generated_at": "2026-04-16T08:00:00Z",
+  "top_global_news": {
+    "bbc": [
+      {
+        "headline": "US naval blockade of Iran's ports 'fully implemented' as peace talks loom",
+        "summary": "The US military claims its blockade has completely halted economic trade going into and out of Iran by sea since April 13. Six merchant vessels turned around after direction from US forces. Trump says talks could resume 'over the next two days'. China calls the blockade 'dangerous and irresponsible'."
+      },
+      {
+        "headline": "Israel and Lebanon agree to launch direct negotiations",
+        "summary": "After talks in Washington DC, Israel and Lebanon agreed to launch direct negotiations. US Secretary of State Marco Rubio called the meeting 'historic', hoping it leads to a long-term peace deal."
+      },
+      {
+        "headline": "Oil prices volatile amid Strait of Hormuz tensions",
+        "summary": "Brent crude dropped 4.5% to $94.87 before recovering slightly. Traders encouraged by prospects of a second round of US-Iran talks and signs Iran will not test the blockade."
+      }
     ],
-    [
-      "NDX",
-      "26,251",
-      "+411",
-      "+1.59%"
+    "nyt": [
+      {
+        "headline": "Trump confronts Iran crisis not bending to his narrative",
+        "summary": "President Trump is facing a crisis that doesn't match his claims of a 'pretty reasonable' new regime in Iran and 'all-but-assured' US victory. European countries declined to participate in the blockade action."
+      },
+      {
+        "headline": "S&P 500 closes above 7,000 as investors bet on Iran war ending",
+        "summary": "Investors appear to be treating an end to the US-Israeli war with Iran as a foregone conclusion, pushing the S&P 500 to close above 7,000."
+      },
+      {
+        "headline": "Pope Leo XIV presents new foil for Trump",
+        "summary": "The American-born Pope Leo XIV, elected last May, represents a harder target for Trump than Pope Francis. Trump recently shared an AI-generated image depicting himself as Jesus Christ after criticizing the Pope."
+      },
+      {
+        "headline": "Hungary's Viktor Orban defeated in landslide",
+        "summary": "Peter Magyar, a former ally turned opponent, defeated the far-right Hungarian leader Viktor Orban in a landslide Sunday election victory."
+      },
+      {
+        "headline": "China's GDP stronger than expected, led by infrastructure spending",
+        "summary": "Despite a steep slide in housing prices leaving consumers less prosperous, China's government is pouring money into new rail lines and other projects to maintain growth."
+      }
     ],
-    [
-      "DJI",
-      "48,464",
-      "-72",
-      "-0.15%"
+    "ft": [
+      {
+        "headline": "Fed chair nominee Kevin Warsh faces 'credibility' concerns",
+        "summary": "Former Treasury secretary says Warsh will lack credibility in arguing rates should fall. Trump renews threats to fire Jay Powell as leadership transition looms."
+      },
+      {
+        "headline": "Europe could face systemic jet fuel shortage",
+        "summary": "IEA chief warns Europe could run out of jet fuel in 6 weeks as Iran war disrupts energy supply chains. The jump in fuel prices has driven an inflationary shock pressuring the Trump administration."
+      },
+      {
+        "headline": "Trump warns he could rip up trade deal with UK",
+        "summary": "Tensions rise between Washington and London over the Iran war as Trump threatens to tear up the trade agreement."
+      },
+      {
+        "headline": "EU electronic entry/exit system disruption",
+        "summary": "Operators in 15 countries report disruption as the new EU electronic entry/exit system fully comes into force."
+      }
     ],
-    [
-      "N225",
-      "58,134",
-      "+255",
-      "+0.44%"
+    "cnbc": [
+      {
+        "headline": "S&P 500 and Nasdaq close at fresh all-time records",
+        "summary": "The S&P 500 advanced 0.80% while the Nasdaq Composite gained 1.59%, posting its 11th straight gain. Stocks rising on possibility of peace deal between US and Iran."
+      },
+      {
+        "headline": "Japan's Nikkei 225 hits all-time high at 59,518",
+        "summary": "Nikkei ended 2.38% higher, boosted by tech and consumer cyclical stocks. South Korea's Kospi advanced 2.21%. Broader Asia rally tracking Wall Street overnight gains."
+      },
+      {
+        "headline": "TSMC first-quarter profit rises 58%, beats estimates",
+        "summary": "AI demand fuels record run for the world's largest contract chipmaker."
+      },
+      {
+        "headline": "Bank of America tops estimates with highest EPS in two decades",
+        "summary": "Net income rose 17% to $8.6 billion ($1.11/share vs $1.01 estimate). Revenue climbed 7.2% to $30.43 billion. Equities trading revenue jumped 30% amid geopolitical volatility."
+      },
+      {
+        "headline": "PepsiCo earnings beat as price cuts win back shoppers",
+        "summary": "PepsiCo earned adjusted $1.61/share on $19.44 billion revenue, beating analyst expectations. Doritos and Lay's price cuts proved effective."
+      }
     ],
-    [
-      "KOSPI",
-      "6,091",
-      "+124",
-      "+2.07%"
+    "la_vanguardia": [
+      {
+        "headline": "Trump elimina publicaciones polémicas tras acusaciones de xenofobia y blasfemia",
+        "summary": "El presidente publicó una imagen generada por IA de sí mismo como Jesucristo tras criticar al Papa León XIV. La Comisión Europea abordará medidas para paliar el impacto económico del bloqueo del estrecho de Ormuz."
+      },
+      {
+        "headline": "La Agencia Internacional de la Energía promueve el teletrabajo para ahorrar energía",
+        "summary": "Ante la crisis energética por el conflicto en Irán, la AIE sugiere medidas de ahorro incluyendo el fomento del trabajo remoto."
+      },
+      {
+        "headline": "Pedro Sánchez realiza visita oficial a China",
+        "summary": "El presidente del gobierno español viaja a Pekín en un momento clave de tensiones internacionales."
+      }
     ],
-    [
-      "HSI",
-      "26,029",
-      "+111",
-      "+0.43%"
-    ],
-    [
-      "STI",
-      "5,048",
-      "+12",
-      "+0.24%"
-    ],
-    [
-      "STOXX50",
-      "5,940",
-      "-44",
-      "-0.74%"
-    ],
-    [
-      "IBEX35",
-      "17,890",
-      "-51",
-      "-0.28%"
+    "3cat": [
+      {
+        "headline": "Canvi de govern a Hongria: un problema menys per a Europa",
+        "summary": "Péter Magyar derrota Viktor Orbán a les eleccions hongareses, obrint una nova etapa política a Europa."
+      },
+      {
+        "headline": "FMI alerta sobre recessió mundial",
+        "summary": "El Fons Monetari Internacional planteja la possibilitat d'una recessió mundial i un nou brot d'inflació per l'impacte del conflicte a l'Orient Mitjà."
+      },
+      {
+        "headline": "Tiroteig al barri de Poblenou a Barcelona",
+        "summary": "Un ferit greu en un tiroteig en ple carrer al barri de Diagonal Mar de Barcelona."
+      },
+      {
+        "headline": "La indústria tèxtil pendent dels costos i problemes logístics",
+        "summary": "El sector tèxtil afronta l'increment de costos i els problemes logístics derivats del bloqueig de l'estret d'Ormuz."
+      }
     ]
-  ],
-  "currencies": [
-    [
-      "EUR/USD",
-      "1.1809",
-      "+0.0014",
-      "+0.12%"
-    ],
-    [
-      "EUR/SGD",
-      "1.4920",
-      "+0.0022",
-      "+0.15%"
-    ],
-    [
-      "USD/THB",
-      "32.04",
-      "-0.03",
-      "-0.09%"
-    ],
-    [
-      "USD/SGD",
-      "1.2635",
-      "-0.0077",
-      "-0.61%"
-    ],
-    [
-      "BTC/USD",
-      "70,818",
-      "-2,564",
-      "-3.49%"
+  },
+  "markets_summary": {
+    "us_equities": {
+      "sp500": {
+        "close": 7002,
+        "change_pct": 0.80,
+        "note": "Closed above 7,000 for the first time, new all-time high"
+      },
+      "nasdaq": {
+        "close": 22903,
+        "change_pct": 1.59,
+        "note": "11th consecutive gain, new all-time record"
+      },
+      "dow": {
+        "close": 47917,
+        "change_pct": -0.15,
+        "note": "Bucked the trend, lost 72 points"
+      }
+    },
+    "asia": {
+      "nikkei_225": {
+        "close": 59518,
+        "change_pct": 2.38,
+        "note": "All-time record high"
+      },
+      "kospi": {
+        "close": 6226,
+        "change_pct": 2.21
+      },
+      "csi_300": {
+        "close": 4737,
+        "change_pct": 1.10
+      },
+      "hang_seng": {
+        "change_pct": 1.71
+      }
+    },
+    "commodities": {
+      "brent_crude": {
+        "price": 94.87,
+        "change_pct": -4.5,
+        "note": "Dropped on hopes of Iran diplomacy"
+      },
+      "wti_crude": {
+        "price": 91.28,
+        "change_pct": -7.87
+      },
+      "gold": {
+        "price": 4787,
+        "change_pct": -0.64,
+        "note": "Trading above $4,700/oz, near record levels"
+      }
+    },
+    "vix": 19.23,
+    "dxy_usd_index": 98.65,
+    "key_earnings": [
+      "Bank of America: EPS $1.11 vs $1.01 est, Revenue $30.43B vs $29.93B est — highest EPS in ~20 years",
+      "TSMC: Q1 profit up 58%, beat estimates on AI demand",
+      "PepsiCo: Adjusted EPS $1.61, Revenue $19.44B — beat estimates",
+      "Live Nation/Ticketmaster: Found to have illegal monopoly by NY federal jury"
     ]
-  ],
-  "futures": [
-    [
-      "ES1!",
-      "7,048",
-      "+25",
-      "+0.36%"
-    ],
-    [
-      "NQ1!",
-      "26,320",
-      "+69",
-      "+0.26%"
-    ],
-    [
-      "FESX1!",
-      "5,952",
-      "+12",
-      "+0.20%"
-    ],
-    [
-      "NK225F",
-      "58,255",
-      "+121",
-      "+0.21%"
-    ]
-  ],
-  "commodities": [
-    [
-      "Gold",
-      "$4,826",
-      "+19",
-      "+0.39%"
-    ],
-    [
-      "Brent",
-      "$94.89",
-      "-4.32",
-      "-4.35%"
-    ],
-    [
-      "WTI",
-      "$91.00",
-      "-6.80",
-      "-6.95%"
-    ],
-    [
-      "VIX",
-      "19.23",
-      "-0.26",
-      "-1.33%"
-    ],
-    [
-      "Bund 10Y",
-      "3.06%",
-      "+0.02",
-      "N/A"
-    ]
-  ],
-  "stocks": [
-    [
-      "9G2.SI",
-      "0.073",
-      "+0.004",
-      "+5.80%"
-    ],
-    [
-      "GCL",
-      "0.600",
-      "-0.006",
-      "-1.00%"
-    ]
-  ],
-  "portfolio": "<strong>SGD strength</strong> \u00e2\u20ac\u201d USD/SGD fell 0.61%, your SGD base gains purchasing power vs USD holdings. <strong>9G2.SI</strong> continues its momentum (+5.80%) \u00e2\u20ac\u201d consider taking partial profits if position is oversized. <strong>IBEX35</strong> lagging (-0.28%) as European sentiment diverges from US risk-on. <strong>Oil collapse benefits</strong> \u00e2\u20ac\u201d lower energy costs positive for Asia (STI, N225, KOSPI). <strong>BTC</strong> down 3.5% \u00e2\u20ac\u201d risk-on in equities but crypto not participating, a divergence worth monitoring. <strong>Gold holding firm</strong> at $4,826 despite risk-on \u00e2\u20ac\u201d safe haven bid still alive, suggesting markets not fully convinced on Iran peace.",
-  "alerts": [
-    {
-      "level": "warn",
-      "text": "BTC/USD down 3.49% \u00e2\u20ac\u201d crypto diverging from equity risk-on. Watch for further weakness below $70K support."
+  },
+  "crypto_update": {
+    "bitcoin": {
+      "price": 74576,
+      "change_24h_pct": 0.08,
+      "weekly_trend": "Recovery rally from $60K Feb crash, now testing $75K resistance",
+      "key_resistance": "$75,396-$76,016",
+      "key_support": "$73,492",
+      "all_time_high": "$126,198 (Oct 6, 2025)",
+      "market_cap": "$1.33 trillion",
+      "sentiment": "Cautiously bullish — institutional accumulation continues but appetite more cautious than equities"
     },
-    {
-      "level": "info",
-      "text": "Oil down 7% \u00e2\u20ac\u201d Brent approaching $95 support. If Iran deal materializes, further 10-15% downside possible."
+    "ethereum": {
+      "price": 2332,
+      "change_24h_pct": 1.6,
+      "market_cap": "$233 billion",
+      "all_time_high": "$4,953 (Aug 24, 2025)"
     },
-    {
-      "level": "info",
-      "text": "USD/SGD -0.61% \u00e2\u20ac\u201d SGD strengthening. Your USD-denominated positions worth less in SGD terms."
-    }
-  ],
-  "news": [
-    {
-      "title": "Iran-US Peace Deal Hopes Lift Markets",
-      "text": "Signs the US and Iran may extend ceasefire driving massive risk premium unwind across equities and oil."
+    "other_movers": {
+      "solana": {"price": 83.56, "change_pct": 2.72},
+      "xrp": {"price": 1.36, "change_pct": 0.28}
     },
-    {
-      "title": "S&P 500 Hits Fresh Record at 7,023",
-      "text": "Nasdaq posts strongest 11-day run on record. Tech-led rally shows no signs of slowing."
-    },
-    {
-      "title": "Oil Craters on Hormuz De-escalation",
-      "text": "WTI -7% to $91, Brent -4% to $95. War premium rapidly unwinding as peace talks progress."
-    },
-    {
-      "title": "Tesla +7% on AI5 Chip Progress",
-      "text": "Broadcom +3%, Meta +2% on AI infrastructure deal. Tech momentum broadening."
-    },
-    {
-      "title": "IonQ Surges 21% on Quantum Breakthrough",
-      "text": "New government contract plus technical milestone. Quantum computing theme heating up."
-    },
-    {
-      "title": "Bank Earnings Strong \u00e2\u20ac\u201d MS Record Revenue",
-      "text": "Morgan Stanley +5%, Bank of America +2.5%. Investment banking and trading driving beats."
-    },
-    {
-      "title": "Live Nation -3% on Antitrust Ruling",
-      "text": "Federal jury finds illegal monopoly over ticketing market. Regulatory risk materializing."
-    }
-  ],
-  "day_ahead": "<strong>Thursday April 17:</strong> US weekly jobless claims (8:30 AM ET). Earnings: UnitedHealth (UNH), Netflix (NFLX) after close \u00e2\u20ac\u201d watch for subscriber guidance. ECB rate decision \u00e2\u20ac\u201d markets pricing 25bp cut. Watch oil for Iran talks developments \u00e2\u20ac\u201d any breakdown sends crude back above $100.",
-  "rendered_at": "05:14 UTC",
-  "podcast_test": "v5 07:34:51"
+    "institutional_flows": "Q1 2026 saw $12.4B in Bitcoin ETF inflows. BlackRock's IBIT holds $54B AUM and added $612M in BTC over 5 sessions in early April. Total crypto ETP inflows: $18.7B globally in Q1.",
+    "key_catalysts": "SEC CLARITY Act roundtable (April 16), FOMC meeting (April 29), ceasefire extension negotiations"
+  },
+  "macro_outlook": {
+    "fed": "Rates held at 3.50-3.75%. Powell's term ends May 15. Kevin Warsh nominated as successor but confirmation path complicated by DOJ probe. Chicago Fed's Goolsbee warns Iran war could drive inflation higher even as it slows economy. Fed may need to wait until 2027 for rate cuts if oil prices stay high.",
+    "imf": "IMF warns of possible global recession and renewed inflation bout due to Middle East conflict.",
+    "china": "GDP stronger than expected, led by infrastructure spending. Factory gate prices rose for first time in 3+ years. CPI climbed 1% in March YoY.",
+    "europe": "IEA warns Europe could run out of jet fuel in 6 weeks. BBC to cut 1 in 10 jobs. EU electronic entry/exit system causing disruptions in 15 countries.",
+    "japan": "Nikkei at record high. BOJ expected to hold rates at 0.75% (meeting April 18-19). PM Takaichi announces oil reserve release from May."
+  },
+  "geopolitical_focus": {
+    "iran_war": "Day 47 of the US-Iran conflict. Naval blockade of Strait of Hormuz 'fully implemented'. Ceasefire extension under discussion. Trump claims war is 'very close to over'. European allies have not joined the blockade.",
+    "hungary": "Viktor Orban defeated by Peter Magyar in landslide. Major shift in European politics removing a key Putin ally.",
+    "pope_vs_trump": "Pope Leo XIV (American-born) becomes a vocal critic of Trump's Iran rhetoric. Trump responded with attacks and an AI-generated image of himself as Jesus. VP Vance told Pope to 'stick to church matters'.",
+    "israel_lebanon": "Historic talks in Washington with US mediation. Both sides described as being 'on the same side of the equation'.",
+    "russia_ukraine": "War in Ukraine continues with major Russian barrage killing at least 18 in biggest attack on Ukrainian cities in months."
+  },
+  "digest": "📊 DAILY BRIEFING — April 16, 2026\n\n🔴 GEOPOLITICS: Day 47 of the US-Iran war. The US naval blockade of the Strait of Hormuz is now 'fully implemented', cutting off Iran's sea trade. Trump says the war is 'very close to over' and a ceasefire extension is under discussion, though the US has not formally agreed. In Europe, Viktor Orban was defeated in a historic Hungarian election by Peter Magyar.\n\n📈 MARKETS: Wall Street is on fire — the S&P 500 closed above 7,000 for the first time and the Nasdaq posted its 11th consecutive gain, both hitting all-time records. Japan's Nikkei 225 also smashed records at 59,518. Bank of America posted its best EPS in nearly 20 years, and TSMC beat estimates with 58% profit growth. Oil prices fell sharply (Brent -4.5% to ~$95) on peace deal hopes.\n\n₿ CRYPTO: Bitcoin trades around $74,576, consolidating near the $75K resistance after recovering from February's crash to $60K. Institutional demand remains strong with $12.4B in Q1 Bitcoin ETF inflows. Ethereum at $2,332. Market sentiment cautiously bullish but lagging equities.\n\n🏦 MACRO: The Fed holds rates at 3.5-3.75% with Powell's term ending May 15. The IMF warns of possible global recession. China's GDP beat expectations. The IEA warns Europe could run out of jet fuel in 6 weeks."
 }
