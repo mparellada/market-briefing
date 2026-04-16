@@ -103,16 +103,47 @@ with sync_playwright() as p:
     time.sleep(8)
     print(f"Notebook URL: {page.url}")
 
+    # Navigate to clean notebook URL (remove ?addSource=true)
+    notebook_url = page.url.split("?")[0]
+    page.goto(notebook_url)
+    time.sleep(5)
+    print(f"Clean URL: {page.url}")
+
     # Step 6: Trigger Audio Overview (click ONCE, then wait)
     print("\nTriggering Audio Overview...")
-    audio_link = page.get_by_text("Resum d\u2019\u00e0udio").or_(
-        page.get_by_text("Audio Overview")).or_(
-        page.get_by_text("Audio summary"))
-    audio_link.first.click()
+    # Try multiple label variants (Catalan, English, partial match)
+    audio_found = False
+    for label in ["Audio overview", "Audio Overview", "Audio summary",
+                   "Resum d'àudio", "Resum d\u2019àudio", "Audio"]:
+        try:
+            el = page.get_by_text(label)
+            if el.count() > 0:
+                el.first.click()
+                print(f"Clicked '{label}'")
+                audio_found = True
+                break
+        except:
+            pass
+
+    if not audio_found:
+        # Fallback: click by aria-label or class
+        print("Trying aria-label fallback...")
+        fallback = page.locator('[aria-label*="audio" i], [aria-label*="Audio"], [data-type*="audio"]')
+        if fallback.count() > 0:
+            fallback.first.click()
+            print(f"Clicked fallback audio button")
+            audio_found = True
+        else:
+            # Last resort: take screenshot and dump page text
+            page.screenshot(path="/tmp/notebooklm_no_audio_btn.png")
+            print("Page text (Studio panel area):")
+            print(page.inner_text("body")[:2000])
+            sys.exit(1)
+
     time.sleep(3)
 
-    # Click Generate/Genera button if present
-    gen_btn = page.locator('button:has-text("Genera"), button:has-text("Generate")')
+    # Click Generate button if present (ONCE only)
+    gen_btn = page.locator('button:has-text("Generate"), button:has-text("Genera")')
     if gen_btn.count() > 0:
         gen_btn.first.click()
         print("Clicked Generate")
