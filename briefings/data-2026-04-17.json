@@ -1,0 +1,145 @@
+{
+  "date": "Thursday, April 17 2026",
+  "sentiment": "Mixed",
+  "pulse": "Global markets are navigating a fragile post-ceasefire landscape after the US-Iran two-week truce struck on April 8. US equities are at record highs (S&P 7,041) but Asian markets softened today on doubts about a lasting peace deal. Oil remains elevated near $98 Brent as the Strait of Hormuz situation stays unresolved, keeping inflation risks alive. Gold at $4,795 signals persistent safe-haven demand despite the market rally.",
+  "movers": [
+    {"name": "Gold (GC)", "change_pct": "-0.26%", "reason": "Slight pullback from highs as ceasefire optimism marginally offsets safe-haven demand; still elevated at $4,795"},
+    {"name": "WTI Crude", "change_pct": "-1.29%", "reason": "Easing on Iran talk hopes but Strait of Hormuz remains partially disrupted; $89.99"},
+    {"name": "Brent Crude", "change_pct": "-1.03%", "reason": "Slight relief as US-Iran talks possible in Pakistan; still near $98 amid supply anxiety"},
+    {"name": "N225 Nikkei", "change_pct": "-1.00%", "reason": "Profit-taking after hitting record highs of 59,518 yesterday; Japanese yen strengthening"},
+    {"name": "KOSPI", "change_pct": "-0.43%", "reason": "Mild reversal after strong prior session (+2.21%); export concerns on high oil import costs"},
+    {"name": "BTC/USD", "change_pct": "+0.18%", "reason": "Bitcoin holding near $74,816 resistance level; market digesting $75k ceiling narrative"},
+    {"name": "VIX", "change_pct": "-1.27%", "reason": "Fear gauge declining toward 17.94 as US-Iran ceasefire holds; markets calmer than March"}
+  ],
+  "indices": [
+    ["S&P 500", "7,041.28", "+0.26%", "Record high; driven by tech & financials"],
+    ["Dow Jones", "48,578.72", "+0.24%", "Near record; consumer and industrial strength"],
+    ["NASDAQ Comp.", "24,102.70", "+0.36%", "Tech gains persist; AI stocks in demand"],
+    ["Nikkei 225", "58,922.05", "-1.00%", "Pullback from ATH 59,518; yen pressure"],
+    ["KOSPI", "6,199.50", "-0.43%", "Mild correction after 7% surge post-ceasefire"],
+    ["Hang Seng", "26,210.97", "-0.69%", "Hong Kong cautious on US-China AI tensions"],
+    ["STI Singapore", "4,994.48", "-0.27%", "Slight dip; energy sector dragging"],
+    ["STOXX 50", "5,933.28", "-0.12%", "Europe flat; ECB hold & energy cost fears"],
+    ["IBEX 35", "18,089.50", "-0.53%", "Spain banks profit-taking; still near 18k"]
+  ],
+  "currencies": [
+    ["EUR/USD", "1.1780", "-0.04%", "EUR still strong vs USD above 1.17"],
+    ["USD/SGD", "1.2729", "+0.09%", "SGD mild weakness; MAS monitoring inflation"],
+    ["EUR/SGD", "~1.4994", "â€”", "Derived: strong EUR vs SGD (1.1780 Ã— 1.2729)"],
+    ["USD/THB", "32.04", "+0.19%", "THB stable; Thailand benefiting from tourism rebound"],
+    ["BTC/USD", "74,816.62", "+0.18%", "Bitcoin consolidating below $75k resistance"]
+  ],
+  "futures": [
+    ["S&P 500 Fut.", "~7,048", "+0.10%", "Slightly positive overnight"],
+    ["Nasdaq Fut.", "~21,550", "+0.12%", "Tech futures bid"],
+    ["Brent Jun '26", "~98.20", "-0.50%", "Some relief from Iran talk hopes"],
+    ["Gold Jun '26", "~4,800", "-0.20%", "Slight pullback but elevated"]
+  ],
+  "commodities": [
+    ["Gold", "$4,795.90", "-0.26%", "Near-record; geopolitical risk premium intact"],
+    ["Brent Crude", "$98.37", "-1.03%", "High but easing; Hormuz disruption partly priced"],
+    ["WTI Crude", "$89.99", "-1.29%", "US domestic supply cushion; below Brent"],
+    ["VIX", "17.94", "-1.27%", "Moderate; ceasefire calmed March panic (was 30+)"]
+  ],
+  "stocks": [
+    ["STI (^STI)", "4,994.48", "-0.27%", "Singapore index dipping slightly; energy drag"],
+    ["9G2.SI", "~est.", "â€”", "iShares Asia ex-Japan ETF; tracking HSI/KOSPI dip"],
+    ["GCL", "~est.", "â€”", "Monitor: energy/materials sector under oil volatility"],
+    ["IBEX35", "18,089.50", "-0.53%", "Spain benchmark; banks taking a breather"]
+  ],
+  "portfolio": "Marc's SGX-based portfolio is experiencing mixed signals today. STI at 4,994 (-0.27%) reflects mild regional softness but remains near the 5,000 psychological level â€” a key support. IBEX35 at 18,089 (-0.53%) is softening after a strong run driven by Spanish banks; the 2025 annual gain of 49% has made the index richly valued, and some profit-taking is natural. US exposure is the star performer with S&P at record 7,041 and the Dow at 48,578 â€” momentum is strong, driven by post-ceasefire optimism and AI investment. Asian holdings (via 9G2.SI tracking Asia ex-Japan) face headwinds: Nikkei and KOSPI pulling back, Hang Seng down on US-China AI tensions. Gold at $4,795 is a significant portfolio buffer â€” geopolitical risk (Iran, Ukraine) and inflation from elevated oil are keeping the safe-haven premium alive; this is a strong position. Oil at $89-98 (WTI/Brent) remains high, benefiting any energy/commodity exposure but raising input cost concerns for broader holdings. BTC at $74,816 is consolidating near a key resistance; sentiment is cautiously bullish but the $75k ceiling is proving stubborn. FX: EUR/USD at 1.178 means European/IBEX holdings get a mild currency tailwind if valued in SGD. USD/SGD at 1.2729 means USD gains translate well to SGD base. Overall portfolio posture: overweight gold and US equities looks well-timed. Watch STI 4,950 support and BTC $75k breakout as near-term signals.",
+  "alerts": [
+    {"level": "danger", "text": "Strait of Hormuz: US naval blockade of Iranian ports still in place â€” oil supply disruption risk remains HIGH. Brent near $98 keeping inflation elevated (Bloomberg Econ: CPI at 3.4%)."},
+    {"level": "warn", "text": "US-Iran ceasefire fragile: Weekend talks ended without agreement. Trump said new talks may resume in Pakistan. Any breakdown would trigger immediate oil spike and risk-off selloff."},
+    {"level": "warn", "text": "Netflix earnings miss + Reed Hastings departure announced: Streaming sector sentiment hit. Universal Music reportedly in sale process â€” media sector M&A wave."},
+    {"level": "warn", "text": "Kevin Warsh Fed nomination blocked: US senator threatening indefinite veto, leaving Powell at Fed helm. Rate uncertainty elevated heading into midterms."},
+    {"level": "info", "text": "Nikkei at all-time high (59,518 yesterday) before today's -1% pullback. Japanese banks reporting strong earnings. AI/tech stocks leading the rally."},
+    {"level": "info", "text": "Anthropic ARR doubled to $30B in weeks. Claude Mythos 5 launched (10T parameters). AI sector spending acceleration continues unabated."},
+    {"level": "info", "text": "Live Nation/Ticketmaster found guilty of monopoly by Manhattan federal jury â€” potential antitrust breakup of the live events giant."}
+  ],
+  "news": [
+    {
+      "title": "US-Iran Ceasefire Holds â€” But Talks Stall Over Nuclear Program",
+      "text": "The fragile two-week US-Iran ceasefire struck on April 8 â€” minutes before Trump's deadline to 'obliterate' Iran â€” remains technically in place, but weekend negotiations ended without agreement. Core disagreements persist over Iran's nuclear enrichment program and permanent control of the Strait of Hormuz. Trump indicated a fresh round of talks could resume in Islamabad within days, while simultaneously announcing a continued naval blockade of Iranian ports. The ceasefire caused oil to plunge 16% on April 8 and stocks to surge globally, but the mood has turned more cautious this week as the diplomatic path forward remains unclear. Trump warned: 'A whole civilisation will die tonight' if no deal is reached. Airlines are canceling routes and European airports warn of a 'systemic jet fuel shortage' if Hormuz doesn't normalise by month-end. (BBC, Bloomberg, NYT)"
+    },
+    {
+      "title": "Global Markets at Record Highs Despite Geopolitical Fog",
+      "text": "Wall Street continues to defy gravity: the S&P 500 hit 7,041 and the Dow Jones 48,578 â€” both record highs â€” as investors bet on a diplomatic resolution to the Iran conflict and continued AI-driven earnings growth. The NASDAQ surged over 4% for the week. The rally follows a brutal March when the NASDAQ dropped 15% as the conflict escalated and oil prices surged. JPMorgan and Goldman Sachs both reported blowout Q1 earnings driven by trading revenues and investment banking fees. Analysts caution that 'much of the optimism is contingent on continued diplomatic progress' and a breakdown in talks could reintroduce March-level volatility. (Bloomberg, FT)"
+    },
+    {
+      "title": "Russia Pounds Ukraine With Drone and Missile Barrage",
+      "text": "Russia launched a massive overnight attack on Ukraine, deploying hundreds of drones and dozens of missiles in a prolonged assault killing at least 16 civilians. Ukrainian forces simultaneously struck Russian oil export terminals at Primorsk, Ust-Luga (Baltic Sea), and Novorossiysk (Black Sea), reducing seaborne Russian crude exports. The strikes add pressure to global oil markets already stressed by the Iran situation, though Russian oil flows to China and India remain largely intact via alternative routes. (BBC, NYT)"
+    },
+    {
+      "title": "Pope Leo XIV Condemns War Profiteers During Africa Tour",
+      "text": "Pope Leo XIV, continuing his Africa visit, delivered a powerful condemnation of 'tyrants fueling war with billions,' calling on wealthy nations and arms dealers to pursue peace. The remarks came in a charged context with the Pope clashing indirectly with US President Trump's military posture in the Middle East. The Pope called for an immediate and permanent ceasefire in Iran, Gaza, and Ukraine, framing the conflicts as 'moral catastrophes enabled by greed.' (NYT, BBC)"
+    },
+    {
+      "title": "Israel-Lebanon Historic Ceasefire Talks Begin",
+      "text": "Israel and Lebanon have agreed to direct diplomatic negotiations â€” their first in over 30 years â€” as part of a broader web of Middle East diplomacy aimed at stabilising the region. The talks aim to formalise a ceasefire with Hezbollah. Simultaneously, Israel agreed to a ceasefire in Gaza. Regional diplomacy is moving on multiple fronts, with the US playing a central brokering role, though critics note Trump's maximalist demands complicate each negotiation. (NYT)"
+    },
+    {
+      "title": "Live Nation-Ticketmaster Found Guilty of Monopoly",
+      "text": "A federal jury in Manhattan ruled Wednesday that Live Nation Entertainment and its Ticketmaster subsidiary operated as an illegal monopoly that harmed consumers and overcharged ticket buyers. The landmark verdict could lead to a forced breakup of the live entertainment giant, reshaping the concert and events industry. Shares of Live Nation fell sharply on the news. This is one of the most significant antitrust rulings in the entertainment industry in decades. (NYT)"
+    },
+    {
+      "title": "Netflix Misses Earnings, Reed Hastings Departs",
+      "text": "Netflix shares plunged after the streaming giant reported disappointing Q1 2026 earnings, missing analyst expectations on both revenue and subscriber growth. Compounding the shock, co-founder Reed Hastings announced his departure from the company's leadership. The miss rattled streaming sector confidence, raising questions about subscriber saturation in a crowded market. Netflix has been investing heavily in live sports and gaming content to offset slowing growth. (El Economista, Bloomberg)"
+    },
+    {
+      "title": "ECB Holds Rates Despite Inflation Signals",
+      "text": "The European Central Bank left interest rates unchanged at its April meeting, signalling it is 'not yet ready' to resume rate hikes despite mounting inflation pressure from the Iran war-driven oil price surge. Euro-area CPI is running above target, partly driven by energy costs. ECB President Lagarde struck a cautious tone, citing global uncertainty and the need to see 'sustained evidence' before any tightening moves. EUR/USD remained firm at 1.178. (El Economista, FT)"
+    },
+    {
+      "title": "Kevin Warsh Fed Nomination Under Threat",
+      "text": "A key US senator is threatening an indefinite veto on Kevin Warsh's nomination to chair the Federal Reserve, which could leave Jerome Powell in the role for months or longer than anticipated. The standoff adds uncertainty to US monetary policy at a critical moment â€” with inflation re-accelerating due to energy costs, markets need clear Fed guidance. The senator's objections centre on Warsh's perceived closeness to Wall Street interests. (El Economista)"
+    },
+    {
+      "title": "Spain Economy Outperforms as IBEX35 Consolidates Near 18,000",
+      "text": "Spain continued to be the standout performer in the euro area, with GDP growth of 2.9% in 2025 â€” the highest of any large EU economy. The IBEX35 is consolidating near 18,089 after a historic 49% gain in 2025, with banks accounting for ~70% of the rally. The ECB rate hold is supportive for Spanish mortgage holders, and the tourism and renewables sectors remain strong drivers. However, analysts note Spain faces headwinds from rising energy import costs and its dependency on Middle East stability for oil. Political instability concerns remain with the fragile coalition government. (La Vanguardia, El Economista)"
+    },
+    {
+      "title": "Cupra Raval: Spain's New EV RevelaciÃ³n Opens Orders",
+      "text": "The Cupra Raval, Seat's youth-oriented electric hatchback built in Barcelona, has become 'una revelaciÃ³n' since its April 9 presentation, with the model now open for orders and first deliveries expected this summer. The launch is a milestone for the Barcelona-based brand's push into the affordable EV segment, targeting European and Asian markets. The car is seen as a test of Spain's automotive electrification strategy amid EU EV mandates. (El Economista)"
+    },
+    {
+      "title": "Catalunya: Infraestructures i debat polÃ­tic",
+      "text": "Segons 3CatInfo, Catalunya continua al centre del debat polÃ­tic espanyol, amb discussions sobre finanÃ§ament autonÃ²mic i infraestructures ferroviÃ ries pendents. El govern de la Generalitat mantÃ© la pressiÃ³ sobre Madrid per incrementar les inversions en el Corredor Mediterrani i la xarxa de Rodalies. En paralÂ·lel, l'economia catalana segueix sent la segona mÃ©s gran d'Espanya amb un PIB de 302.000 milions d'euros, amb el sector tecnolÃ²gic i el turisme com a motors principals. L'impacte del preu elevat del petroli sobre les empreses catalanes Ã©s un tema de preocupaciÃ³ creixent. (3Cat, La Vanguardia)"
+    },
+    {
+      "title": "Air India CEO Campbell Wilson Steps Down",
+      "text": "Air India is searching for a new chief executive after Campbell Wilson announced his resignation. Wilson had been credited with leading Air India's ambitious transformation under Tata Group ownership after its privatisation, including a massive aircraft order and service improvements. The departure comes at a sensitive time as Air India navigates route disruptions due to the Iran conflict's impact on airspace and jet fuel costs. (BBC)"
+    },
+    {
+      "title": "AI Arms Race: Anthropic's ARR Doubles to $30B as Claude Mythos 5 Launches",
+      "text": "Anthropic reported this week that its annualised revenue run rate has more than doubled from $14 billion in February to $30 billion â€” one of the fastest revenue accelerations in enterprise software history. The company now has over 1,000 customers paying $1M+ annually for Claude access. Simultaneously, Anthropic launched Claude Mythos 5, a 10-trillion-parameter model targeting advanced cybersecurity and enterprise coding applications. The Model Context Protocol (MCP) hit 97 million installs in March, cementing its position as the foundation layer for AI agent infrastructure. (TechCrunch, Bloomberg, Anthropic)"
+    },
+    {
+      "title": "OpenAI GPT-5.4 Sets Benchmark Records; Tech Giants Unite on China AI",
+      "text": "OpenAI's GPT-5.4 achieved record scores on computer-use benchmarks and scored 83% on GDPval, a test for knowledge work automation. Google's Gemini 3.1 Pro topped reasoning benchmarks with 94.3% on GPQA Diamond. Meanwhile, OpenAI, Anthropic, and Google announced joint cooperation to combat Chinese AI companies extracting results from US frontier models â€” sharing intelligence through the Frontier Model Forum. The collaboration signals a rare moment of competitive alignment around national security concerns. (Bloomberg, Fortune, TechCrunch)"
+    }
+  ],
+  "day_ahead": "Friday April 18 2026 â€” Key events: (1) US-Iran diplomatic talks may resume in Islamabad â€” watch for oil price reaction; any breakdown = immediate risk-off. (2) ECB speakers post-rate hold â€” Lagarde and Schnabel likely to be questioned on inflation path. (3) More US Q1 earnings: watch major banks and tech names. (4) UK retail sales data. (5) Options expiry Friday in US â€” potential for volatility in late session. (6) Nikkei 225 opened lower â€” watch whether 58,500 holds as support. (7) BTC: $75,000 is the breakout level to watch â€” sustained close above would be significant. Weekend: US-Iran diplomatic weekend in Pakistan could move markets on Monday open.",
+  "ai_news": [
+    {
+      "title": "Anthropic ARR Rockets to $30B â€” More Than Doubled in Weeks",
+      "text": "Anthropic has reported annualised revenue of $30 billion, up from $14B in February 2026 â€” a near-doubling in just weeks. The company has over 1,000 enterprise customers paying $1M+ annually. Claude's adoption across legal, financial, and coding workflows is driving the growth. The company's Model Context Protocol (MCP) hit 97 million installs, becoming foundational AI agent infrastructure. Anthropic also launched Claude Mythos 5 with 10 trillion parameters for advanced cybersecurity and coding. (Bloomberg, TechCrunch)"
+    },
+    {
+      "title": "OpenAI GPT-5.4 Breaks All Benchmarks for Knowledge Work",
+      "text": "OpenAI released GPT-5.4 in March 2026, and it has now achieved record scores across computer-use benchmarks (OSWorld-Verified, WebArena Verified) and scored 83% on GDPval â€” the first major test measuring AI's ability to automate knowledge-worker tasks. The model's performance on coding, document analysis, and agentic workflows is driving enterprise adoption at scale. OpenAI is also facing boardroom uncertainty that could affect its IPO timeline. (Fortune, Bloomberg)"
+    },
+    {
+      "title": "Google Gemini 3.1 Tops Reasoning; DeepMind Compression Cuts AI Costs 6x",
+      "text": "Google DeepMind's Gemini 3.1 Pro achieved 94.3% on GPQA Diamond reasoning benchmarks â€” the best of any current model. Gemini 3.1 also adds real-time voice and image analysis. Separately, Google DeepMind published a compression algorithm that reduces AI model memory requirements by six times â€” a potential breakthrough for deploying powerful AI on edge devices and reducing data center costs. This directly benefits Google's cloud and enterprise AI business. (TechCrunch, Bloomberg)"
+    },
+    {
+      "title": "Tech Giants Unite Against Chinese AI Model Copying",
+      "text": "OpenAI, Anthropic, and Google have begun sharing intelligence through the Frontier Model Forum to combat Chinese AI companies extracting outputs from US frontier models for training. The collaboration is rare given fierce competition among the three, and signals growing concern about IP protection and national security in the AI arms race. DOJ employees from OpenAI and Google also filed briefs defending Anthropic in a Department of Defense lawsuit. (Bloomberg, TechCrunch)"
+    },
+    {
+      "title": "AI Threatens Middle-Class Jobs: Nobel Economist Simon Johnson Warns",
+      "text": "Nobel Prize-winning economist Simon Johnson issued a stark warning that AI threatens 'jobs with dignity' â€” mid-skill, mid-income roles that form the backbone of the middle class. Johnson argues the current trajectory of AI deployment, without policy intervention, will widen inequality and erode the economic foundation of democratic societies. The warning comes as AI productivity gains begin to appear in Q1 earnings reports, with firms reducing headcount while maintaining output. (Bloomberg)"
+    }
+  ]
+}
