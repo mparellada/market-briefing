@@ -1,0 +1,242 @@
+{
+  "date": "Saturday, April 18 2026",
+  "sentiment": "Risk-On",
+  "pulse": "Global risk appetite surged into the weekend as Iran declared the Strait of Hormuz completely open and the Israel-Lebanon ceasefire held, driving the S&P 500 above 7100 for the first time and the Nasdaq to its longest winning streak since 1992. Oil sold off sharply but gold remained elevated near record highs. Trump says the war is very close to over even as GOP senators pressure the White House for an exit strategy.",
+  "movers": [
+    {
+      "name": "DJI",
+      "change_pct": "+2.10%",
+      "reason": "Iran declares Hormuz open; Israel-Lebanon ceasefire holds; broad risk-on surge into weekend"
+    },
+    {
+      "name": "BRENT",
+      "change_pct": "-10.55%",
+      "reason": "Strait of Hormuz declared open, easing the supply disruption that had pushed oil above 100 dollars"
+    },
+    {
+      "name": "N225",
+      "change_pct": "-1.75%",
+      "reason": "Profit-taking after Nikkei hit all-time high 59518 Thursday; investors locked weekly gains"
+    },
+    {
+      "name": "BTC",
+      "change_pct": "+5.83%",
+      "reason": "7-day rally on improved risk sentiment; reclaiming 77-78k range on Hormuz ceasefire news"
+    },
+    {
+      "name": "GOLD",
+      "change_pct": "+1.65%",
+      "reason": "War premium sticky; central bank demand structural even as oil retreats sharply"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7117",
+      "+91.8",
+      "+1.30%"
+    ],
+    [
+      "NDX",
+      "22853",
+      "+328.6",
+      "+1.46%"
+    ],
+    [
+      "DJI",
+      "48290",
+      "+1005",
+      "+2.10%"
+    ],
+    [
+      "N225",
+      "58476",
+      "-1042",
+      "-1.75%"
+    ],
+    [
+      "STOXX50",
+      "5724",
+      "-5",
+      "-0.09%"
+    ],
+    [
+      "IBEX35",
+      "17648",
+      "+124",
+      "+0.71%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1795",
+      "+0.0035",
+      "+0.30%"
+    ]
+  ],
+  "futures": [
+    [
+      "ES S&P fut",
+      "7103",
+      "-14",
+      "-0.20%"
+    ],
+    [
+      "NQ Nasdaq fut",
+      "22795",
+      "-58",
+      "-0.25%"
+    ],
+    [
+      "YM Dow fut",
+      "48225",
+      "-65",
+      "-0.13%"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold XAU/USD",
+      "4868",
+      "+79.2",
+      "+1.65%"
+    ],
+    [
+      "Brent Crude",
+      "94.93",
+      "-11.2",
+      "-10.55%"
+    ],
+    [
+      "WTI Crude",
+      "91.29",
+      "-10.4",
+      "-10.22%"
+    ],
+    [
+      "VIX",
+      "18.36",
+      "-2.1",
+      "-10.27%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "SGX-listed",
+      "monitor",
+      "SGD base benefits from USD softness; watch Monday SGX open"
+    ],
+    [
+      "GCL",
+      "~3.22 HKD",
+      "-0.50%",
+      "Chinese polysilicon; oil drop may ease energy input costs short-term"
+    ]
+  ],
+  "portfolio": "Marcs SGD-base portfolio is well positioned heading into the weekend. US equity exposure is at all-time highs with SPX above 7100 and NDX on a 12-day win streak, both driven by Hormuz reopening and ceasefire relief. IBEX35 near 17648 continues exceptional 2026 performance, underpinned by Spanish banks with Santander and BBVA both above 100 billion euros market cap. Gold at 4868 dollars per ounce is up 41% year-on-year and the standout portfolio winner. Oil names face short-term headwinds after Brent fell over 10% Friday but structural supply deficit case intact if Hormuz talks collapse. BTC at 77800 dollars recovering with 80000 as key resistance. GCL polysilicon may benefit modestly from lower energy input costs. EUR/USD at 1.18 and softening DXY provide tailwind for SGD holdings. Primary tail risk: US-Iran talks collapse over weekend, Hormuz blockade reimposed, oil spikes above 100 dollars, VIX surges from complacent 18 level and risk assets unwind rapidly.",
+  "alerts": [
+    {
+      "level": "warn",
+      "text": "US blockade of Iranian ports remains in full force per Trump - ceasefire structurally fragile over weekend"
+    },
+    {
+      "level": "warn",
+      "text": "VIX at 18.36 back to pre-war complacency; rapid unwind risk if peace talks stall"
+    },
+    {
+      "level": "info",
+      "text": "Nasdaq 12-day win streak longest since 1992 - elevated momentum, monitor Monday open for pullback"
+    },
+    {
+      "level": "info",
+      "text": "IMF raised 2026 PCE inflation forecast to 2.7%; Fed rate-cut path narrowing"
+    },
+    {
+      "level": "danger",
+      "text": "GOP senators formally pressuring Trump for Iran exit plan - political fracture risk as midterms approach"
+    },
+    {
+      "level": "info",
+      "text": "EUR/USD at 1.1795, DXY softening - positive tailwind for SGD base and international holdings"
+    }
+  ],
+  "news": [
+    {
+      "title": "Iran Declares Strait of Hormuz Completely Open - Markets Surge",
+      "text": "Iranian FM Abbas Araghchi announced the Strait would remain open for commercial vessels during the ceasefire, triggering a 10% collapse in oil prices and sending the Dow up 1005 points Friday. Trump said the US naval blockade of Iranian ports will remain in full force until a permanent peace deal is signed."
+    },
+    {
+      "title": "S&P 500 First-Ever Close Above 7100 - Nasdaq Longest Win Streak Since 1992",
+      "text": "The S&P 500 closed above 7100 for the first time in history Thursday, while the Nasdaq posted its 12th consecutive gain, the longest streak since 1992. The Russell 2000 also hit a record close. Retail traders are back in force. Goldman Sachs warns the rally hinges on continued rate relief."
+    },
+    {
+      "title": "Israel-Lebanon Ceasefire Holds - Civilians Return to Destroyed Villages",
+      "text": "A 10-day ceasefire between Israel and Lebanon appeared to be holding with civilians rushing home to destroyed villages in southern Lebanon. Israel vowed its military would not withdraw from Lebanese territory. The ceasefire removes a major obstacle to broader US-Iran peace talks."
+    },
+    {
+      "title": "Trump Says War Very Close to Over - Analysts Warn of IRGC Consolidation",
+      "text": "President Trump publicly claimed military victory and regime change in Iran, but analysts note the Islamic Revolutionary Guards Corps has actually consolidated internal power during the conflict. The NYT reports a sharp disconnect between White House optimism and ground realities."
+    },
+    {
+      "title": "GOP Senators Pressure Trump - The Clock Is Ticking on Iran Exit Plan",
+      "text": "Republican senators formally urged Trump to develop an exit strategy from Iran as energy prices keep rising. US gas averaged 4 dollars 12 cents per gallon, up 14% in a month, and midterms are approaching, shifting the political calculus even within the presidents own party."
+    },
+    {
+      "title": "White House Shrugs Off Stagflation Risk as War Costs Mount",
+      "text": "Wall Street is at records but US consumers are hurting. IMF raised the PCE inflation forecast 0.3 points to 2.7% for 2026. Brookings April TIGER update described 2026 as a year of economic healing turned into a year of peril, with stagflation probabilities rising."
+    },
+    {
+      "title": "Nikkei 225 Hits All-Time High 59518 Thursday - Retreats Friday",
+      "text": "Japan benchmark hit a record closing high Thursday at 59518, boosted by technology and consumer cyclical names. Profit-taking Friday sent the Nikkei 1.75% lower to 58476. Asian markets broadly retreated Friday with Kospi down 0.55% and Hang Seng down 1.01% on healthy profit-booking."
+    },
+    {
+      "title": "Retail Traders Back - Driving Wild Stock Moves Per Bloomberg",
+      "text": "Bloomberg reports retail participation in US equity markets has returned to pandemic-era levels, with options volumes and meme-stock activity surging as the Nasdaq win streak extended. Analysts warn this adds fragility and any negative geopolitical headline could trigger rapid retail unwinding Monday."
+    },
+    {
+      "title": "QVC Files for Bankruptcy to Cut 5 Billion in Debt",
+      "text": "The home-shopping television channel filed Chapter 11 bankruptcy protection, citing structural decline in linear TV viewership and crushing debt load. The filing accelerates a broader shakeout in legacy broadcast and cable businesses."
+    },
+    {
+      "title": "Spain PM Sanchez Organises International Left-Wing Front vs Trump",
+      "text": "Spain PM is convening a summit with leaders of Brazil, Mexico, Colombia, and South Africa to build a coordinated progressive counter to the Trump-aligned conservative global wave. The move signals Spain positioning as an alternative geopolitical pole ahead of its EU presidency cycle."
+    },
+    {
+      "title": "IBEX 35 Near 17650 - Spanish Banks Power Europe Best Index Rally in 2026",
+      "text": "The IBEX 35 is one of Europe top performers in 2026 with banks contributing nearly 70% of gains. Santander and BBVA both above 100 billion euro market cap. Spain GDP projected at 2.0 to 2.2% growth, boosted by peak EU recovery fund disbursements worth 17.5 billion euros."
+    },
+    {
+      "title": "Catalonia: Susqueda Case Stalled, UEFA Rejects Barcelona Complaint",
+      "text": "Catalan Mossos confirmed the Susqueda crime case cannot be closed as the reservoir is too full for underwater searches. UEFA separately dismissed FC Barcelona complaint about refereeing decisions in the Atletico Madrid match."
+    },
+    {
+      "title": "OpenAI Anthropic Google Form United Front Against Chinese AI Model Copying",
+      "text": "The three AI rivals are sharing intelligence through the Frontier Model Forum to detect adversarial distillation attempts by Chinese developers to extract training signals from US frontier models. The rare collaboration marks a geopolitical dimension to AI competition."
+    }
+  ],
+  "day_ahead": "Monday April 20: Asian markets open for the first test of Hormuz reopening and first oil market open post-ceasefire. Nikkei follow-through after Friday profit-taking is key. US earnings season continues with multiple S&P 500 reporters. Watch for any weekend US-Iran diplomatic developments; breakdown risks sharp risk-off Monday open. Fed speakers scheduled with tone critical given rising PCE forecasts. IBEX bank earnings updates expected mid-week. Bitcoin 80000 dollar resistance is a key technical level as the week opens.",
+  "ai_news": [
+    {
+      "title": "Anthropic Claude Mythos 5 Launches - 10 Trillion Parameter Frontier Model",
+      "text": "Anthropic released Claude Mythos 5 specialising in cybersecurity and advanced coding alongside the accessible Capabara model. Enterprise base with over 1 million dollars in annual contracts has more than doubled in recent weeks to over 1000 customers."
+    },
+    {
+      "title": "Google Releases Gemma 4 Open-Weight Models - Gemini 3.1 Adds Real-Time Voice",
+      "text": "Google DeepMind launched four Gemma 4 variants under Apache 2.0 emphasising coding, agentic AI, and multimodal reasoning running from smartphones to data centres. Gemini 3.1 adds real-time voice and image analysis. A new compression algorithm cuts AI memory requirements by six times."
+    },
+    {
+      "title": "Anthropic MCP Crosses 97 Million Installs - Agent Infrastructure Goes Mainstream",
+      "text": "Anthropic Model Context Protocol reached 97 million installs in March 2026, transitioning from experimental standard to foundational AI agent infrastructure. Broadcom and Google are identified as major financial beneficiaries of Anthropic enterprise growth."
+    },
+    {
+      "title": "AI Photonics Drives Europe Best-Performing Stock of 2026",
+      "text": "Bloomberg identified a European photonics company as the regions top-performing stock of 2026, riding AI infrastructure demand. Quantum computing names also attracted institutional interest as enterprise AI deployments accelerate globally into mid-year."
+    },
+    {
+      "title": "Military Drone Maker Aevex Raises 320 Million in US IPO",
+      "text": "Aevex Aerospace raised 320 million dollars in its US IPO, signalling strong defence-tech appetite as the Iran war drives autonomous systems demand. Medical device maker Alamar Bio also boosted its IPO to 191 million. Defence-AI convergence is now a primary venture theme."
+    }
+  ]
+}
