@@ -61,8 +61,40 @@ except Exception as e:
     print(urllib.request.urlopen(req2).status)
 "
 
-=== STEP 4: WRITE PODCAST SOURCE DOCUMENT ===
-Write C:/Temp/podcast-source.txt — a 4000-6000 word detailed briefing covering ALL news from every source, markets analysis, crypto, AI, Spain/Catalonia, portfolio implications, day ahead. NotebookLM needs this for a 20+ minute podcast.
+=== STEP 4: WRITE PODCAST SOURCE DOCUMENT (FLASH-NEWS STYLE) ===
+Write C:/Temp/podcast-source.txt — a 4000-6000 word document structured as a FAST-PACED FINANCIAL NEWS BULLETIN, not a narrative essay. Think Bloomberg morning radio.
+
+Structure it as CRISP, NUMBERED FLASH SEGMENTS:
+
+=== MARKET OPEN ===
+1. S&P 500 — closed at X, +Y%. Driver: [one crisp sentence]
+2. Nasdaq — closed at X, +Y%. Driver: [one crisp sentence]
+3. Dow — closed at X, -Y%. Driver: [one crisp sentence]
+... etc for EACH index, currency, commodity
+
+=== NOTABLE MOVERS ===
+1. [TICKER] +X% — [reason, 1-2 sentences]
+2. [TICKER] +X% — [reason, 1-2 sentences]
+... etc
+
+=== GLOBAL NEWS FLASH ===
+1. [Headline] — [1-2 sentence impact]
+2. [Headline] — [1-2 sentence impact]
+... etc
+
+=== SPAIN & CATALONIA ===
+Same bulletin format.
+
+=== AI & TECH ===
+Same bulletin format.
+
+=== PORTFOLIO IMPLICATIONS ===
+Short punchy assessment for Marc's positions.
+
+=== DAY AHEAD ===
+Key events to watch, bullet style.
+
+Keep sentences short. Numbers front and center. No filler. No "let's take a closer look" phrases. Just: number, move, reason, next.
 
 === STEP 5: GENERATE NOTEBOOKLM PODCAST ===
 Run via bash:
@@ -77,7 +109,9 @@ echo "Notebook: $NB_ID"
 
 "$NLM" source add "$NB_ID" --text "$(cat C:/Temp/podcast-source.txt)" --title "Briefing $DATE" --wait
 
-"$NLM" audio create "$NB_ID" --format deep_dive --confirm
+FOCUS_PROMPT="Deliver this as a fast-paced financial news briefing. Two hosts, rapid-fire. Go through each market move with the percentage and the reason in 10-15 seconds max per item. Think Bloomberg morning radio — punchy, informative, efficient. NO meandering philosophical tangents, NO 'let me ask you this' conversational fluff, NO repeating what the other host just said. Cover sequentially: indices, currencies, commodities, crypto, notable movers, global news headlines, Spain/Catalonia news, AI news, portfolio implications for Marc, day ahead. Move fast. Be energetic. Hand off quickly between hosts."
+
+"$NLM" audio create "$NB_ID" --format deep_dive --length long --focus "$FOCUS_PROMPT" --confirm
 
 echo "Podcast generating in NotebookLM."
 
