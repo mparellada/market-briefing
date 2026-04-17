@@ -96,31 +96,82 @@ Key events to watch, bullet style.
 
 Keep sentences short. Numbers front and center. No filler. No "let's take a closer look" phrases. Just: number, move, reason, next.
 
-=== STEP 5: GENERATE NOTEBOOKLM PODCAST ===
-Run via bash:
+=== STEP 5: GENERATE AZURE TTS PODCAST ===
+Run via bash. The Azure Speech key is in the file C:/Users/marc.ARISPRIME/.azure_tts_key
 
-NLM="C:/Users/marc.ARISPRIME/AppData/Local/Programs/Python/Python311/Scripts/nlm.exe"
-"$NLM" login --check
-If not "Authentication valid", skip to step 6.
+PY="C:/Users/marc.ARISPRIME/AppData/Local/Programs/Python/Python311/python.exe"
+SCRIPTS="C:/Temp/sushi-scripts"
+mkdir -p "$SCRIPTS"
+
+# Pull the latest helper scripts from the repo
+for f in azure_tts.py build_rss.py; do
+  curl -sSL -H "Authorization: token $GITHUB_PAT" \
+    "https://api.github.com/repos/mparellada/market-briefing/contents/sushi/$f" \
+    -H "Accept: application/vnd.github.v3.raw" \
+    -o "$SCRIPTS/$f"
+done
+
+export AZURE_TTS_KEY=$(cat C:/Users/marc.ARISPRIME/.azure_tts_key)
+export AZURE_TTS_REGION=eastus
+export AZURE_TTS_VOICE=en-US-AndrewMultilingualNeural
 
 DATE=$(date +%Y-%m-%d)
-NB_ID=$("$NLM" notebook create "Morning Briefing $DATE" 2>&1 | grep -oP 'ID: \K[a-f0-9-]+')
-echo "Notebook: $NB_ID"
+MP3="C:/Temp/podcast-$DATE.mp3"
 
-"$NLM" source add "$NB_ID" --text "$(cat C:/Temp/podcast-source.txt)" --title "Briefing $DATE" --wait
+# Synthesize the flash-news source doc into one MP3
+"$PY" "$SCRIPTS/azure_tts.py" "C:/Temp/podcast-source.txt" "$MP3"
 
-FOCUS_PROMPT="Deliver this as a fast-paced financial news briefing. Two hosts, rapid-fire. Go through each market move with the percentage and the reason in 10-15 seconds max per item. Think Bloomberg morning radio — punchy, informative, efficient. NO meandering philosophical tangents, NO 'let me ask you this' conversational fluff, NO repeating what the other host just said. Cover sequentially: indices, currencies, commodities, crypto, notable movers, global news headlines, Spain/Catalonia news, AI news, portfolio implications for Marc, day ahead. Move fast. Be energetic. Hand off quickly between hosts."
+# Upload MP3 to the repo under podcasts/
+"$PY" -c "
+import os, base64, json, urllib.request, datetime
+token=os.environ['GITHUB_PAT']
+date=datetime.date.today().isoformat()
+path=f'C:/Temp/podcast-{date}.mp3'
+url=f'https://api.github.com/repos/mparellada/market-briefing/contents/podcasts/podcast-{date}.mp3'
+content=base64.b64encode(open(path,'rb').read()).decode('ascii')
+sha=None
+try:
+    r=urllib.request.Request(url, headers={'Authorization':f'token {token}','Accept':'application/vnd.github.v3+json'})
+    sha=json.loads(urllib.request.urlopen(r).read())['sha']
+except Exception: pass
+payload={'message':f'Podcast {date}','content':content}
+if sha: payload['sha']=sha
+req=urllib.request.Request(url, data=json.dumps(payload).encode(), method='PUT',
+    headers={'Authorization':f'token {token}','Content-Type':'application/json','Accept':'application/vnd.github.v3+json'})
+print('mp3 upload:', urllib.request.urlopen(req).status)
+"
 
-"$NLM" audio create "$NB_ID" --format deep_dive --length long --focus "$FOCUS_PROMPT" --confirm
+# Regenerate the RSS feed
+"$PY" "$SCRIPTS/build_rss.py"
 
-echo "Podcast generating in NotebookLM."
+PODCAST_URL="https://mparellada.github.io/market-briefing/podcasts/podcast-$DATE.mp3"
+echo "Podcast published: $PODCAST_URL"
 
 === STEP 6: TELEGRAM ===
+Send the summary message with dashboard + podcast link. Also send the MP3 itself
+as an audio message for instant playback.
+
 Via bash:
+
+DATE=$(date +%Y-%m-%d)
+MP3="C:/Temp/podcast-$DATE.mp3"
+PODCAST_URL="https://mparellada.github.io/market-briefing/podcasts/podcast-$DATE.mp3"
 
 curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
   -H "Content-Type: application/json" \
-  -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\",\"text\":\"Morning briefing ready!\\n\\nDashboard: https://mparellada.github.io/market-briefing/\\n\\nPodcast generating in NotebookLM — open the app to listen.\"}"
+  -d "{\"chat_id\":\"$TELEGRAM_CHAT_ID\",\"text\":\"Morning briefing ready.\\n\\nDashboard: https://mparellada.github.io/market-briefing/\\nPodcast: $PODCAST_URL\\nRSS feed (add once to Apple Podcasts / Overcast / Spotify): https://mparellada.github.io/market-briefing/podcast.xml\"}"
+
+# Send the MP3 as an audio message too (if <50 MB; Telegram limit)
+if [ -f "$MP3" ]; then
+  SIZE=$(stat -c%s "$MP3" 2>/dev/null || wc -c < "$MP3")
+  if [ "$SIZE" -lt 49000000 ]; then
+    curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendAudio" \
+      -F "chat_id=$TELEGRAM_CHAT_ID" \
+      -F "title=Market Briefing $DATE" \
+      -F "performer=Market Briefing" \
+      -F "audio=@$MP3" > /dev/null
+  fi
+fi
 
 === RULES ===
 - Be autonomous. Don't ask for confirmation.
