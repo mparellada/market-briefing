@@ -14,10 +14,11 @@ Fetch today's top stories from ALL these sources:
 - El Economista (Spain business, Spanish)
 - 3cat.cat (Catalonia, Catalan)
 - AI/tech: OpenAI, Anthropic, Google DeepMind, major developments
-- Markets: SPX, NDX, DJI, N225, KOSPI, HSI, STI, STOXX50, IBEX35
-- Currencies: EUR/USD, EUR/SGD, USD/THB, USD/SGD, BTC/USD
-- Commodities: Gold, Brent, WTI, VIX
-- Crypto: BTC price + sentiment, top movers
+- Markets (daily core): SPX, NDX, DJI, N225, STOXX50, IBEX35
+- Currencies (daily core): EUR/USD
+- Commodities (daily core): Gold, Brent, VIX
+- Crypto (daily core): BTC price + sentiment
+- Weekly extras (Mondays only): KOSPI, HSI, STI, WTI, EUR/SGD, USD/SGD, USD/THB, top crypto movers beyond BTC. On other days, skip these to keep the briefing tight.
 
 === STEP 2: BUILD BRIEFING JSON ===
 Write C:/Temp/briefing-data.json with:
@@ -62,39 +63,51 @@ except Exception as e:
 "
 
 === STEP 4: WRITE PODCAST SOURCE DOCUMENT (FLASH-NEWS STYLE) ===
-Write C:/Temp/podcast-source.txt — a 4000-6000 word document structured as a FAST-PACED FINANCIAL NEWS BULLETIN, not a narrative essay. Think Bloomberg morning radio.
+Write C:/Temp/podcast-source.txt — a 3500-5000 word document structured as a FAST-PACED FINANCIAL NEWS BULLETIN, not a narrative essay. Think Bloomberg morning radio.
 
-Structure it as CRISP, NUMBERED FLASH SEGMENTS:
+**Format rules (important — the TTS reads this verbatim):**
+- Do NOT use numbered lists ("1.", "2.", "3."). The narrator reads those numbers aloud and it sounds robotic.
+- Use plain paragraphs: one short paragraph per item, starting directly with the subject (e.g. "S and P 500 closed at 7,041, up zero point two six percent. Driver: ...").
+- Each paragraph = one flash item: subject, move, driver. One to two sentences max.
+- Separate items with a blank line so the voice pauses naturally.
+- Section headers use the `=== HEADER ===` format — the cleaner converts them to natural spoken section markers.
+- Mention each ticker/asset ONCE across the whole document. No repeating BTC, gold, etc. in multiple sections.
+
+Structure:
 
 === MARKET OPEN ===
-1. S&P 500 — closed at X, +Y%. Driver: [one crisp sentence]
-2. Nasdaq — closed at X, +Y%. Driver: [one crisp sentence]
-3. Dow — closed at X, -Y%. Driver: [one crisp sentence]
-... etc for EACH index, currency, commodity
+One paragraph per index (daily core list only). Subject, price, percent move, one-sentence driver.
+
+=== CURRENCIES ===
+One paragraph per currency (daily core only — EUR/USD). No BTC here (BTC goes in Crypto).
+
+=== COMMODITIES ===
+Gold, Brent, VIX — one paragraph each. Skip WTI on non-Monday days.
+
+=== CRYPTO ===
+One paragraph on Bitcoin: price, move, sentiment, key levels, institutional flows. This is the only place BTC is mentioned.
 
 === NOTABLE MOVERS ===
-1. [TICKER] +X% — [reason, 1-2 sentences]
-2. [TICKER] +X% — [reason, 1-2 sentences]
-... etc
+Two to four paragraphs on the biggest movers of the day (stock, index, or commodity — whichever moved most). Each: ticker, percent, reason, what to watch.
 
 === GLOBAL NEWS FLASH ===
-1. [Headline] — [1-2 sentence impact]
-2. [Headline] — [1-2 sentence impact]
-... etc
+Four to eight paragraphs covering the day's top non-market stories from BBC, FT, Bloomberg, NYT, The Economist. Headline, one-sentence impact.
 
 === SPAIN & CATALONIA ===
-Same bulletin format.
+Two to four paragraphs from La Vanguardia, El Economista, 3cat.cat. Same bulletin format.
 
-=== AI & TECH ===
-Same bulletin format.
+=== AI AND TECH ===
+Two to four paragraphs on the day's AI/tech developments.
 
 === PORTFOLIO IMPLICATIONS ===
-Short punchy assessment for Marc's positions.
+Short punchy assessment for Marc's positions — two to three paragraphs.
 
 === DAY AHEAD ===
-Key events to watch, bullet style.
+One paragraph on the main events to watch today.
 
-Keep sentences short. Numbers front and center. No filler. No "let's take a closer look" phrases. Just: number, move, reason, next.
+On Mondays only, add a "Weekly Extras" section after Day Ahead with KOSPI, HSI, STI, WTI, EUR/SGD, USD/SGD, USD/THB, and top-three crypto movers beyond BTC. On other days, skip this entirely.
+
+Keep sentences short. Numbers spelled where helpful for natural reading (e.g. "zero point two six percent" or "point two six percent" rather than "0.26%"). No filler. No "let's take a closer look" phrases.
 
 === STEP 5: GENERATE AZURE TTS PODCAST ===
 Run via bash. The Azure Speech key is in the file C:/Users/marc.ARISPRIME/.azure_tts_key

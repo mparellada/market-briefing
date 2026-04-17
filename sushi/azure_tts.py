@@ -103,6 +103,8 @@ def clean_script(text: str) -> str:
         stripped = re.sub(r"^#+\s*", "", stripped)
         stripped = re.sub(r"^\*+\s*", "", stripped)
         stripped = re.sub(r"^-\s+", "", stripped)
+        # Drop leading list numbers ("1. ", "12) ") so TTS doesn't read them
+        stripped = re.sub(r"^\d+[.)]\s+", "", stripped)
         # Strip stray = signs that survived (bulletin item separators etc.)
         stripped = re.sub(r"\s*=+\s*", " ", stripped)
         # Convert remaining slashes between words to "and" (covers edge
