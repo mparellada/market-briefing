@@ -126,7 +126,26 @@ def synthesize_chunk(text: str, out_path: Path, retries: int = 3) -> None:
     raise RuntimeError(f"Failed after {retries} retries: {last_err}")
 
 
+def _ffmpeg_bin() -> str:
+    """Locate ffmpeg: env FFMPEG, PATH, then known fallback locations."""
+    env = os.environ.get("FFMPEG")
+    if env and Path(env).exists():
+        return env
+    for candidate in (
+        "ffmpeg",
+        r"C:\Program Files\Jellyfin\Server\ffmpeg.exe",
+        r"C:\ffmpeg\bin\ffmpeg.exe",
+    ):
+        try:
+            subprocess.run([candidate, "-version"], check=True, capture_output=True)
+            return candidate
+        except (FileNotFoundError, subprocess.CalledProcessError):
+            continue
+    raise RuntimeError("ffmpeg not found — set FFMPEG env var")
+
+
 def concatenate(chunk_paths: list[Path], out_path: Path) -> None:
+    ffmpeg = _ffmpeg_bin()
     with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
         for p in chunk_paths:
             # ffmpeg concat format requires forward slashes, quoted
@@ -135,7 +154,7 @@ def concatenate(chunk_paths: list[Path], out_path: Path) -> None:
         list_file = f.name
     try:
         subprocess.run(
-            ["ffmpeg", "-y", "-f", "concat", "-safe", "0",
+            [ffmpeg, "-y", "-f", "concat", "-safe", "0",
              "-i", list_file, "-c", "copy", str(out_path)],
             check=True, capture_output=True,
         )
