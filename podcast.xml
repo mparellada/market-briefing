@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marc's Daily Market Briefing</title>
+    <link>https://mparellada.github.io/market-briefing/</link>
+    <atom:link href="https://mparellada.github.io/market-briefing/podcast.xml" rel="self" type="application/rss+xml"/>
+    <description>Every weekday morning: global markets, major news, Spain and Catalonia, and AI world updates. Compiled autonomously from BBC, FT, Bloomberg, NYT, The Economist, La Vanguardia, El Economista, and 3cat.cat.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Apr 2026 23:10:18 GMT</lastBuildDate>
+    <itunes:author>Marc Parellada</itunes:author>
+    <itunes:summary>Every weekday morning: global markets, major news, Spain and Catalonia, and AI world updates. Compiled autonomously from BBC, FT, Bloomberg, NYT, The Economist, La Vanguardia, El Economista, and 3cat.cat.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Marc Parellada</itunes:name>
+      <itunes:email>mparellada92@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://mparellada.github.io/market-briefing/cover.png"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>false</itunes:explicit>
+
+    <item>
+      <title>Market Briefing — Saturday, April 18, 2026</title>
+      <description>Market Briefing — Saturday, April 18, 2026</description>
+      <pubDate>Sat, 18 Apr 2026 07:00:00 GMT</pubDate>
+      <enclosure url="https://mparellada.github.io/market-briefing/podcasts/podcast-2026-04-18.mp3" length="10733853" type="audio/mpeg"/>
+      <guid isPermaLink="false">podcast-2026-04-18.mp3</guid>
+      <itunes:author>Marc Parellada</itunes:author>
+      <itunes:summary>Market Briefing — Saturday, April 18, 2026</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>20:00</itunes:duration>
+    </item>
+    <item>
+      <title>Market Briefing — Thursday, April 16, 2026</title>
+      <description>Market Briefing — Thursday, April 16, 2026</description>
+      <pubDate>Thu, 16 Apr 2026 07:00:00 GMT</pubDate>
+      <enclosure url="https://mparellada.github.io/market-briefing/podcasts/podcast-2026-04-16.mp3" length="13157805" type="audio/mpeg"/>
+      <guid isPermaLink="false">podcast-2026-04-16.mp3</guid>
+      <itunes:author>Marc Parellada</itunes:author>
+      <itunes:summary>Market Briefing — Thursday, April 16, 2026</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>20:00</itunes:duration>
+    </item>
+  </channel>
+</rss>
