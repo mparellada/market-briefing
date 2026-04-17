@@ -32,22 +32,86 @@ ENDPOINT = f"https://{REGION}.tts.speech.microsoft.com/cognitiveservices/v1"
 OUTPUT_FORMAT = "audio-24khz-48kbitrate-mono-mp3"
 
 
+TICKER_PRONUNCIATIONS = {
+    # Pairs & ratios -> "X versus Y" reads naturally
+    "EUR/USD": "EUR versus USD",
+    "EUR/SGD": "EUR versus SGD",
+    "USD/SGD": "USD versus SGD",
+    "USD/THB": "USD versus THB",
+    "USD/JPY": "USD versus JPY",
+    "GBP/USD": "GBP versus USD",
+    "BTC/USD": "Bitcoin versus dollar",
+    "ETH/USD": "Ethereum versus dollar",
+    "XAU/USD": "gold spot",
+    "XAG/USD": "silver spot",
+    # Common symbols that read badly
+    "S&P 500": "S and P 500",
+    "S&P500": "S and P 500",
+    "S&P": "S and P",
+    "AT&T": "A T and T",
+    "P&G": "P and G",
+    "J&J": "J and J",
+    # Indices / tickers -> natural names
+    "IBEX35": "IBEX 35",
+    "STOXX50": "STOXX 50",
+    "N225": "Nikkei",
+    "NFLX": "Netflix",
+    "TSLA": "Tesla",
+    "AAPL": "Apple",
+    "MSFT": "Microsoft",
+    "NVDA": "Nvidia",
+    "GOOGL": "Google",
+    "AMZN": "Amazon",
+    "META": "Meta",
+}
+
+
 def clean_script(text: str) -> str:
-    """Strip markdown/section headers, keep only readable sentences."""
+    """Normalize the script so a TTS engine reads it as a news bulletin.
+
+    Strips dividers, markdown markers, expands tickers/symbols that read
+    poorly, and handles section headers like "=== SECTION ===".
+    """
+    # First, substitute ticker/symbol pronunciations in the raw text
+    for src, dst in TICKER_PRONUNCIATIONS.items():
+        text = text.replace(src, dst)
+
+    # Normalize curly/em-dashes to commas for natural pauses
+    text = text.replace("\u2014", ",").replace("\u2013", ",")
+    text = text.replace("\u2018", "'").replace("\u2019", "'")
+    text = text.replace("\u201c", '"').replace("\u201d", '"')
+    # Replace broken encodings sometimes produced by Windows consoles
+    text = text.replace("\ufffd?\"", ",").replace("\ufffd?", ",")
+
     lines = []
     for line in text.splitlines():
         stripped = line.strip()
         if not stripped:
             lines.append("")
             continue
-        # Drop pure markdown dividers and hash headers
-        if re.match(r"^[-=#*_]{3,}$", stripped):
+        # Drop pure dividers made of repeated punctuation
+        if re.match(r"^[\-=#*_~]{3,}$", stripped):
+            continue
+        # "=== SECTION ===" -> "Section." (keeps a natural pause)
+        m = re.match(r"^={2,}\s*(.+?)\s*={2,}$", stripped)
+        if m:
+            title = m.group(1).strip().rstrip(":.")
+            lines.append("")
+            lines.append(f"{title.title()}.")
             continue
         # Strip leading markdown markers but keep content
         stripped = re.sub(r"^#+\s*", "", stripped)
         stripped = re.sub(r"^\*+\s*", "", stripped)
         stripped = re.sub(r"^-\s+", "", stripped)
-        lines.append(stripped)
+        # Strip stray = signs that survived (bulletin item separators etc.)
+        stripped = re.sub(r"\s*=+\s*", " ", stripped)
+        # Convert remaining slashes between words to "and" (covers edge
+        # cases like "and/or", "Israel/Lebanon" -> less robotic reading).
+        stripped = re.sub(r"(?<=\w)/(?=\w)", " and ", stripped)
+        # Collapse whitespace
+        stripped = re.sub(r"\s+", " ", stripped).strip()
+        if stripped:
+            lines.append(stripped)
     return "\n".join(lines)
 
 
