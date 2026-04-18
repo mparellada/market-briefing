@@ -67,11 +67,13 @@ Write C:/Temp/podcast-source.txt — a 3500-5000 word document structured as a F
 
 **Format rules (important — the TTS reads this verbatim):**
 - Do NOT use numbered lists ("1.", "2.", "3."). The narrator reads those numbers aloud and it sounds robotic.
-- Use plain paragraphs: one short paragraph per item, starting directly with the subject (e.g. "S and P 500 closed at 7,041, up zero point two six percent. Driver: ...").
-- Each paragraph = one flash item: subject, move, driver. One to two sentences max.
+- Use plain paragraphs: one short paragraph per item, starting directly with the subject (e.g. "S and P 500 closed at 7,041, up zero point two six percent on record-high momentum.").
+- Each paragraph = one flash item: subject, move, reason — in ONE sentence. Two sentences max only if the reason genuinely needs elaboration.
+- Do NOT prefix the reason with words like "Driver:", "Because:", "Reason:", "Catalyst:". Just fold the reason into the sentence naturally.
 - Separate items with a blank line so the voice pauses naturally.
 - Section headers use the `=== HEADER ===` format — the cleaner converts them to natural spoken section markers.
 - Mention each ticker/asset ONCE across the whole document. No repeating BTC, gold, etc. in multiple sections.
+- Assume Marc already heard yesterday's briefing. Do NOT re-explain background of ongoing stories (e.g. "as you may recall, the Iran ceasefire started on..."). State today's development only. Recap prior context ONLY if a story is brand new or something pivotal changed.
 
 Structure:
 
