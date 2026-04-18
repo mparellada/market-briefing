@@ -1,0 +1,135 @@
+{
+  "date": "Sunday, April 19 2026",
+  "sentiment": "Mixed",
+  "pulse": "US equities closed Thursday at all-time highs with the Nasdaq notching a 12-session win streak, as Iran's announcement that the Strait of Hormuz is open during the ceasefire sent oil crashing 10% and lifted risk appetite. Over the weekend the situation shifted: Iran said the strait has returned to its previous state, keeping geopolitical tension elevated ahead of Monday's open. Equity bulls remain in control but the Iran-US standoff, rising inflation projections, and a Fed on hold inject caution into the risk-on picture.",
+  "movers": [
+    {"name": "BRENT", "change_pct": "-10.1%", "reason": "Iran declared Strait of Hormuz open during ceasefire; oil plunged to ~$89/barrel â€” though Iran subsequently said the situation has returned to its previous state"},
+    {"name": "DAX", "change_pct": "+2.27%", "reason": "German index led European gainers as energy cost relief from falling oil boosted industrial sentiment"},
+    {"name": "IBEX35", "change_pct": "+2.18%", "reason": "Spanish equities rallied on broad European risk-on and strong domestic economic outperformance"},
+    {"name": "BTC", "change_pct": "+3.42%", "reason": "Bitcoin rebounded toward $77,000 as improving risk appetite and institutional inflows fuelled recovery from February crash lows"},
+    {"name": "GCL", "change_pct": "-14.27%", "reason": "GCL Global Holdings dropped sharply on weak earnings and continued revenue pressure across console gaming and publishing segments"},
+    {"name": "9G2.SI", "change_pct": "+5.80%", "reason": "SAM Holdings (Singapore) popped on renewed healthcare sector interest in Singapore small-caps"}
+  ],
+  "indices": [
+    ["S&P 500", "7,126.06", "+84.66", "+1.20%"],
+    ["Dow Jones", "49,447.43", "+869.11", "+1.79%"],
+    ["Nasdaq Composite", "24,468.48", "+365.84", "+1.52%"],
+    ["Russell 2000", "2,776.90", "+57.57", "+2.11%"],
+    ["STOXX 50", "6,057.71", "+124.71", "+2.10%"],
+    ["DAX", "24,702.24", "+549.28", "+2.27%"],
+    ["CAC 40", "8,425.13", "+162.49", "+1.97%"],
+    ["FTSE 100", "10,667.63", "+77.29", "+0.73%"],
+    ["IBEX 35", "18,484.50", "+394.71", "+2.18%"],
+    ["Nikkei 225", "58,475.90", "-1,042.37", "-1.75%"],
+    ["Hang Seng", "26,160.33", "-235.44", "-0.89%"],
+    ["Shanghai Composite", "4,051.43", "-4.05", "-0.10%"]
+  ],
+  "currencies": [
+    ["EUR/USD", "1.1770", "+0.0050", "+0.43%"]
+  ],
+  "futures": [
+    ["S&P 500 Futures", "7,131", "+5", "+0.07%"],
+    ["Nasdaq Futures", "24,502", "+34", "+0.14%"]
+  ],
+  "commodities": [
+    ["Gold (XAU/USD)", "4,893.10", "+84.80", "+1.76%"],
+    ["Brent Crude", "89.20", "-10.05", "-10.1%"],
+    ["VIX", "17.43", "-0.51", "-2.84%"]
+  ],
+  "stocks": [
+    ["9G2.SI", "SAM Holdings", "0.073 SGD", "+5.80%", "Singapore healthcare small-cap bounce on sector interest"],
+    ["GCL", "GCL Global Holdings", "$0.80 USD", "-14.27%", "Sharp sell-off; console gaming and publishing revenue weakness"]
+  ],
+  "portfolio": "Marc's SGD-based portfolio is navigating a broadly constructive week with key divergences. IBEX35 continues as the standout â€” up 2.18% on Thursday and +43.86% year-to-date, making it the world's best-performing major index. Gold at $4,893 is near all-time highs, making the gold position the portfolio's strongest relative performer. US equities at ATH benefit the US position. The Nasdaq 12-day win streak signals sustained momentum and a supportive backdrop for the US allocation. Bitcoin recovered to $77,305 (+3.42%), reclaiming pre-February crash levels and recovering the SGD value of the crypto allocation. The Brent crash (-10%) is a direct headwind for the oil position but reduces inflation pressure system-wide, benefiting equity multiples. 9G2.SI jumped 5.80% â€” a positive surprise from the Singapore healthcare holding. GCL is the clear pain point, down 14.27% in a single session; the console gaming thesis is under pressure and the position warrants a review of sizing and downside protection. STI and broader Asian exposure is mixed â€” Nikkei -1.75% and HSI -0.89% drag on the Asia allocation while Singapore was more resilient. EUR/USD at 1.177 benefits EUR-denominated IBEX exposure when repatriated to SGD. Key watch for Monday: Iran news will move oil immediately at the open.",
+  "alerts": [
+    {"level": "danger", "text": "GCL Global Holdings -14.27% in a single session â€” revisit position sizing and stop levels urgently"},
+    {"level": "danger", "text": "Iran reversed Strait of Hormuz open declaration over the weekend â€” oil volatility likely resumes at Monday open; Brent direction highly uncertain"},
+    {"level": "warn", "text": "Fed holding at 3.5-3.75% with PCE inflation revised to 2.7% â€” rate cut timeline pushed to H2 2026 at earliest"},
+    {"level": "warn", "text": "Trump threatening 50% tariffs on China over Iran arms reports; May Xi summit creates headline risk in both directions"},
+    {"level": "warn", "text": "IMF cuts global growth to 3.1% for 2026; Eurozone at just 0.8% growth â€” European equities face earnings headwinds despite index strength"},
+    {"level": "info", "text": "Nasdaq on 12-session win streak â€” longest since 2009; retail participation surging (55th percentile from 10th percentile)"},
+    {"level": "info", "text": "IBEX 35 +43.86% year-to-date â€” Spanish equities continue as top-performing major index globally"},
+    {"level": "info", "text": "Easter Monday April 21: IBEX and many European markets will be closed; expect thin liquidity at Monday open"}
+  ],
+  "news": [
+    {
+      "title": "Iran Declares Strait of Hormuz Open â€” Then Reverses Over Weekend",
+      "text": "Iranian Foreign Minister Abbas Araghchi declared the Strait of Hormuz completely open for commercial shipping during the Lebanon-Israel ceasefire on April 17, triggering a 10-plus percent oil price crash with Brent falling to $89/barrel. Trump maintained the US naval blockade will stay in full force until a peace deal. Over the weekend, Iranian state TV said the strait has returned to its previous state, reintroducing supply uncertainty. Pakistan-based talks are set to resume early next week."
+    },
+    {
+      "title": "US Equities Close at All-Time Highs; Nasdaq Posts 12th Straight Gain",
+      "text": "The S&P 500 closed at 7,126 (+1.20%), the Dow at 49,447 (+1.79%), and the Nasdaq at 24,468 (+1.52%) on Thursday April 17. US markets were closed Good Friday April 18. The Nasdaq 100 extended its win streak to 12 consecutive sessions â€” the longest since 2009 â€” driven by tech strength, Iran ceasefire optimism, and retail trader re-engagement."
+    },
+    {
+      "title": "Retail Traders Surge Back; Momentum Stocks See Triple-Digit Gains",
+      "text": "Retail buying activity rebounded sharply per JPMorgan data, with participation rising to the 55th percentile from roughly the 10th percentile just days earlier. Low-float momentum names like MYSE (+266%), BIRD (+486%), and WSHP (+201%) saw triple-digit gains, echoing 2021-style retail frenzy dynamics as investors chase the bull run."
+    },
+    {
+      "title": "Russia-Ukraine Orthodox Easter Ceasefire â€” Russia Launched 160 Drones Hours Before",
+      "text": "A 32-hour Orthodox Easter ceasefire came into force Saturday night, but Russia launched 160-plus drones at Ukraine hours before the truce began, killing four people. Ukraine's Air Force shot down 190 of 219 drones overnight. Fighting continued on the Pokrovsk axis with 135 combat clashes on Saturday. Ukraine struck three Russian military vessels in occupied Crimea."
+    },
+    {
+      "title": "Trump Threatens 50% China Tariffs Over Alleged Iran Arms Shipment",
+      "text": "Trump threatened to impose a 50% tariff on China after reports emerged that Beijing was preparing an arms shipment to Iran. The administration simultaneously launched new Section 301 investigations into 16 countries for structural manufacturing overcapacity. A Trump-Xi summit remains planned for May â€” the first US presidential visit to China in eight years â€” making the tariff threats a key geopolitical variable."
+    },
+    {
+      "title": "Supreme Court Struck Down IEEPA Tariffs; 10% Global Tariff Now in Force",
+      "text": "The Supreme Court ruled that IEEPA does not authorize the president to impose tariffs, invalidating Trump's Liberation Day reciprocal tariffs. US Customs is processing $166 billion in refunds to businesses. Trump responded with a 10% global tariff under Section 122 of the Trade Act, valid for 150 days through July 24, 2026."
+    },
+    {
+      "title": "Fed Holds at 3.5-3.75%; Raises Inflation Forecasts",
+      "text": "The Federal Reserve held rates steady at its March meeting for a second straight time. Officials revised both PCE and core PCE inflation projections up to 2.7% for 2026, from December forecasts of 2.4-2.5%, reflecting energy-cost pass-through from the Iran supply shock. Markets now expect at most one cut in the second half of 2026."
+    },
+    {
+      "title": "IMF Cuts 2026 Global Growth Forecast to 3.1%",
+      "text": "The IMF's April 2026 World Economic Outlook downgraded global growth to 3.1% in 2026 and 3.2% in 2027 â€” well below pre-pandemic averages â€” citing the Middle East war, energy supply disruption, and trade fragmentation. Eurozone growth is forecast at just 0.8%, its weakest post-COVID showing."
+    },
+    {
+      "title": "Pope Leo XIV Condemns Tyrants on Africa Trip",
+      "text": "Pope Leo XIV, on his Africa visit, called on world leaders to stop fuelling war with billions and condemned tyrants profiting from conflict. His remarks were directed implicitly at both Russian leadership and global arms suppliers. The Pope also praised the Israel-Lebanon ceasefire as a fragile but real window for peace."
+    },
+    {
+      "title": "QVC Files for Bankruptcy to Cut $5 Billion in Debt",
+      "text": "QVC Group filed for bankruptcy protection to restructure $5 billion in debt as the shift to e-commerce and streaming continues to erode traditional TV shopping revenues. The filing follows years of declining viewership and lost market share to Amazon and TikTok Shop, marking the end of an era for appointment-TV retail."
+    },
+    {
+      "title": "Spain GDP Outpaces Eurozone; IBEX 35 Up 44% Year-on-Year",
+      "text": "Spain's economy is forecast to grow 2.1-2.3% in 2026, well above the Eurozone average of 0.8%, fuelled by tourism, domestic consumption, and EU structural funds. The IBEX 35 is up 43.86% year-on-year and closed Thursday at 18,484 â€” its second-highest level ever. Core inflation ticked up to 2.9% in April, a minor headwind for the Banco de Espana."
+    },
+    {
+      "title": "Catalonia Prepares Sant Jordi 2026; 3Cat Reports Record Book Sales",
+      "text": "Catalonia is preparing for Sant Jordi celebrations on April 23 with book and rose fairs across Barcelona and major Catalan cities. 3Cat is reporting record advance sales of Catalan-language books this year, with a slate of high-profile new novels and a renewed public interest in Catalan cultural identity driving pre-event enthusiasm."
+    },
+    {
+      "title": "Israel-Lebanon Ceasefire Holds; First Direct Talks in Thirty Years",
+      "text": "Israel and Lebanon agreed to a ceasefire and are preparing for their first direct diplomatic talks in more than 30 years to address the broader Hezbollah conflict. The talks come as part of the wider Middle East diplomatic settlement being brokered with US mediation, though Iran's parallel conflict creates overlapping risks."
+    },
+    {
+      "title": "Asian Markets Diverge From US Rally; Nikkei Falls 1.75%",
+      "text": "Japan's Nikkei 225 fell 1.75% to 58,476 on Friday April 18 â€” Asian markets were open while US and European markets observed Good Friday â€” as investors weighed Japan's heavy oil import dependency against the Hormuz ceasefire uncertainty. Hong Kong's Hang Seng fell 0.89% and Shanghai was flat, as Chinese markets tracked domestic macro concerns."
+    }
+  ],
+  "day_ahead": "Monday April 21 is Easter Monday â€” IBEX 35 and most European markets will be closed. US markets reopen. The dominant driver at Monday open will be the Iran-Strait of Hormuz weekend news: oil will gap based on whether Iran maintains or reverses the reopening declaration. Pakistan-based US-Iran talks may yield headlines. Trump-China tariff rhetoric around the May summit will be a background noise. Fed speakers are on the calendar this week with markets looking for guidance on the rate cut timing. Earnings season continues â€” watch for major US corporate reports. Retail momentum in low-float names could persist if equity sentiment holds. For Marc specifically: monitor GCL at Monday open for any further weakness.",
+  "ai_news": [
+    {
+      "title": "OpenAI GPT-5.4 Surpasses Human Baseline on Desktop Productivity Benchmark",
+      "text": "OpenAI unveiled GPT-5.4 with a 1-million-token context window and the ability to autonomously execute multi-step workflows across software environments. On the OSWorld-V benchmark simulating real desktop productivity tasks, the model scored 75%, above the human baseline of 72.4% â€” the first AI model to exceed humans on this test. This marks a meaningful milestone for autonomous AI agent deployment in enterprise settings."
+    },
+    {
+      "title": "Google DeepMind Releases Gemma 4: Open-Weight Agentic Models",
+      "text": "Google DeepMind released Gemma 4, a new family of open-weight models emphasizing coding, agentic AI, and multimodal reasoning. The four model variants run across devices from smartphones to data centres, extending Google's open-source AI ecosystem and intensifying competition with Meta's Llama series. AlphaEvolve, Google's Gemini-powered coding agent, was also highlighted for recovering 0.7% of Google's worldwide computing resources continuously."
+    },
+    {
+      "title": "Anthropic MCP Crosses 97 Million Installs; Every Major AI Provider Now Compatible",
+      "text": "Anthropic's Model Context Protocol crossed 97 million installs in March 2026, transitioning from experimental standard to foundational AI agent infrastructure. Every major AI provider now ships MCP-compatible tooling, cementing the protocol as the de facto standard for connecting AI models to external tools, APIs, and data sources."
+    },
+    {
+      "title": "OpenAI Eyes Late-2026 IPO With $25B Revenue; Anthropic at $19B",
+      "text": "OpenAI has surpassed $25 billion in annualized revenue and is reportedly taking early steps toward a public listing, potentially as soon as late 2026. Rival Anthropic is approaching $19 billion. Both companies are cooperating with US government officials to prevent Chinese AI firms from cloning their frontier models via API access and open-source channels."
+    },
+    {
+      "title": "Anthropic Launches Claude Mythos 5 With 10 Trillion Parameters",
+      "text": "Anthropic introduced Claude Mythos 5, a 10-trillion-parameter model designed for advanced cybersecurity analysis and coding applications. The model represents the largest publicly disclosed parameter count from any AI lab and is positioned for enterprise and government security use cases where reasoning depth and code generation accuracy are paramount."
+    }
+  ]
+}
