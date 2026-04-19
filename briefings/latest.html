@@ -713,7 +713,31 @@ function render(d) {
   document.getElementById('dayahead').innerHTML = d.day_ahead || '';
 }
 
-if (typeof DATA !== 'undefined') render(DATA);
+async function loadLatest() {
+  // Try today's briefing, then walk back up to 7 days.
+  const today = new Date();
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(today);
+    d.setDate(today.getDate() - i);
+    const iso = d.toISOString().slice(0, 10);
+    try {
+      const resp = await fetch(`briefings/data-${iso}.json`, { cache: 'no-store' });
+      if (resp.ok) {
+        const json = await resp.json();
+        render(json);
+        return;
+      }
+    } catch (e) { /* try previous day */ }
+  }
+  const header = document.getElementById('date');
+  if (header) header.textContent = 'No briefing available';
+}
+
+if (typeof DATA !== 'undefined') {
+  render(DATA);
+} else {
+  loadLatest();
+}
 </script>
 <script>var DATA = {
   "date": "2026-04-16",
