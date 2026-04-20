@@ -1,0 +1,242 @@
+{
+  "date": "Tuesday, April 21 2026",
+  "sentiment": "Cautious",
+  "pulse": "US-Iran ceasefire teeters on the brink as it expires tomorrow April 22 - Brent crude surged 4.7% to $95.10 on renewed Hormuz tensions after the US seized an Iranian cargo ship over the weekend. Apple shocked markets on April 20 with Tim Cook departing as CEO, handing leadership to hardware chief John Ternus effective September 1. Nasdaq snapped its record 13-day winning streak as geopolitical risk reasserted itself across equities.",
+  "movers": [
+    {
+      "name": "BRENT",
+      "change_pct": "+4.7%",
+      "reason": "US-Iran ceasefire near collapse; US seized Iranian cargo ship Sunday April 20; Strait of Hormuz shipping disrupted again"
+    },
+    {
+      "name": "IBEX35",
+      "change_pct": "-1.29%",
+      "reason": "European bourses led lower by Iran tensions Monday April 20; Spanish index retreating from February all-time highs"
+    },
+    {
+      "name": "N225",
+      "change_pct": "-1.06%",
+      "reason": "Asian markets sold off Friday April 18 on profit-taking; Iran risk reasserted; Sumco and Sumitomo Metal Mining led declines"
+    },
+    {
+      "name": "AAPL",
+      "change_pct": "event",
+      "reason": "Tim Cook stepping down as CEO effective September 1 - John Ternus named successor; Cook becomes Executive Chairman"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7109.14",
+      "-17.05",
+      "-0.24%"
+    ],
+    [
+      "NDX/Comp",
+      "24404.39",
+      "-63.5",
+      "-0.26%"
+    ],
+    [
+      "DJI",
+      "49442.56",
+      "-4.87",
+      "-0.01%"
+    ],
+    [
+      "STOXX50",
+      "6057.71",
+      "+125.0",
+      "+2.10%"
+    ],
+    [
+      "IBEX35",
+      "18260.90",
+      "-238.7",
+      "-1.29%"
+    ],
+    [
+      "N225",
+      "58886.00",
+      "-632.0",
+      "-1.06%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1772",
+      "+0.0012",
+      "+0.10%"
+    ]
+  ],
+  "futures": [
+    [
+      "ES (S&P Fut)",
+      "~7090",
+      "cautious open expected given ceasefire expiry April 22"
+    ],
+    [
+      "NQ (Nasdaq Fut)",
+      "~24350",
+      "tech futures soft on geopolitical uncertainty"
+    ],
+    [
+      "Brent Fut",
+      "~95.10",
+      "elevated; Hormuz shipping risk premium"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold",
+      "$4790/oz",
+      "-$38.5",
+      "-0.80%"
+    ],
+    [
+      "Brent",
+      "$95.10/bbl",
+      "+$4.25",
+      "+4.68%"
+    ],
+    [
+      "VIX",
+      "17.48",
+      "-0.46",
+      "-2.56%"
+    ]
+  ],
+  "stocks": [
+    [
+      "GCL",
+      "~$0.60",
+      "flat",
+      "GCL Global Holdings games/entertainment; last close approx April 10"
+    ],
+    [
+      "9G2.SI",
+      "N/A",
+      "N/A",
+      "STI under pressure near 4975; Singapore losing streak continues"
+    ],
+    [
+      "Z74.SI (Singtel)",
+      "$4.78",
+      "flat",
+      "Q3 FY2026 underlying profit +10% YoY; NCS and data centres driving growth; consensus target $5.31"
+    ]
+  ],
+  "portfolio": "Cautious posture warranted for Tuesday April 21. The single biggest risk event is the US-Iran ceasefire expiry tomorrow April 22 - any collapse accelerates oil higher and hits risk assets hard. Brent at $95 benefits any energy exposure. Gold mild pullback at $4,790 is not alarming; war premium remains intact. US equities slightly down on April 20 close; watch pre-market futures today. IBEX35 at 18,261 (-1.29%) is a headwind for Spain exposure. STI near 4,975 - Singapore under pressure; SGD holding firm as a relative safe haven in Asia. BTC holding above $75,000 despite tensions - institutional accumulation appears to be absorbing selling pressure. Apple leadership change with Ternus replacing Cook is sentiment-neutral near-term given Ternus hardware credibility but creates medium-term management transition uncertainty.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "US-Iran ceasefire expires TOMORROW April 22 - no confirmed extension; Trump called weekend ship seizure a total violation; second peace talks round in Pakistan unconfirmed by Iran"
+    },
+    {
+      "level": "danger",
+      "text": "Apple CEO Tim Cook stepping down September 1; John Ternus takes over - biggest Apple leadership transition since Jobs-to-Cook in 2011"
+    },
+    {
+      "level": "warn",
+      "text": "Brent crude at $95.10 (+4.7%) - supply shock risk if Hormuz fully disrupted again; persistent oil elevation has inflation implications for the Fed"
+    },
+    {
+      "level": "warn",
+      "text": "Fed Chair Powell late-April FOMC meeting may be his last; market debate shifting from rate cut to potential rate hike if Iran-driven inflation persists"
+    },
+    {
+      "level": "warn",
+      "text": "IMF April 14 WEO cut global growth to 3.1% for 2026 and raised headline inflation to 4.4% - war premium increasingly priced into macro forecasts"
+    },
+    {
+      "level": "info",
+      "text": "Nasdaq snapped record 13-day winning streak on April 20 - longest streak since 1992 now over"
+    },
+    {
+      "level": "info",
+      "text": "Anthropic annualized revenue hit $30B in April 2026 up from $14B in February; Claude Mythos 5 launched with 10 trillion parameters"
+    }
+  ],
+  "news": [
+    {
+      "title": "US-Iran Ceasefire on the Brink; Expires April 22",
+      "text": "The two-week ceasefire agreed April 8 expires tomorrow April 22. Iran briefly reopened the Strait of Hormuz on Friday April 18, but by Sunday April 20 the US Navy seized an Iranian container ship in the Gulf of Oman. Trump called it a total violation and threatened strikes on Iranian power plants and bridges. Iran denied a second negotiation round in Islamabad, saying no clear prospect for talks exists. Oil jumped 4.7% to $95.10."
+    },
+    {
+      "title": "Apple CEO Tim Cook Steps Down; John Ternus to Lead",
+      "text": "Apple announced April 20 that Tim Cook, 65, will step down as CEO effective September 1 and become Executive Chairman. John Ternus, 51, head of hardware engineering and architect of the M-series chip transition, is named successor. Under Cook Apple grew from $350B to approximately $4 trillion in market cap; annual revenue quadrupled to more than $400 billion."
+    },
+    {
+      "title": "Nasdaq Snaps Record 13-Day Winning Streak on April 20",
+      "text": "The Nasdaq Composite closed April 20 at 24,404, down 0.26%, ending its 13-day winning streak - the longest positive run since 1992. The S&P 500 fell 0.24% to 7,109. The Dow shed just 4.87 points. US-Iran tensions over the weekend catalysed the equity retreat after markets had rallied to record highs."
+    },
+    {
+      "title": "IMF Cuts Global Growth to 3.1% in April 2026 World Economic Outlook",
+      "text": "The IMF World Economic Outlook released April 14, titled Global Economy in the Shadow of War, projects 3.1% global growth in 2026 and 3.2% in 2027, well below the 3.7% pre-pandemic average. Global headline inflation revised up to 4.4% for 2026. Emerging markets face the sharpest slowdown. Downside risks include broader conflict, AI productivity reassessment, and renewed trade tensions."
+    },
+    {
+      "title": "Fed Chair Powell: Tariffs Delayed Rate Cuts; Late-April FOMC His Last",
+      "text": "Fed Chair Jerome Powell stated Trump tariffs have prevented rate cuts in 2026. The late-April FOMC meeting is technically his last as chair. A growing cohort of economists argues the Fed may need to hike rather than cut if Iran-driven price spikes prove persistent. The market-implied probability of a second ECB rate hike fell from 90% to 50%."
+    },
+    {
+      "title": "AST SpaceMobile Satellite Placed in Wrong Orbit by Blue Origin Rocket",
+      "text": "AST SpaceMobile shares dropped after a Blue Origin New Glenn rocket placed one of its broadband satellites in an incorrect orbit. The incident raises commercial launch reliability questions for Blue Origin as it competes with SpaceX for satellite deployment contracts."
+    },
+    {
+      "title": "Honeywell Sells Productivity Business for $1.4 Billion",
+      "text": "Honeywell announced a $1.4 billion divestiture of its productivity solutions unit as part of ongoing portfolio simplification, accelerating the industrial conglomerate pivot toward automation, aerospace, and energy transition segments."
+    },
+    {
+      "title": "UK Police Probe Iranian Proxy Networks Behind London Arson Attacks on Jewish Sites",
+      "text": "UK law enforcement is investigating whether a series of arson attacks on Jewish sites in London were coordinated by Iranian proxy networks. The probe marks an escalation of Iran-linked covert activity on European soil amid the US-Israel-Iran conflict."
+    },
+    {
+      "title": "Robot Completes Beijing Half-Marathon Faster Than Any Human on April 19",
+      "text": "A bipedal robot from Chinese smartphone maker Honor completed the Beijing E-Town Half Marathon on April 19 in 50 minutes 26 seconds - faster than any human on record for that distance. The feat highlights rapid advances in Chinese physical AI and bipedal locomotion research."
+    },
+    {
+      "title": "Singapore STI Extends Losing Streak Near 4,975",
+      "text": "The Straits Times Index extended its losing streak as of April 20, slipping near 4,975 - just beneath the psychologically important 5,000 level. Hormuz disruptions weigh on Asian risk appetite. Singtel reported Q3 FY2026 underlying net profit up 10% year on year driven by NCS and data centres; share price $4.78 versus consensus target $5.31."
+    },
+    {
+      "title": "IBEX35 Falls 1.29% on April 20; Moving Away From February Highs",
+      "text": "Spain IBEX35 closed April 20 at 18,261, down 1.29%, retreating from its all-time intraday high of 18,573 reached in late February. Spain leads eurozone GDP growth but faces per-capita stagnation. Data centre investment hit a record 4.93 billion euros in 2025. Eurozone growth forecast at just 0.8% for 2026."
+    },
+    {
+      "title": "Nobel Economist Warns AI Could Widen Inequality Without Policy Action",
+      "text": "A Nobel Prize-winning economist warned that AI risks eroding middle-class employment and widening income inequality unless policymakers act proactively. The warning comes as enterprise AI adoption accelerates and AI lab revenues surge globally with Anthropic at $30B annualized."
+    },
+    {
+      "title": "Air India Seeks New CEO After Campbell Wilson Resignation",
+      "text": "Troubled airline Air India is searching for a new chief executive after Campbell Wilson announced his departure. The search comes as Air India attempts to complete its post-Tata privatisation turnaround and major fleet expansion programme."
+    },
+    {
+      "title": "US Moves to Block Iran Oil Exports; Experts Warn Blockades Are Unpredictable",
+      "text": "The White House announced steps to tighten the blockade of Iranian oil exports to sever Tehran revenue streams. Economists warn naval blockades are historically unpredictable and may push global oil prices beyond the IMF baseline projections already pricing in a limited conflict."
+    }
+  ],
+  "day_ahead": "April 21: US equity markets open cautiously ahead of the US-Iran ceasefire expiry on April 22. Watch for any diplomatic signal from Pakistan or White House statements on Hormuz extension. Fed Chair Powell may speak; his late-April FOMC meeting approaches. Apple transition announcement will generate heavy analyst commentary on Ternus strategy. European markets digest Monday IBEX drop. Oil remains elevated near $95. Singapore STI likely opens below 4,975. Ceasefire diplomacy is the dominant macro driver for the entire session today.",
+  "ai_news": [
+    {
+      "title": "Anthropic Revenue Doubles to $30B Annualized in April; Claude Mythos 5 Launched",
+      "text": "Anthropic annualized revenue surged from $14 billion in February to $30 billion in April 2026, more than doubling its million-dollar-plus enterprise customer base in two months. The company released Claude Mythos 5, a 10-trillion parameter model specialising in advanced cybersecurity and coding applications."
+    },
+    {
+      "title": "OpenAI Surpasses $25B Annualized Revenue",
+      "text": "OpenAI crossed $25 billion in annualized revenue, cementing its position as the leading commercial AI platform. Both OpenAI and Anthropic are accelerating enterprise customer acquisition as AI adoption moves from experimentation to large-scale production deployment."
+    },
+    {
+      "title": "Google DeepMind Releases Gemini 3.1 With Real-Time Voice and Image Analysis",
+      "text": "Google DeepMind launched Gemini 3.1, adding real-time voice and image analysis capabilities. A companion compression algorithm cuts model memory requirements by six times, significantly reducing inference cost for enterprise and edge deployments globally."
+    },
+    {
+      "title": "Agentic AI Foundation Under Linux Foundation; MCP Crosses 97 Million Installs",
+      "text": "The Agentic AI Foundation, anchored by Anthropic Model Context Protocol, OpenAI AGENTS.md, and Block Goose framework, was established under the Linux Foundation in December 2025. MCP crossed 97 million installs in March 2026, becoming the de facto standard for AI agent tool interoperability."
+    },
+    {
+      "title": "DeepMind AlphaEvolve Deployed in FM Logistic Warehouses",
+      "text": "France-based logistics group FM Logistic deployed Google DeepMind AlphaEvolve to optimise worker movement and item-picking paths across its large-scale distribution centres - one of the first major real-world industrial deployments of AlphaEvolve-class AI optimisation at scale."
+    }
+  ]
+}
