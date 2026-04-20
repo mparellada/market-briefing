@@ -28,6 +28,8 @@ Fetch today's top stories from ALL these sources:
 - La Vanguardia (Spain, Spanish)
 - El Economista (Spain business, Spanish)
 - 3cat.cat (Catalonia, Catalan)
+- The Straits Times (Singapore, general news)
+- The Business Times (Singapore, business + markets)
 - AI/tech: OpenAI, Anthropic, Google DeepMind, major developments
 - Markets (daily core): SPX, NDX, DJI, N225, STOXX50, IBEX35
 - Currencies (daily core): EUR/USD
@@ -112,6 +114,9 @@ Four to eight paragraphs covering the day's top non-market stories from BBC, FT,
 
 === SPAIN & CATALONIA ===
 Two to four paragraphs from La Vanguardia, El Economista, 3cat.cat. Same bulletin format.
+
+=== SINGAPORE ===
+Two to four paragraphs from The Straits Times and The Business Times covering Singapore-relevant news: macro, property, major SGX movers, MAS policy, regional Asia developments that affect the city-state. Marc is based in Singapore so this is directly relevant.
 
 === AI AND TECH ===
 Two to four paragraphs on the day's AI/tech developments.
