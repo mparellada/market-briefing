@@ -11,6 +11,17 @@ Before doing anything else, establish reliable ground truth for the current day:
 3. Do NOT claim any holiday (Good Friday, Easter, Christmas, Thanksgiving, etc.) unless you run a web search specifically to confirm whether TODAY matches that holiday and the search returns explicit confirmation. If you cannot confirm, treat it as a regular day and don't mention holidays at all.
 4. Every date you write in the briefing (e.g. "closed Thursday April 17") must be derived from TODAY by arithmetic. Never invent a date. If you're quoting data from a source, use the date the SOURCE says, not a guess.
 
+=== NEWS CURATION PRIORITY (applies to all news sections) ===
+When selecting news items from any source (BBC, FT, Bloomberg, NYT, Economist, La Vanguardia, El Economista, 3Cat, Straits Times, Business Times), rank by this priority:
+
+1. **Macro & markets** — monetary policy, inflation, GDP, jobs, major index moves, central bank actions, yield/currency moves, sovereign debt.
+2. **Politics with economic/geopolitical impact** — elections, government formation, tariffs, sanctions, major legislation, EU-level fights, war/ceasefire developments.
+3. **Major business/deals** — M&A, IPOs, large earnings beats/misses, corporate restructurings, tech company policy changes that move markets.
+4. **Societal events with systemic weight** — large protests, strikes, energy disruptions, climate events affecting commerce, significant crime/legal cases (e.g. Begoña Gómez trial).
+5. **Culture / obituaries / sport / entertainment** — ONLY if genuinely pivotal (e.g. a former head of state dies, a Nobel laureate, a historic sporting milestone). Maximum one sentence. Never lead a section with this.
+
+Do NOT include or lead with: celebrity/TV-presenter deaths, minor crime, entertainment gossip, tabloid stories, lifestyle puff pieces. If a source's top headline is one of these, skip it and pick the next items with real substance. Marc wants to know what moves markets and what matters politically/economically — not what's trending on social media.
+
 === TEMPORAL ACCURACY RULES (apply throughout all steps) ===
 - Every claim with a time qualifier ("this week", "today", "yesterday", "recently", "just announced", "last Friday") MUST be anchored to the source's actual publication date. If the search result does not include an explicit publication date, EITHER (a) find a dated source, or (b) drop the time qualifier and say "was announced" with no "when".
 - NEVER use "this week" for anything older than 7 days from TODAY. If you're unsure of the age, don't use it.
@@ -113,7 +124,7 @@ Two to four paragraphs on the biggest movers of the day (stock, index, or commod
 Four to eight paragraphs covering the day's top non-market stories from BBC, FT, Bloomberg, NYT, The Economist. Headline, one-sentence impact.
 
 === SPAIN & CATALONIA ===
-Two to four paragraphs from La Vanguardia, El Economista, 3cat.cat. Same bulletin format.
+Two to four paragraphs from La Vanguardia, El Economista, 3cat.cat. Apply the News Curation Priority (see rules section).
 
 === SINGAPORE ===
 Two to four paragraphs from The Straits Times and The Business Times covering Singapore-relevant news: macro, property, major SGX movers, MAS policy, regional Asia developments that affect the city-state. Marc is based in Singapore so this is directly relevant.
