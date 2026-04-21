@@ -90,6 +90,20 @@ except Exception as e:
     print(urllib.request.urlopen(req2).status)
 "
 
+=== STEP 3.5: GENERATE PERSONAL TASK LIST ===
+Before writing the podcast source doc, pull Marc's Task Command Center tasks due today and overdue. Run via bash:
+
+PY="C:/Users/marc.ARISPRIME/AppData/Local/Programs/Python/Python311/python.exe"
+SCRIPTS="C:/Temp/sushi-scripts"
+mkdir -p "$SCRIPTS"
+curl -sSL -H "Authorization: token $GITHUB_PAT" \
+  "https://api.github.com/repos/mparellada/market-briefing/contents/sushi/daily_tasks.py" \
+  -H "Accept: application/vnd.github.v3.raw" \
+  -o "$SCRIPTS/daily_tasks.py"
+"$PY" "$SCRIPTS/daily_tasks.py" "C:/Temp/tasks-today.txt"
+
+The script emits a `=== YOUR DAY AHEAD ===` block with tasks due today, the top overdue items (with ventures when linked), and the shopping list. In Step 4 you will append this block verbatim as the final section of the podcast source doc.
+
 === STEP 4: WRITE PODCAST SOURCE DOCUMENT (FLASH-NEWS STYLE) ===
 Write C:/Temp/podcast-source.txt — a 3500-5000 word document structured as a FAST-PACED FINANCIAL NEWS BULLETIN, not a narrative essay. Think Bloomberg morning radio.
 
@@ -136,9 +150,11 @@ Two to four paragraphs on the day's AI/tech developments.
 Short punchy assessment for Marc's positions — two to three paragraphs.
 
 === DAY AHEAD ===
-One paragraph on the main events to watch today.
+One paragraph on the main MARKET events to watch today (Fed speakers, earnings, data releases, geopolitical flashpoints).
 
 On Mondays only, add a "Weekly Extras" section after Day Ahead with KOSPI, HSI, STI, WTI, EUR/SGD, USD/SGD, USD/THB, and top-three crypto movers beyond BTC. On other days, skip this entirely.
+
+**Final section — append verbatim** the full contents of C:/Temp/tasks-today.txt (generated in Step 3.5) at the very end of podcast-source.txt. The file already starts with `=== YOUR DAY AHEAD ===` and contains tasks due today, top overdue items with ventures where linked, and the shopping list. Do NOT rewrite, summarize, or paraphrase it — just append. Use bash: `cat C:/Temp/tasks-today.txt >> C:/Temp/podcast-source.txt` after you finish writing the rest.
 
 Keep sentences short. Numbers spelled where helpful for natural reading (e.g. "zero point two six percent" or "point two six percent" rather than "0.26%"). No filler. No "let's take a closer look" phrases.
 
