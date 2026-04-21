@@ -39,6 +39,11 @@ PROJECT_NAMES = {
     "capitalfacts": "CapitalFacts",
 }
 
+# Projects whose tasks should never appear in the daily briefing.
+# TCC (Third Culture Collective) and CapitalFacts are handled separately —
+# Marc doesn't want them mixed into the morning run.
+EXCLUDED_PROJECTS = {"tcc", "capitalfacts"}
+
 PRIORITY_LABEL = {"0": "low", "1": "medium", "2": "high", "3": "critical"}
 
 
@@ -137,6 +142,8 @@ def build_section(tasks: list[dict]) -> str:
 
     for t in tasks:
         if t["completed"] or t["kiv"]:
+            continue
+        if t["project"] in EXCLUDED_PROJECTS:
             continue
         if t["project"] == "shopping":
             shopping.append(t)
