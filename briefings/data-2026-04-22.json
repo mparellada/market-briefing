@@ -1,0 +1,229 @@
+{
+  "date": "Wednesday, April 22 2026",
+  "sentiment": "Cautious",
+  "pulse": "Markets closed mixed-to-lower on Tuesday April 21 as investors grew anxious over the US-Iran ceasefire deadline expiring April 23. VIX spiked 9 percent, S and P fell point six three percent, Nikkei rose one point zero nine percent on AI tailwinds. Tesla Q1 2026 earnings after close today are the day key catalyst.",
+  "movers": [
+    {
+      "name": "VIX",
+      "change_pct": "+9.15%",
+      "reason": "Ceasefire deadline anxiety before April 23 expiry"
+    },
+    {
+      "name": "GOLD",
+      "change_pct": "-0.81%",
+      "reason": "Profit-taking from intraday high of 4881"
+    },
+    {
+      "name": "N225",
+      "change_pct": "+1.09%",
+      "reason": "AI and tech rally; insulated from Middle East energy risk"
+    },
+    {
+      "name": "BRENT",
+      "change_pct": "+0.28%",
+      "reason": "Ceasefire uncertainty and Hormuz shipping constraints"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7064.01",
+      "-44.58",
+      "-0.63%"
+    ],
+    [
+      "NDX",
+      "26560.79",
+      "-112.33",
+      "-0.42%"
+    ],
+    [
+      "DJI",
+      "49149.38",
+      "-293.18",
+      "-0.59%"
+    ],
+    [
+      "N225",
+      "59348.95",
+      "+641.58",
+      "+1.09%"
+    ],
+    [
+      "STOXX50",
+      "5915.34",
+      "-8.28",
+      "-0.14%"
+    ],
+    [
+      "IBEX35",
+      "18142.60",
+      "-175.80",
+      "-0.96%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1703",
+      "--",
+      "--"
+    ]
+  ],
+  "futures": [
+    [
+      "ES-Front",
+      "7040",
+      "--",
+      "--"
+    ],
+    [
+      "NQ-Front",
+      "26480",
+      "--",
+      "--"
+    ]
+  ],
+  "commodities": [
+    [
+      "GOLD",
+      "4782.14",
+      "-39.22",
+      "-0.81%"
+    ],
+    [
+      "BRENT",
+      "95.75",
+      "+0.27",
+      "+0.28%"
+    ],
+    [
+      "VIX",
+      "19.08",
+      "+1.60",
+      "+9.15%"
+    ]
+  ],
+  "stocks": [
+    [
+      "TSLA",
+      "--",
+      "--",
+      "Q1 2026 earnings after close today"
+    ],
+    [
+      "GCL",
+      "--",
+      "--",
+      "Pending latest SGX data"
+    ]
+  ],
+  "portfolio": "Cautious. Gold near all-time levels - trailing stop review at 4700. Brent 95.75 supports oil positions. IBEX35 down ~1% April 21; Spain IMF downgrade and oil inflation headwind. BTC ~76k - watch 75000 support. SGD strengthening post-MAS April 14.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Iran-US ceasefire expires April 23 - breakdown could trigger oil spike and risk-off selloff."
+    },
+    {
+      "level": "warn",
+      "text": "VIX spiked 9.15% to 19.08 on April 21 - consider hedges before deadline."
+    },
+    {
+      "level": "warn",
+      "text": "Tesla Q1 2026 earnings after close today - binary risk for Nasdaq."
+    },
+    {
+      "level": "warn",
+      "text": "Spain inflation 3.3% two-year high; Royal Decree-Law 7/2026 introduces rent freeze."
+    },
+    {
+      "level": "info",
+      "text": "Amazon invested 5B more in Anthropic April 20; Anthropic pledges 100B to AWS."
+    },
+    {
+      "level": "info",
+      "text": "MAS tightened SGD appreciation band April 14 - SGD may continue strengthening."
+    }
+  ],
+  "news": [
+    {
+      "title": "US-Iran Ceasefire Deadline April 23 Drives Market Anxiety",
+      "text": "Trump indicated he may extend the ceasefire deal as Iranian officials reportedly refused direct negotiations. April 23 is the dominant macro risk. Breakdown could send Brent above 100 and trigger flight to gold and Treasuries."
+    },
+    {
+      "title": "VIX Spikes 9 Percent on April 21",
+      "text": "CBOE Volatility Index rose 9.15% to 19.08 on April 21. S and P 500 fell point six three percent, Dow dropped 293 points. Options traders aggressively bought downside protection."
+    },
+    {
+      "title": "Amazon Invests Additional 5 Billion in Anthropic April 20",
+      "text": "Amazon announced 5 billion top-up investment in Anthropic; Anthropic pledges 100 billion in AWS cloud spending and secures 5 GW of compute. Cements AWS as primary backbone for frontier AI."
+    },
+    {
+      "title": "Nikkei 225 Rises 1.09 Percent Against Global Selloff",
+      "text": "Japan Nikkei bucked global trend, rising to 59348 on April 21. AI and tech stocks rallied; weaker yen boosted export-oriented companies."
+    },
+    {
+      "title": "Tesla Q1 2026 Earnings After Close Today",
+      "text": "Tesla reports Q1 results after bell April 22. Focus on deliveries, margins, and guidance. A miss could deepen the Nasdaq pullback."
+    },
+    {
+      "title": "IBM ServiceNow Lam Research Report Earnings Today",
+      "text": "IBM, ServiceNow, Lam Research, Crown Castle, and Kinder Morgan all report April 22. ServiceNow and Lam Research watched for AI infrastructure spending signals."
+    },
+    {
+      "title": "Anthropic Mythos Model Deemed Too Dangerous for Release",
+      "text": "Anthropic revealed April 16 its Mythos model could exploit vulnerabilities in computing systems and was withheld. Claude Opus 4.7 released as safe enterprise flagship."
+    },
+    {
+      "title": "Trump Says Pentagon-Anthropic Deal Possible",
+      "text": "President Trump told CNBC April 21 a Department of Defense deal with Anthropic is possible following very good White House talks."
+    },
+    {
+      "title": "Spain Triggers 5 Billion Euro Emergency Economic Plan",
+      "text": "Spain activated 5 billion euro emergency response as oil pushed inflation to 3.3% two-year high. Royal Decree-Law 7/2026 introduces rent freeze and cuts VAT on fuel to 10%. IMF downgraded Spain 2026 GDP to 2.1%."
+    },
+    {
+      "title": "MAS Tightens SGD Appreciation Band April 14",
+      "text": "Singapore MAS increased SGD appreciation rate citing imported inflation. Singapore Q1 2026 GDP grew 4.6% year-on-year. Hormuz disruption pushing energy costs higher."
+    },
+    {
+      "title": "The Economist Can Five Men Be Trusted with AI",
+      "text": "Economist April 18-24 cover argues laissez-faire AI era is no longer politically tenable. Calls for rethinking concentration of frontier AI power."
+    },
+    {
+      "title": "Stanford AI Index 2026 Generative AI at 53 Percent Adoption",
+      "text": "Generative AI hit 53% population adoption in three years - faster than PC or internet. Software developer employment ages 22-25 dropped nearly 20% since 2024."
+    },
+    {
+      "title": "Spain Unemployment 9.8 Percent Second Highest in EU",
+      "text": "Spain unemployment 9.8% in 2026. Spain still expected to lead EU GDP growth for a fifth consecutive year."
+    },
+    {
+      "title": "OpenAI Codex Expands to Computer Use and Web Workflows",
+      "text": "OpenAI Codex expanded beyond coding in April. Weekly developers grew from 3 million to 4 million. Enterprise revenue exceeds 40% of total."
+    }
+  ],
+  "day_ahead": "April 22: Tesla Q1 earnings after close is primary catalyst. IBM, ServiceNow, Lam Research, Crown Castle, Kinder Morgan also report. Iran ceasefire deadline April 23 - any diplomatic statement today moves oil and risk assets. Watch Fed speakers and Treasury auctions.",
+  "ai_news": [
+    {
+      "title": "Amazon 5B Anthropic Investment 100B AWS Commitment April 20",
+      "text": "Amazon deepened frontier AI bet with 5 billion investment and 100 billion AWS spend commitment securing 5 GW of compute. One of the largest cloud-AI deals ever announced."
+    },
+    {
+      "title": "Anthropic Mythos 10-Trillion Parameter Model Withheld on Safety Grounds",
+      "text": "Mythos model posed unacceptable cybersecurity risks. Claude Opus 4.7 released April 16 as safe alternative."
+    },
+    {
+      "title": "OpenAI GPT-5.4 Thinking Variant Surpasses Human Level",
+      "text": "GPT-5.4 Thinking achieved 75% on OSWorld-Verified desktop benchmark. Enterprise revenue exceeded 40% of total."
+    },
+    {
+      "title": "Google DeepMind Gemma 4 Released Under Apache 2.0",
+      "text": "Gemma 4 supports multi-step planning, autonomous action, offline code generation, 140-plus languages."
+    },
+    {
+      "title": "Q1 2026 AI Venture Funding Record 267 Billion Dollars",
+      "text": "Q1 2026 AI VC funding hit 267.2 billion globally per Stanford AI Index."
+    }
+  ]
+}
