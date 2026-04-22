@@ -1,0 +1,235 @@
+{
+  "date": "Thursday, April 23 2026",
+  "sentiment": "Risk-On",
+  "pulse": "US equities pushed to fresh record highs Wednesday as Trump extended the Iran ceasefire indefinitely, lifting tech stocks and the S&P 500 above 7,100. The Strait of Hormuz remains contested with Iran seizing third-party vessels, keeping Brent above $100 and VIX near 20. Tesla Q1 EPS beat but capex guidance raised $5bn, sending shares volatile after the bell. Warsh pledged Fed independence at his Senate confirmation hearing.",
+  "movers": [
+    {
+      "name": "TSLA",
+      "change_pct": "+4.2% AH then reversal",
+      "reason": "Q1 EPS beat 41c vs 37c est; gains pared after capex raised $5bn to $25bn guidance"
+    },
+    {
+      "name": "NDX",
+      "change_pct": "+1.64%",
+      "reason": "Tech sector led risk-on rally on ceasefire extension; US tech +11% in April"
+    },
+    {
+      "name": "Brent",
+      "change_pct": "+3.30%",
+      "reason": "Iran seized two more ships in Strait of Hormuz keeping supply risk premium elevated"
+    },
+    {
+      "name": "IBEX35",
+      "change_pct": "+0.81%",
+      "reason": "Spanish blue chips near all-time highs on domestic demand and ECB rate cuts"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7137.90",
+      "+74.3",
+      "+1.05%"
+    ],
+    [
+      "NDX",
+      "24657.57",
+      "+397.8",
+      "+1.64%"
+    ],
+    [
+      "DJI",
+      "49490.03",
+      "+338.4",
+      "+0.69%"
+    ],
+    [
+      "N225",
+      "~59200",
+      "+413",
+      "+0.70%"
+    ],
+    [
+      "STOXX50",
+      "~5348",
+      "+32",
+      "+0.60%"
+    ],
+    [
+      "IBEX35",
+      "~17720",
+      "+142",
+      "+0.81%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "~1.0845",
+      "+0.0031",
+      "+0.29%"
+    ]
+  ],
+  "futures": [
+    [
+      "ES (S&P Fut)",
+      "~7152",
+      "+14",
+      "+0.20%"
+    ],
+    [
+      "NQ (Nasdaq Fut)",
+      "~24720",
+      "+62",
+      "+0.25%"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold (XAU/USD)",
+      "$4752",
+      "+$47",
+      "+1.0%"
+    ],
+    [
+      "Brent Crude",
+      "$101.73",
+      "+$3.25",
+      "+3.30%"
+    ],
+    [
+      "VIX",
+      "19.50",
+      "+0.63",
+      "+3.34%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "N/A",
+      "N/A",
+      "N/A",
+      "Singapore-listed; no close data for Apr 22"
+    ],
+    [
+      "GCL",
+      "N/A",
+      "N/A",
+      "N/A",
+      "Check SGX or US listing for latest close"
+    ]
+  ],
+  "portfolio": "US equity positions in strong shape with SPX and NDX at record highs; April tech rally adding roughly 11% to US tech holdings. IBEX35 is Europe standout near all-time highs on 2.3% Spanish GDP forecast and ECB accommodation. Gold at $4752 benefits long positions via war-premium bid. Brent above $100 supports oil exposure but ceasefire extension introduces downside risk if Hormuz resolves. BTC near $78k consolidating with constructive institutional flows. SGD caution: MAS tightened NEER in April; Singapore Q1 GDP contracted 0.3% so STI may face selective pressure.",
+  "alerts": [
+    {
+      "level": "warn",
+      "text": "Iran seized MSC Francesca and Epaminondas in Strait of Hormuz on Apr 22 despite ceasefire - Brent above $100"
+    },
+    {
+      "level": "warn",
+      "text": "Tesla capex guidance raised $5bn to $25bn for 2026 - FCF pressure; AH gains reversed"
+    },
+    {
+      "level": "info",
+      "text": "Warsh Fed nomination: pledged independence; DOJ Powell probe complicates Republican Senate support"
+    },
+    {
+      "level": "info",
+      "text": "Singapore Q1 2026 GDP -0.3% q/q; MAS tightened NEER in April review; core CPI 1.5-2.5%"
+    },
+    {
+      "level": "info",
+      "text": "Anthropic Mythos breached on launch day via vendor URL guessing - enterprise security concern"
+    },
+    {
+      "level": "info",
+      "text": "IMF cut 2026 global growth to 3.1% (shadow of US-Iran war); headline inflation to rise modestly"
+    }
+  ],
+  "news": [
+    {
+      "title": "Trump Extends Iran Ceasefire Indefinitely as Hormuz Tensions Persist",
+      "text": "President Trump extended the US-Iran ceasefire at Pakistan's request, giving Tehran time to present a unified proposal. Iran seized at least two commercial vessels on April 22, with the White House stating non-US ship seizures do not constitute a ceasefire violation. Iran's parliamentary speaker called the US naval blockade itself a violation."
+    },
+    {
+      "title": "S&P 500 and Nasdaq Hit Fresh Records on Tech Rally",
+      "text": "The S&P 500 rose 1.05% to 7,137.90 and the Nasdaq gained 1.64% to 24,657.57 on Wednesday April 22, both closing at record highs. US tech is up roughly 11% for April as markets price in de-escalation from the ceasefire extension."
+    },
+    {
+      "title": "Tesla Q1 2026: EPS Beat, Revenue Miss, Capex Shock",
+      "text": "Tesla reported Q1 2026 EPS of 41 cents adjusted, beating the 37-cent estimate, on revenue of $22.39 billion versus the $22.64 billion consensus. Deliveries of 358,023 missed the 365,645 estimate. Shares rose 4% after hours then pared gains after Tesla raised full-year capex by $5 billion to $25 billion."
+    },
+    {
+      "title": "Kevin Warsh Vows Fed Independence at Senate Hearing",
+      "text": "Trump Fed chair nominee Kevin Warsh testified April 21, pledging he would not be a sock puppet for the president, while arguing the Fed may cut rates without stoking inflation given AI productivity gains. Confirmation is uncertain as a DOJ investigation into current Fed Chair Powell is complicating Republican support."
+    },
+    {
+      "title": "IMF Cuts 2026 Global Growth Forecast to 3.1%",
+      "text": "The IMF April 14 World Economic Outlook projects global growth at 3.1% in 2026 and 3.2% in 2027, below recent outcomes and well under the pre-pandemic 3.7% average. The base case assumes a limited Middle East conflict with a 19% rise in energy prices."
+    },
+    {
+      "title": "Brent Crude Above $100 as Hormuz Shipping Attacks Continue",
+      "text": "Brent crude rose 3.30% to $101.73 per barrel on April 22 after Iran attacked at least three commercial ships in the Strait of Hormuz, which handles roughly 20% of global oil trade. The US naval blockade continues alongside the formal ceasefire."
+    },
+    {
+      "title": "The Economist: Can Five Men Be Trusted With AI?",
+      "text": "The Economist April 18-24 cover story The Mythos Moment questions whether five tech CEOs can be trusted with transformative AI power, arguing America's laissez-faire governance approach is no longer politically tenable or strategically wise."
+    },
+    {
+      "title": "Amazon Commits Another $25 Billion to Anthropic",
+      "text": "Amazon announced April 20 it will invest up to an additional $25 billion in Anthropic as part of an expanded AI infrastructure deal, deepening the AWS cloud-AI partnership. Anthropic is approaching $19 billion in annualized revenue."
+    },
+    {
+      "title": "Singapore Q1 GDP Contracts 0.3%, MAS Tightens NEER",
+      "text": "Singapore's economy shrank 0.3% q/q in Q1 2026 after 1.3% growth the prior quarter, as higher energy costs and weaker global demand weighed on the export-dependent city-state. MAS in its April review increased the NEER appreciation rate with core inflation projected at 1.5-2.5%."
+    },
+    {
+      "title": "IBEX35 Near All-Time High as Spain Outperforms Europe",
+      "text": "Spain's IBEX35 is near record territory having gained 44% over twelve months. European Commission forecasts Spanish GDP at 2.3% for 2026 with unemployment set to fall below 10%, supported by domestic demand and ECB rate cuts. Spanish banks contributed roughly 70% of IBEX gains."
+    },
+    {
+      "title": "RFK Jr. Now Recommends Measles Vaccine for Every Child",
+      "text": "US Health Secretary Robert F. Kennedy Jr. said April 22 his department advises every child receive the measles vaccine, a marked shift from his earlier personal-choice framing, following a surge in measles cases and pressure from pediatric health groups."
+    },
+    {
+      "title": "Companies Warn Iran War Driving Up Costs Globally",
+      "text": "Consumer goods, travel, and mining companies warned April 22 that the US-Israeli conflict with Iran is driving up costs, disrupting supply chains, and denting consumer confidence globally, per Business Times Singapore reporting."
+    },
+    {
+      "title": "SGX-Nasdaq Dual-Listing Bridge Advances",
+      "text": "Singapore Exchange is progressing on a dual-listing bridge with Nasdaq allowing companies to tap liquidity in two time zones simultaneously, part of MAS multi-year push to attract issuers and revitalize SGX capital markets."
+    },
+    {
+      "title": "FC Barcelona Wins Record Seventh Consecutive La Liga",
+      "text": "FC Barcelona secured a record seventh consecutive La Liga championship in April 2026, a commercial milestone given the club's ongoing debt restructuring and global brand monetization strategy."
+    },
+    {
+      "title": "OECD: Spain Among Top 10 for Labor Tax Burden",
+      "text": "An OECD report in April ranked Spain among the ten member states with the highest taxes on labor. El Economista reported this as a structural competitiveness headwind despite strong near-term GDP growth."
+    }
+  ],
+  "day_ahead": "Thursday April 23 events: US initial jobless claims (~215k consensus, 8:30am ET). Multiple Fed speakers expected post-Warsh hearing. Sant Jordi Day in Catalonia. Singapore Open golf at Sentosa Golf Club (April 23-26). TIME100 summit in New York. Iran peace talk watch - Tehran not yet decided on new talks this week. Brent crude and VIX tracking Hormuz headlines.",
+  "ai_news": [
+    {
+      "title": "Anthropic Launches Claude Mythos 5 - Breached on Day One",
+      "text": "Anthropic released Claude Mythos 5, a ten-trillion-parameter model for advanced cybersecurity and coding, but the launch was marred by unauthorized users accessing Mythos Preview on launch day by guessing a vendor environment URL. Anthropic confirmed it is investigating."
+    },
+    {
+      "title": "Anthropic Secures Multi-Gigawatt TPU Deal with Alphabet and Broadcom",
+      "text": "Anthropic announced April 22 that starting in 2027 it will deploy multiple gigawatts of next-generation TPU computing from an Alphabet-Broadcom joint venture. Broadcom expects its custom AI chip business to exceed $100 billion annually by end of 2027."
+    },
+    {
+      "title": "Google Signs Multibillion-Dollar Deal with Mira Murati Thinking Machines Lab",
+      "text": "Google deepened ties with Thinking Machines Lab, the startup from former OpenAI executive Mira Murati, through a new multibillion-dollar agreement announced April 22 for expanded Google Cloud AI infrastructure access."
+    },
+    {
+      "title": "OpenAI Tops $25 Billion Revenue, Eyes Late-2026 IPO",
+      "text": "OpenAI has surpassed $25 billion in annualized revenue and is taking early steps toward a public listing potentially as soon as late 2026, while Anthropic approaches $19 billion in annualized revenue."
+    },
+    {
+      "title": "Anthropic Tests Removing Claude Code from Pro Tier",
+      "text": "Anthropic is testing removal of Claude Code from its Pro subscription for roughly 2% of new signups, citing changed usage patterns since the plan was designed. Existing Pro and Max subscribers are not affected."
+    }
+  ]
+}
