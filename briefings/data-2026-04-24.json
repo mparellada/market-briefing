@@ -1,0 +1,246 @@
+{
+  "date": "Friday, April 24 2026",
+  "sentiment": "Risk-Off",
+  "pulse": "Equities fell Thursday as Iran parliament speaker vowed the Strait of Hormuz stays closed while the US naval blockade persists, sending WTI up 4 percent to near 97 dollars and reigniting Middle East conflict fears. Intel smashed Q1 expectations with EPS of 29 cents versus minus one cent expected, sending shares up 20 percent after hours on AI data-centre demand. The IMF April World Economic Outlook cut global growth to 3.1 percent for 2026 citing the war premium embedded in energy and supply chains.",
+  "movers": [
+    {
+      "name": "INTC",
+      "change_pct": "+20% AH",
+      "reason": "Intel Q1 2026 EPS 0.29 vs -0.01 expected; revenue 13.58B vs 12.42B. AI data-centre demand driving multi-quarter recovery."
+    },
+    {
+      "name": "WTI",
+      "change_pct": "+4.06%",
+      "reason": "Iran parliament speaker Ghalibaf said Strait of Hormuz stays closed while US naval blockade persists despite ceasefire extension."
+    },
+    {
+      "name": "BTC",
+      "change_pct": "+4.03%",
+      "reason": "Institutional whale accumulation; Bitcoin recovering as crypto diverges from equity risk-off."
+    },
+    {
+      "name": "Gold",
+      "change_pct": "+0.82%",
+      "reason": "Safe-haven demand as Middle East ceasefire teeters; gold at record 4758 per ounce."
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7108.40",
+      "-29.37",
+      "-0.41%"
+    ],
+    [
+      "Nasdaq Composite",
+      "24438.50",
+      "-219.80",
+      "-0.89%"
+    ],
+    [
+      "DJI",
+      "49310.32",
+      "-179.71",
+      "-0.36%"
+    ],
+    [
+      "N225",
+      "59140.23",
+      "-448.21",
+      "-0.75%"
+    ],
+    [
+      "STOXX50",
+      "5906.22",
+      "-24.32",
+      "-0.41%"
+    ],
+    [
+      "IBEX35",
+      "~18376",
+      "-",
+      "Apr 21 latest available"
+    ],
+    [
+      "STI",
+      "5002.72",
+      "-12.24",
+      "-0.24%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "~1.1813",
+      "key pivot",
+      "61.8% retracement of Jan decline"
+    ],
+    [
+      "USD/SGD",
+      "~1.32",
+      "firmer SGD",
+      "MAS NEER tightened April 14"
+    ]
+  ],
+  "futures": [
+    [
+      "ES S&P Futures",
+      "mixed",
+      "Intel AH surge vs Iran oil risk"
+    ],
+    [
+      "Brent crude",
+      "94.14",
+      "+1.26%"
+    ],
+    [
+      "WTI crude",
+      "96.73",
+      "+4.06%"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold",
+      "4758.40",
+      "+38.80",
+      "+0.82%"
+    ],
+    [
+      "Brent",
+      "94.14",
+      "+1.17",
+      "+1.26%"
+    ],
+    [
+      "WTI",
+      "96.73",
+      "+3.78",
+      "+4.06%"
+    ],
+    [
+      "VIX",
+      "18.92",
+      "-0.58",
+      "-2.97%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "Singapore Institute of Advanced Medicine",
+      "Catalist healthcare",
+      "no fresh price Apr 24"
+    ],
+    [
+      "GCL",
+      "GCL Global Holdings NASDAQ",
+      "video game entertainment",
+      "0.80 -14.27% recently"
+    ]
+  ],
+  "portfolio": "Marc SGD-base portfolio faces a bifurcated environment. IBEX35 (up 41 percent year-on-year) outperforms on Spanish bank strength and 2.3 percent GDP growth forecast, but global risk-off from Iran is a headwind. STI dipped again as DBS, OCBC, and UOB all fell on Middle East concerns and MAS tightening. Gold at 4758 is working as a hedge. Brent at 94 supports any energy-linked exposure. BTC up 4 percent is diverging from equities on institutional accumulation. GCL fell sharply recently. 9G2 healthcare is defensive and oil-shock insulated. US tech faces near-term headwinds but Intel earnings could lift semis today. EUR/USD at 1.18 is at a key technical pivot.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Strait of Hormuz: Iran parliament confirms strait stays closed while US naval blockade continues - supply shock ongoing."
+    },
+    {
+      "level": "danger",
+      "text": "IMF cut 2026 global growth to 3.1% from 3.4%; headline inflation rising to 4.4% - stagflation risk elevated."
+    },
+    {
+      "level": "warn",
+      "text": "US seized second Iranian oil tanker - ceasefire collapse risk elevated."
+    },
+    {
+      "level": "warn",
+      "text": "GCL Global Holdings down ~14% recently - position review warranted."
+    },
+    {
+      "level": "info",
+      "text": "Intel Q1 2026 massive beat EPS 0.29 vs -0.01 - may lift semiconductor sector today."
+    },
+    {
+      "level": "info",
+      "text": "MAS tightened NEER appreciation pace April 14 - SGD bias slightly stronger."
+    }
+  ],
+  "news": [
+    {
+      "title": "Iran Vows Strait of Hormuz Stays Closed",
+      "text": "Iran parliament speaker Ghalibaf said on April 23 that Iran will not reopen the Strait of Hormuz while the US naval blockade persists, calling it a blatant ceasefire violation. President Trump extended the ceasefire at Pakistan request but the strait remains effectively closed, keeping 20 percent of global oil supply disrupted."
+    },
+    {
+      "title": "US Seizes Second Iranian Oil Tanker",
+      "text": "The US seized a second tanker carrying Iranian oil following Trump threats against Iranian boats he said were laying mines in the Strait of Hormuz. The move risks further inflaming tensions and pushing the fragile ceasefire toward collapse."
+    },
+    {
+      "title": "IMF Cuts Global Growth to 3.1 Percent for 2026",
+      "text": "The IMF April 14 World Economic Outlook cut the global growth forecast to 3.1 percent for 2026 and 3.2 percent for 2027, down from 3.4 percent in 2025, citing the Middle East war premium. Global headline inflation is projected to rise to 4.4 percent in 2026 before declining in 2027."
+    },
+    {
+      "title": "EU Approves Heavy Military Package for Ukraine",
+      "text": "A European assistance package heavily weighted toward military spending was approved to help Ukraine in a long fight, with NATO allies pledging close to 17 billion dollars in new military assistance in mid-April. Europe has now more than doubled US support for Ukraine after Washington suspended military aid since March 2025."
+    },
+    {
+      "title": "Hamas Signals Weapons Handover in Gaza",
+      "text": "Two senior Hamas officials told the New York Times that the group is prepared to relinquish thousands of automatic rifles from its police force to the Palestinian administrative committee governing Gaza under the Board of Peace, a potential step toward de-escalation."
+    },
+    {
+      "title": "Iran Collective Leadership After Khamenei",
+      "text": "The killing of Ayatollah Ali Khamenei has ushered in collective leadership in Iran with more power for the Revolutionary Guards, a structural shift complicating US-Iran diplomatic channels and ceasefire negotiations."
+    },
+    {
+      "title": "JPMorgan Readies Fresh Private Credit Push",
+      "text": "JPMorgan is readying a new private credit push according to Bloomberg, as institutional capital floods into alternative lending amid volatile public markets. Pimco separately lent 10 billion dollars to Gulf sovereign entities in wartime bond deals."
+    },
+    {
+      "title": "Intel Smashes Q1 2026 Expectations",
+      "text": "Intel reported Q1 2026 adjusted EPS of 29 cents versus minus one cent expected and revenue of 13.58 billion versus 12.42 billion expected, sending shares up approximately 20 percent in after-hours trade on April 23. AI data-centre demand is driving a multi-quarter recovery; Intel stock is up over 80 percent year-to-date."
+    },
+    {
+      "title": "Singapore MAS Tightened Policy as Iran War Stokes Inflation",
+      "text": "The Monetary Authority of Singapore tightened monetary policy on April 14 by increasing the S dollar NEER appreciation rate, citing energy-driven inflation from the Middle East conflict. Singapore Q1 2026 GDP expanded 4.6 percent year-on-year but slipped 0.3 percent quarter-on-quarter, with core inflation projected at 1.5 to 2.5 percent."
+    },
+    {
+      "title": "STI Falls as Singapore Banks Drag Index",
+      "text": "Singapore Straits Times Index fell 0.24 percent to 5002.72 on April 22 as DBS slid 0.5 percent, OCBC dropped 0.1 percent, and UOB fell 0.7 percent, reflecting concerns about prolonged Middle East conflict and higher energy costs on regional trade."
+    },
+    {
+      "title": "Spain IBEX35 Continues Strong Performance",
+      "text": "Spain IBEX35 traded around 18376 as of April 21, up 8.81 percent for the month and 41.24 percent year-on-year, building on the 2025 near-50 percent gain driven by bank earnings and ECB policy. Spain GDP is forecast at 2.3 percent growth for 2026, among Europe most resilient economies."
+    },
+    {
+      "title": "Google Launches AI Agent Suite on April 22",
+      "text": "Google unveiled tools to build and track AI agents within companies on April 22, directly challenging OpenAI and Anthropic. The suite includes dedicated inboxes for virtual bots to post progress reports, built on Google Cloud infrastructure with Nvidia GB300 chips."
+    },
+    {
+      "title": "Frontier Model Forum Blocks Chinese AI Distillation",
+      "text": "OpenAI, Anthropic, and Google announced through the Frontier Model Forum they will share threat intelligence to block Chinese AI firms from adversarial distillation. Anthropic alleges DeepSeek and others created 24000 fraudulent accounts and extracted 16 million Claude model exchanges to train competing models."
+    },
+    {
+      "title": "Economist April Issue: The Mythos Moment",
+      "text": "The Economist April 18-24 issue titled The Mythos Moment questions whether a handful of tech CEOs controlling transformative AI systems can be trusted with that power, as governance frameworks globally struggle to keep pace with accelerating model capabilities."
+    }
+  ],
+  "day_ahead": "Friday April 24: Intel after-hours beat may lift semiconductor names at the US open. Key focus: Iran-US signals on the Strait of Hormuz and whether Trump addresses the naval blockade. Monthly options expiry in the US adds volatility risk. European flash PMI data may show energy shock impact on manufacturing. Singapore Open golf at Sentosa continues through April 26.",
+  "ai_news": [
+    {
+      "title": "Anthropic Claude Mythos 5: Ten-Trillion Parameter Model",
+      "text": "Anthropic released Claude Mythos 5, described as the first ten-trillion-parameter model, engineered for cybersecurity, academic research, and complex coding environments. Anthropic separately signed an Amazon deal for up to 5 gigawatts of compute capacity for training and deployment."
+    },
+    {
+      "title": "Google Expands Thinking Machines Lab Deal on April 22",
+      "text": "Google signed a multibillion-dollar agreement on April 22 with Thinking Machines Lab, the startup from former OpenAI executive Mira Murati, expanding access to Google Cloud AI infrastructure including Nvidia GB300 GPU clusters."
+    },
+    {
+      "title": "Frontier Model Forum Blocks Chinese AI Distillation",
+      "text": "OpenAI, Anthropic, and Google will share threat intelligence through the Frontier Model Forum to block Chinese AI firms from adversarial distillation, after Anthropic alleged DeepSeek extracted 16 million Claude exchanges via 24000 fraudulent accounts."
+    },
+    {
+      "title": "Google DeepMind Launches Gemini 3.1",
+      "text": "Google DeepMind launched Gemini 3.1, a suite emphasizing native multimodal reasoning and real-time processing, as part of Google push to lead the enterprise AI agent market and compete with OpenAI GPT-5 and Anthropic Mythos."
+    }
+  ]
+}
