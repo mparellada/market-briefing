@@ -1,0 +1,220 @@
+{
+  "date": "Saturday, April 25 2026",
+  "sentiment": "Risk-On",
+  "pulse": "US equities closed at fresh record highs on Friday April 24, driven by a blowout Intel Q1 2026 earnings beat. S&P 500 hit 7165 and Nasdaq 24837. DOJ dropped probe into Fed Chair Powell. US-Iran ceasefire extended April 21 but Strait of Hormuz stays closed, keeping Brent above 106 dollars and IMF projecting 4.4 percent global headline inflation.",
+  "movers": [
+    {
+      "name": "INTC",
+      "change_pct": "+20%",
+      "reason": "Intel Q1 2026 beat: revenue 13.6B vs 12.42B; data center +22% to 5.1B on AI CPU demand; Q2 guide 13.8-14.8B vs 13.07B consensus"
+    },
+    {
+      "name": "NVDA",
+      "change_pct": "+4.8%",
+      "reason": "Intel data center beat signals rising AI spend; Nvidia hit 209.18 approaching all-time high"
+    },
+    {
+      "name": "AMD",
+      "change_pct": "+10%+",
+      "reason": "Chip sector rally on Intel results; AMD, Qualcomm, ARM all +10%+ on broadening AI compute thesis"
+    },
+    {
+      "name": "BRENT",
+      "change_pct": "+5% weekly",
+      "reason": "Iran seized ships in Strait of Hormuz; Baker Hughes warns reopening unlikely before H2 2026"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7165.08",
+      "+56.34",
+      "+0.79%"
+    ],
+    [
+      "Nasdaq",
+      "24836.60",
+      "+398.10",
+      "+1.63%"
+    ],
+    [
+      "DJI",
+      "49230.71",
+      "-79.61",
+      "-0.16%"
+    ],
+    [
+      "N225",
+      "~59500",
+      "+~356",
+      "+0.60%"
+    ],
+    [
+      "STOXX50",
+      "5883.48",
+      "-11.18",
+      "-0.19%"
+    ],
+    [
+      "IBEX35",
+      "~17800",
+      "N/A",
+      "near all-time record"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1689",
+      "+0.0006",
+      "+0.05%"
+    ]
+  ],
+  "futures": [],
+  "commodities": [
+    [
+      "Gold",
+      "~4736",
+      "N/A",
+      "near multi-month highs"
+    ],
+    [
+      "Brent",
+      "~106.80",
+      "N/A",
+      "+~5% on week"
+    ],
+    [
+      "VIX",
+      "19.31",
+      "+0.39",
+      "+2.06%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "N/A",
+      "N/A",
+      "N/A Saturday"
+    ],
+    [
+      "GCL",
+      "N/A",
+      "N/A",
+      "N/A Saturday"
+    ]
+  ],
+  "portfolio": "Marc SGD-base: US long strongly positive on new record highs from AI chip earnings. IBEX35 near all-time record on Spanish outperformance. Gold ~4736 benefits from Iran safe-haven and inflation bids. Brent above 106 double-edged. BTC ~78254 up 5.8% over 5 days. SGD positions face headwind: Singapore GDP contracted 0.3% Q1 2026, MAS tightened S-dollar NEER. EUR/USD at 1.1689 stable. Key risk: Hormuz closure past August pushes Brent to 110+ and pressures all risk assets.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Strait of Hormuz effectively closed. Baker Hughes (April 24) says reopening unlikely before H2 2026. Brent above 106. Stagflation risk elevated."
+    },
+    {
+      "level": "warn",
+      "text": "Singapore Q1 2026 GDP contracted 0.3% QoQ. MAS tightened S-dollar NEER. Monitor STI and 9G2.SI."
+    },
+    {
+      "level": "warn",
+      "text": "Meta announcing ~10% workforce cut amid AI spending ramp."
+    },
+    {
+      "level": "info",
+      "text": "DOJ dropped criminal probe into Fed Chair Powell on April 24."
+    },
+    {
+      "level": "info",
+      "text": "EU approved 106B Ukraine loan on April 23."
+    },
+    {
+      "level": "info",
+      "text": "Intel +20% post-earnings ignited semiconductor rally. Nvidia approaching all-time high at 209."
+    }
+  ],
+  "news": [
+    {
+      "title": "US-Iran Ceasefire Extended But Hormuz Stays Shut",
+      "text": "Trump extended the Iran ceasefire on April 21 citing Tehran being seriously fractured, but Iran continued seizing ships in the Strait of Hormuz. Baker Hughes told investors on April 24 that the waterway may not fully reopen until H2 2026. Brent topped 106.80 per barrel."
+    },
+    {
+      "title": "Intel Q1 2026 Blowout Ignites Semiconductor Rally",
+      "text": "Intel reported Q1 2026 revenue of approximately 13.6 billion dollars up 7.2 percent YoY, with data center revenue jumping 22 percent to 5.1 billion on AI CPU demand. Q2 guidance of 13.8 to 14.8 billion crushed analyst estimates. Intel surged approximately 20 percent on April 24, lifting Nvidia 4.8 percent to 209.18 dollars, and AMD, Qualcomm, ARM all above 10 percent."
+    },
+    {
+      "title": "S&P 500 and Nasdaq Hit Fresh All-Time Closing Records",
+      "text": "S&P 500 closed at 7165.08, up 0.79 percent, and Nasdaq at 24836.60, up 1.63 percent, on Friday April 24 - both fresh all-time highs. The Dow dipped 0.16 percent. DOJ dropping the Powell probe added to positive sentiment."
+    },
+    {
+      "title": "DOJ Drops Criminal Probe into Fed Chair Powell",
+      "text": "The US Department of Justice dropped its criminal investigation into Federal Reserve Chair Jerome Powell on April 24, removing a significant tail risk to central bank independence."
+    },
+    {
+      "title": "EU Approves 106 Billion Dollar Ukraine Loan Package",
+      "text": "The European Union approved a 106 billion dollar loan package for Ukraine on April 23, ending months of political deadlock. The funds cover economic and military needs for approximately two years."
+    },
+    {
+      "title": "IMF April WEO: Global Growth 3.1 Percent, Inflation 4.4 Percent",
+      "text": "The IMF April 14 World Economic Outlook cut global growth to 3.1 percent in 2026 citing the Middle East war premium in energy. Global headline inflation projected at 4.4 percent for 2026. Rich-country bond market stress flagged as growing risk."
+    },
+    {
+      "title": "Meta Plans 10 Percent Workforce Cut Amid AI Spending Push",
+      "text": "Meta announced plans to lay off approximately 10 percent of its global workforce as it accelerates AI infrastructure spending and competes in agentic AI."
+    },
+    {
+      "title": "Begona Gomez to Face Trial for Influence Peddling",
+      "text": "A Spanish judge on April 14 agreed to prosecute Begona Gomez, wife of PM Sanchez, for influence peddling, corruption, embezzlement, and misappropriation - a potential political crisis for the Sanchez minority government."
+    },
+    {
+      "title": "Singapore GDP Contracts 0.3 Percent in Q1 2026",
+      "text": "Singapore economy shrank 0.3 percent QoQ in Q1 2026 after growing 1.3 percent in Q4 2025. MAS responded by increasing the rate of appreciation of the S-dollar NEER and projects core CPI at 1.5 to 2.5 percent."
+    },
+    {
+      "title": "OpenAI Tops 25 Billion Annualized Revenue, Eyes Late-2026 IPO",
+      "text": "OpenAI has surpassed 25 billion dollars in annualized revenue and is taking early steps toward a public listing potentially targeting late 2026."
+    },
+    {
+      "title": "Google Releases AI Agent Suite to Challenge OpenAI and Anthropic",
+      "text": "Google on April 22 unveiled AI agent tooling at Google Cloud Next 2026 including the A2A protocol and enterprise bot inbox, its most direct agentic AI push to date."
+    },
+    {
+      "title": "Dutch Intelligence Warns of Gravest Threat Since World War Two",
+      "text": "The Dutch AIVD warned the Netherlands faces the gravest national security threats since World War II, citing aggressive campaigns by China and Russia."
+    },
+    {
+      "title": "Finland Raises Defense Spending to 3.2 Percent of GDP by 2030",
+      "text": "Finland announced plans to increase defense spending from 2.5 to 3.2 percent of GDP by 2030, as NATO eastern flank members ramp military investment."
+    },
+    {
+      "title": "Nikkei Rises 0.6 Percent Ahead of Bank of Japan Policy Decision",
+      "text": "Japan Nikkei 225 rose approximately 0.6 percent toward 59500 on April 24, with semiconductor names leading: Ibiden plus 8.9 percent, Lasertec plus 3 percent."
+    },
+    {
+      "title": "Catalonia Stagflation Warning; Spain Political Risks Build",
+      "text": "Economist Nino-Becerra warned of stagflation risk in Spain as Hormuz-driven oil weighs on business confidence. Begona Gomez trial adds political uncertainty ahead of the Invest in Spain Summit on April 27."
+    }
+  ],
+  "day_ahead": "Saturday April 25 is a non-trading day globally. Key events next week: Bank of Japan policy decision expected Wednesday April 29, watching for rate normalization signals. US Q1 GDP advance estimate Thursday April 30. Euro area flash CPI estimate also April 30. Invest in Spain Summit Madrid Monday April 27. White House Correspondents Dinner tonight April 25. Iran-Hormuz remains the dominant wildcard.",
+  "ai_news": [
+    {
+      "title": "Google Challenges OpenAI and Anthropic with AI Agent Suite",
+      "text": "Google on April 22 launched AI agent tooling at Google Cloud Next 2026 including the A2A protocol and enterprise bot inbox - its most aggressive agentic AI push to date."
+    },
+    {
+      "title": "Anthropic Releases Claude Mythos 5 with 10 Trillion Parameters",
+      "text": "Anthropic launched Claude Mythos 5 in April 2026 with 10 trillion parameters for cybersecurity and coding. Anthropic also signed an Amazon deal securing up to 5 gigawatts of compute capacity."
+    },
+    {
+      "title": "OpenAI Surpasses 25 Billion Dollars in Revenue and Moves Toward IPO",
+      "text": "OpenAI crossed 25 billion dollars in annualized revenue and is taking early IPO steps, potentially targeting late 2026."
+    },
+    {
+      "title": "Thinking Machines Lab Signs Multi-Billion Dollar Google Cloud Deal",
+      "text": "Mira Muratis startup Thinking Machines Lab signed a multibillion-dollar Google Cloud deal on April 22, expanding AI infrastructure access."
+    },
+    {
+      "title": "OpenAI, Anthropic, and Google Unite to Block Chinese Model Copying",
+      "text": "The three leading US AI labs began coordinating through the Frontier Model Forum in April 2026 to block Chinese adversarial distillation of frontier US models."
+    }
+  ]
+}
