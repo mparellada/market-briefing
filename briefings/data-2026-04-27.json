@@ -1,0 +1,280 @@
+{
+  "date": "Monday, April 27 2026",
+  "sentiment": "Cautious",
+  "pulse": "US equities closed Friday at fresh records on Intel blowout earnings and Iran peace optimism, but Monday opens under pressure after Trump cancelled envoy talks in Pakistan over the weekend. Brent crude near 100 dollars. FOMC Wednesday and ECB Thursday dominate the week ahead.",
+  "movers": [
+    {
+      "name": "INTC",
+      "change_pct": "+23.0%",
+      "reason": "Intel blowout Q1 earnings April 25, sharply beat revenue and profit, new all-time record high."
+    },
+    {
+      "name": "SPX",
+      "change_pct": "+0.80%",
+      "reason": "Record close 7165.08 Friday April 25 on tech earnings and Iran ceasefire optimism."
+    },
+    {
+      "name": "NDX",
+      "change_pct": "+1.63%",
+      "reason": "Nasdaq record 24836.60 led by Intel and semiconductor names."
+    },
+    {
+      "name": "N225",
+      "change_pct": "+0.97%",
+      "reason": "Nikkei 225 to 59716 Friday tracking global tech strength."
+    },
+    {
+      "name": "KOSPI",
+      "change_pct": "+0.90%",
+      "reason": "South Korea record close 6476 Thursday; Q1 GDP 1.7% fastest in five years."
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7165.08",
+      "+56.3",
+      "+0.80%"
+    ],
+    [
+      "NDX (Nasdaq Comp)",
+      "24836.60",
+      "+398.4",
+      "+1.63%"
+    ],
+    [
+      "DJI",
+      "49230.71",
+      "-78.9",
+      "-0.16%"
+    ],
+    [
+      "N225",
+      "59716.18",
+      "+575.0",
+      "+0.97%"
+    ],
+    [
+      "STOXX50",
+      "5883.48",
+      "-11.2",
+      "-0.19%"
+    ],
+    [
+      "IBEX35",
+      "neg wk",
+      "neg wk",
+      "Iran energy drag"
+    ],
+    [
+      "KOSPI",
+      "6476.00",
+      "flat Fri",
+      "+0.90% Thu"
+    ],
+    [
+      "HSI",
+      "26149.31",
+      "-309.8",
+      "-1.17%"
+    ],
+    [
+      "STI",
+      "3506.12",
+      "+24.4",
+      "+0.70% wk"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1820",
+      "+0.45%",
+      "Rallied to major pivot 1.1813-1.1826; 61.8% retrace Jan decline"
+    ],
+    [
+      "USD/SGD",
+      "1.2850",
+      "-0.30%",
+      "SGD firm; April month avg 1.285"
+    ],
+    [
+      "EUR/SGD",
+      "1.5170",
+      "derived",
+      "EUR strength combined with SGD firmness"
+    ],
+    [
+      "USD/THB",
+      "31.89",
+      "-0.20%",
+      "THB steady; IMF mid-April reference rate"
+    ]
+  ],
+  "futures": [
+    [
+      "ES (S&P 500)",
+      "7178.25",
+      "-16.50",
+      "-0.23%"
+    ],
+    [
+      "YM (Dow)",
+      "49278.00",
+      "-114.00",
+      "-0.23%"
+    ],
+    [
+      "NQ (Nasdaq 100)",
+      "27373.75",
+      "-61.25",
+      "-0.22%"
+    ],
+    [
+      "RTY (Russell 2000)",
+      "2784.50",
+      "-11.60",
+      "-0.41%"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold (XAU/USD)",
+      "ATH est $3350+",
+      "n/a",
+      "Fresh all-time high; Iran war safe-haven bid"
+    ],
+    [
+      "Brent Crude",
+      "99.78",
+      "+0.43%",
+      "Near $100; Hormuz supply risk premium persists"
+    ],
+    [
+      "WTI Crude",
+      "94.40",
+      "+13% wk",
+      "Iran supply fear dominant driver"
+    ],
+    [
+      "VIX",
+      "18.71",
+      "-3.11%",
+      "Moderate; elevated vs pre-conflict baseline"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "n/a",
+      "n/a",
+      "GCL Technology polysilicon; high energy cost headwind to margins"
+    ],
+    [
+      "GCL (NASDAQ)",
+      "n/a",
+      "n/a",
+      "GCL Global Holdings; Iran energy cost pass-through risk"
+    ]
+  ],
+  "portfolio": "Marc SGD-base portfolio: US equities SPX record 7165 strong watch FOMC Wednesday; IBEX35 under pressure Spain CPI 3.4% Iran energy; STI +0.7% week banks leading steady; KOSPI record-setting positive HSI softer mixed; Gold ATH long position strongly positive; Brent near 100 positive if long watch Iran talk breakdown; BTC approaching 80K bullish at key resistance; GCL and 9G2.SI solar polysilicon margin headwind from high energy costs; USD/SGD 1.285 SGD firm good for SGD-base investor holding USD assets.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Iran peace talks stalled Friday April 25: Trump cancelled Witkoff and Kushner trip to Pakistan after Araghchi departed Islamabad. Oil spike risk reignites with Brent near $100."
+    },
+    {
+      "level": "warn",
+      "text": "FOMC rate decision Wednesday April 29 (8 PM ET): hold expected but Iran-driven inflation language could spook markets. Kevin Warsh confirmation hearing Tuesday."
+    },
+    {
+      "level": "warn",
+      "text": "ECB decision Thursday April 30 (2:15 PM CET): cut versus hold debate active on re-accelerating eurozone inflation."
+    },
+    {
+      "level": "info",
+      "text": "King Charles and Queen Camilla begin 4-day US state visit Monday April 27 including White House meeting with Trump."
+    },
+    {
+      "level": "info",
+      "text": "EU approved $106B Ukraine loan package April 24 plus 20th Russia sanctions package ending months of Hungary deadlock."
+    }
+  ],
+  "news": [
+    {
+      "title": "Iran Peace Talks Stall: Trump Cancels Envoy Trip to Pakistan",
+      "text": "Trump scrapped the planned trip by envoys Witkoff and Kushner to Islamabad on April 25 after Iran FM Araghchi departed without a deal. Ceasefire nominally holds but momentum evaporated, reinserting oil spike risk."
+    },
+    {
+      "title": "EU Approves $106B Ukraine Loan and 20th Russia Sanctions Package",
+      "text": "EU formally approved $106-billion two-year Ukraine loan April 24 ending months of deadlock after Hungary lifted veto, while simultaneously passing its 20th Russia sanctions package."
+    },
+    {
+      "title": "S&P 500 and Nasdaq Close at Records; Intel Soars 23%",
+      "text": "US markets hit fresh all-time highs Friday April 25: SPX 7165.08 up 0.80%, Nasdaq 24836.60 up 1.63%, led by Intel 23% surge on blowout Q1 earnings. S&P erased all 2026 losses in one recovery week."
+    },
+    {
+      "title": "Critical Central Bank Week: FOMC Wednesday ECB Thursday",
+      "text": "Fed announces rate decision Wednesday April 29, expected hold at 3.50-3.75% but Iran-driven inflation language under scrutiny. ECB follows Thursday April 30. Kevin Warsh faces Fed Chair confirmation hearing Tuesday."
+    },
+    {
+      "title": "King Charles and Queen Camilla Begin Four-Day US State Visit",
+      "text": "King Charles III and Queen Camilla arrived Monday April 27 for four-day US visit through April 30 including White House meeting with Trump to shore up transatlantic ties amid Iran policy and trade friction."
+    },
+    {
+      "title": "Pope Leo Reaffirms Death Penalty Inadmissible; Trump Feud Deepens",
+      "text": "Pope Leo reiterated the death penalty is inadmissible, rebuking Trump administration policy. Trump and Pope Leo have clashed publicly on Iran and capital punishment; King Charles reportedly planning Vatican trip to mediate."
+    },
+    {
+      "title": "IMF Cuts 2026 Global Growth to 3.1% as Iran War Reshapes Outlook",
+      "text": "IMF April 2026 World Economic Outlook lowered global growth forecast to 3.1% for 2026, citing higher commodity prices, firmer inflation, and tighter financial conditions from the US-Iran conflict and Hormuz disruption."
+    },
+    {
+      "title": "South Korea KOSPI at Record on 1.7% Q1 GDP Beat",
+      "text": "KOSPI hit record close 6476 week ending April 25, powered by Q1 GDP 1.7% fastest in five years, with strength in tech hardware and industrial exports."
+    },
+    {
+      "title": "Mali Security Crisis: Armed Groups Strike Bamako",
+      "text": "Gunfire and explosions struck Mali capital Bamako in the most significant coordinated attack in years, as jihadist insurgents and separatist rebels exploit Sahel security deterioration."
+    },
+    {
+      "title": "Spain Inflation 3.4% on Iran Energy Shock; 5B Euro Relief Package Approved",
+      "text": "Spanish CPI surged to 3.4% in April from 2.3% in February on Iran energy pass-through. Government approved 5-billion-euro relief package with fuel tax cuts and VAT reduction on petrol and diesel to 10%."
+    },
+    {
+      "title": "Singapore STI Gains 0.7% for Week; Banks Lead Blue-Chip Rally",
+      "text": "STI closed week ending April 25 at 3506.12 up 0.7%, led by banking heavyweights and defensive counters amid steady institutional participation despite Middle East headwinds."
+    },
+    {
+      "title": "Air India Loses CEO Campbell Wilson; Search for Successor Begins",
+      "text": "Air India announced CEO Campbell Wilson stepping down, launching search for new chief executive at carrier still mid-transformation under Tata Group ownership."
+    },
+    {
+      "title": "Hang Seng Falls 1.17%; Hong Kong Softer on Iran Uncertainty",
+      "text": "Hang Seng fell 1.17% to 26149.31 week ending April 25, underperforming regional peers as Iran-related uncertainty weighed on risk appetite and commodity-sensitive stocks."
+    }
+  ],
+  "day_ahead": "Tuesday April 28: Fed Chair nominee Kevin Warsh Senate confirmation hearing. Wednesday April 29 8PM ET: FOMC rate decision, hold at 3.50-3.75% expected, statement language on inflation is the key read. Thursday April 30 2:15PM CET: ECB rate decision, cut versus hold debate live. Ongoing: King Charles US state visit through April 30; Iran ceasefire status fluid, any breakdown triggers oil spike and equity selloff. Earnings season continues with major reports due.",
+  "ai_news": [
+    {
+      "title": "Google DeepMind Builds Strike Team to Close Anthropic Coding Gap",
+      "text": "Sergey Brin leading dedicated DeepMind research team targeting Anthropic coding dominance. Claude Code reached $2.5B annualised run-rate revenue by February 2026, with Anthropic approaching 100% AI-generated code internally versus Google roughly 50%."
+    },
+    {
+      "title": "Google Releases AI Agent Tools Suite Challenging OpenAI and Anthropic",
+      "text": "On April 22, Google unveiled comprehensive enterprise suite to build, deploy, and monitor AI agents for task automation, a direct challenge to OpenAI agent framework and Anthropic Claude computer-use capability."
+    },
+    {
+      "title": "Google and Thinking Machines Lab Sign Multi-Billion Dollar Cloud Deal",
+      "text": "Google signed multi-billion dollar infrastructure agreement with Thinking Machines Lab founded by former OpenAI executive Mira Murati, announced April 22, deepening Google Cloud position as frontier AI backbone."
+    },
+    {
+      "title": "OpenAI Anthropic Google Coordinate Against Chinese Model Distillation",
+      "text": "Three leading US AI labs began sharing intelligence through Frontier Model Forum, announced April 6, to prevent Chinese competitors extracting frontier capabilities via distillation attacks."
+    },
+    {
+      "title": "Anthropic Releases Claude Mythos 5 for Cybersecurity and Advanced Coding",
+      "text": "Anthropic launched Claude Mythos 5 specialised high-parameter model for cybersecurity analysis and advanced agentic coding, extending company lead in security-adjacent AI applications."
+    }
+  ]
+}
