@@ -1,0 +1,219 @@
+{
+  "date": "Tuesday, April 28 2026",
+  "sentiment": "Cautious",
+  "pulse": "Markets extended record highs on Monday before pulling back modestly as US-Iran ceasefire talks remain stalled and Brent crude holds above 107 dollars. The FOMC two-day meeting begins today, Powell final one as Fed chair, with rates widely expected on hold at 3.50-3.75%. Geopolitical risk premium in oil keeps inflation concerns elevated globally while equities show remarkable resilience.",
+  "movers": [
+    {
+      "name": "Nikkei 225",
+      "change_pct": "+1.43%",
+      "reason": "Risk-on rotation into Asia as US stocks hit fresh records; yen weakness supportive for exporters"
+    },
+    {
+      "name": "BTC",
+      "change_pct": "+2.7%",
+      "reason": "Iran-Hormuz proposal lifted crypto alongside risk assets; Bitcoin holding 77-78k range"
+    },
+    {
+      "name": "Brent",
+      "change_pct": "+2.0%",
+      "reason": "Islamabad peace talks collapsed; Strait of Hormuz blockade risk reignited oil bulls"
+    },
+    {
+      "name": "MSCI Frontier",
+      "change_pct": "+10% (April MTD)",
+      "reason": "Best monthly performance since 2009 as investors chase yield outside core markets"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7,173.9",
+      "+7.2",
+      "+0.10%"
+    ],
+    [
+      "NDX",
+      "24,887",
+      "+49.8",
+      "+0.20%"
+    ],
+    [
+      "DJI",
+      "49,168",
+      "-63",
+      "-0.13%"
+    ],
+    [
+      "N225",
+      "60,571",
+      "+854",
+      "+1.43%"
+    ],
+    [
+      "STOXX50",
+      "5,885",
+      "-17.6",
+      "-0.30%"
+    ],
+    [
+      "IBEX35",
+      "N/A",
+      "N/A",
+      "N/A"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1748",
+      "+0.22%",
+      "USD softness on Fed hold expectations and safe-haven rotation"
+    ]
+  ],
+  "futures": [
+    [
+      "US10Y",
+      "~4.35%",
+      "N/A",
+      "Elevated on oil-driven inflation concerns ahead of FOMC"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold (XAU/USD)",
+      "4722",
+      "+5.91",
+      "+0.13%"
+    ],
+    [
+      "Brent Crude",
+      "107.00",
+      "+2.10",
+      "+2.00%"
+    ],
+    [
+      "VIX",
+      "~19",
+      "+~2%",
+      "Approaching 20 on earnings concentration and Iran uncertainty"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "N/A",
+      "N/A",
+      "Singapore-listed GreenTech; monitor SGX movers post MAS review"
+    ],
+    [
+      "GCL",
+      "N/A",
+      "N/A",
+      "China clean energy; watching Brent and Yuan dynamics"
+    ]
+  ],
+  "portfolio": "Gold at 4,722 per ounce is performing strongly, up roughly 25% YTD, directly benefiting the gold position. Oil above 107 is positive for oil exposure but adds inflationary headwinds. BTC at roughly 78k remains range-bound; key level is 80k resistance. IBEX35 faces headwinds from European services contraction and Spain energy sector investigations. US equity positions at records look strong but FOMC risk and peak earnings sentiment suggest caution. Singapore positioning is constructive: Q1 GDP plus 4.6%, growth forecast upgraded to 3.6%, and SGX reform momentum supporting STI and 9G2.SI. EUR/USD at 1.1748 strengthens SGD purchasing power. Key risk: Hormuz escalation could push oil to 120 plus and trigger stagflation concerns hitting equities hard.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "US-Iran Islamabad talks collapsed; Hormuz Strait blockade ongoing, oil above 107, energy inflation risk rising"
+    },
+    {
+      "level": "danger",
+      "text": "FOMC begins today April 28-29 - Powell FINAL meeting as Fed chair before May 15 term end; markets watching for hawkish tone"
+    },
+    {
+      "level": "warn",
+      "text": "VIX approaching 20, nearly half the Russell 1000 reports this week including 5 of the Magnificent Seven"
+    },
+    {
+      "level": "warn",
+      "text": "IMF cut global 2026 growth to 3.1%, Global Economy in the Shadow of War; Eurozone services sector in contraction"
+    },
+    {
+      "level": "info",
+      "text": "Singapore Q1 2026 GDP +4.6% YoY; 2026 growth forecast upgraded to 3.6%; MAS inflation forecast raised to 1.5-2.5%"
+    },
+    {
+      "level": "info",
+      "text": "Anthropic ARR surpassed 30 billion in March 2026, up 30x in 12 months; Google Brin strike team racing to close coding gap"
+    }
+  ],
+  "news": [
+    {
+      "title": "US-Iran Ceasefire in Crisis as Islamabad Talks Collapse",
+      "text": "Trump cancelled US envoys Pakistan trip on April 25, halting the most recent round of indirect negotiations. Iran FM arrived in Moscow on Monday seeking Russian backing. Tehran new Hormuz proposal reopening the strait in exchange for lifting the US naval blockade with nuclear talks deferred remains on the table but unaccepted. The ceasefire, announced April 8, remains technically in force but increasingly fragile."
+    },
+    {
+      "title": "FOMC Opens Two-Day Meeting, Powell Final Session as Fed Chair",
+      "text": "The Federal Open Market Committee convenes today through April 29 for what will be Jerome Powell last meeting before his term expires May 15. Rates are universally expected to hold at 3.50-3.75% as elevated oil prices complicate the inflation picture. Markets will scrutinize the statement and press conference for signals on how successor Kevin Warsh, nominated in January, might alter the Fed approach."
+    },
+    {
+      "title": "Brent Above 107 as Hormuz Disruption Persists",
+      "text": "Brent crude surged above 107 on Monday after US-Iran peace talk cancellation reignited fears of sustained Strait disruption. Goldman Sachs raised its year-end Brent forecast to 90 per barrel from 80, though spot prices are already well above that level, up roughly 60 percent since the US-Iran conflict began in late February."
+    },
+    {
+      "title": "IMF: Global Growth 3.1% in 2026, In the Shadow of War",
+      "text": "The IMF April 2026 World Economic Outlook cut the global growth projection to 3.1 percent for this year and 3.2 percent for 2027, below recent outcomes and well under pre-pandemic averages. Rising commodity prices, firmer inflation expectations, and tighter financial conditions are the primary culprits, with Hormuz disruption cited as a material downside risk."
+    },
+    {
+      "title": "EU Approves 106 Billion Dollar Ukraine Loan Package",
+      "text": "The European Union approved a 106 billion dollar loan package to cover Ukraine economic and military needs for two years, ending months of political deadlock. The agreement marks the largest single financial commitment to Kyiv since the full-scale invasion."
+    },
+    {
+      "title": "S and P 500 and Nasdaq Hit Fresh Records Despite Geopolitical Anxiety",
+      "text": "The S and P 500 closed at a record 7,173.9 on Monday, up 0.10 percent, and the Nasdaq reached 24,887, up 0.20 percent, as investors rotated into tech ahead of a mega-cap earnings week. The Dow Jones dipped 63 points as energy and industrial stocks lagged. Frontier markets had their best April since 2009, up roughly 10 percent in dollar terms."
+    },
+    {
+      "title": "Eurozone Business Activity Contracts for First Time Since 2024",
+      "text": "Eurozone composite PMI slipped into contraction territory, driven by a pronounced weakening in the services sector as Middle East war uncertainty suppresses consumer demand and travel. The data increases pressure on the ECB to consider additional easing, though oil-driven inflation complicates that path."
+    },
+    {
+      "title": "Mali: Coordinated Armed Strikes Rock Bamako and Key Cities",
+      "text": "Gunfire and explosions rocked the Mali capital and several major cities in one of the most significant coordinated attacks in years, as armed groups exploit worsening insecurity across the Sahel region following the withdrawal of French and MINUSMA forces."
+    },
+    {
+      "title": "Spain Congress Investigates April 2025 Blackout, Iberdrola CEO Testifies",
+      "text": "Spain Congress opened its investigation commission on Monday into the April 28 2025 Iberian Peninsula blackout on its first anniversary, with Iberdrola CEO Mario Ruiz-Tagle as the first executive to testify. The CNMC energy regulator has also launched separate probes into Iberdrola, Naturgy, Endesa, and Repsol for alleged long-term regulatory breaches."
+    },
+    {
+      "title": "Singapore Q1 GDP Plus 4.6 Percent, Growth Forecast Upgraded to 3.6% for 2026",
+      "text": "Singapore economy expanded 4.6 percent year-on-year in Q1 2026, driven by the global AI investment supercycle lifting manufacturing and technology services. Private-sector economists upgraded the full-year 2026 growth forecast from 2.3 to 3.6 percent. MAS simultaneously raised its 2026 inflation forecast to 1.5-2.5 percent from 1.0-2.0 percent."
+    },
+    {
+      "title": "Coca-Cola Q1 2026 Earnings Before the Bell",
+      "text": "Coca-Cola releases first-quarter 2026 results today with consensus calling for 81 cents EPS, up 11 percent year-on-year, and 12.3 billion dollars in revenue, up 10.6 percent. Markets are watching for pricing power signals amid elevated input costs and tariff exposure on aluminium and sweeteners."
+    },
+    {
+      "title": "Palestinian Elections Scheduled in Gaza and West Bank",
+      "text": "Palestinian officials announced local elections in Gaza and the West Bank as a step toward a long-delayed presidential election, the first since 2005. The Palestinian Authority has not held a presidential vote in 21 years."
+    },
+    {
+      "title": "Canada Sovereign Wealth Fund Announced by PM Carney",
+      "text": "Prime Minister Mark Carney announced a sovereign wealth fund that will be considerably smaller than comparable vehicles in Norway or Gulf states. The fund reflects Canada push for greater economic self-sufficiency amid trade uncertainty, but analysts note the limited initial scale constrains its impact."
+    }
+  ],
+  "day_ahead": "FOMC Day 1, decision tomorrow April 29 at 6pm GMT, Powell press conference 6:30pm GMT. Coca-Cola Q1 earnings before the bell today. Earnings avalanche continues this week with nearly half the Russell 1000 reporting, including five Magnificent Seven names. Watch for Iran diplomatic signals from Moscow talks. European PMI final readings due. Spain Congressional blackout hearings continue.",
+  "ai_news": [
+    {
+      "title": "Anthropic ARR Crosses 30 Billion, Up 30x in 12 Months",
+      "text": "Anthropic annualised recurring revenue exceeded 30 billion dollars in March 2026, up from roughly 1 billion at the start of 2025, one of the fastest revenue ramp-ups in enterprise software history. The milestone underscores the explosion in AI coding and enterprise tool adoption."
+    },
+    {
+      "title": "Google Brin Forms DeepMind Strike Team to Close Anthropic Coding Gap",
+      "text": "Google co-founder Sergey Brin assembled a dedicated team within Google DeepMind, reported April 21, with a single mandate to close the widening gap with Anthropic AI coding capabilities. The move signals how seriously Google is taking the competitive threat after Claude dominance in software development workflows."
+    },
+    {
+      "title": "Google Released New AI Agents on April 22 to Challenge OpenAI and Anthropic",
+      "text": "Google launched a new suite of AI agents on April 22 targeting the enterprise market. Separately, Thinking Machines Lab, former OpenAI exec Mira Murati startup, signed a new multi-billion dollar deal with Google Cloud for AI infrastructure on April 22."
+    },
+    {
+      "title": "OpenAI, Anthropic, Google Unite Against Chinese Model Copying",
+      "text": "The three AI giants are sharing intelligence through the Frontier Model Forum to combat Chinese competitors extracting results from US AI models. The cooperation, announced April 6, marks an unusual moment of industry solidarity among fierce rivals."
+    },
+    {
+      "title": "Anthropic Claude Mythos 5 Released with 10 Trillion Parameters",
+      "text": "Anthropic released Claude Mythos 5 in April 2026, its most capable model to date with 10 trillion parameters focused on advanced cybersecurity and coding. The model joins a new accessible Capabara model targeting broader enterprise deployments."
+    }
+  ]
+}
