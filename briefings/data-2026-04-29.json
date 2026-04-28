@@ -1,0 +1,225 @@
+{
+  "date": "Wednesday, April 29 2026",
+  "sentiment": "Risk-Off",
+  "pulse": "Markets pulled back Tuesday as the OpenAI revenue miss spooked chip stocks and oil held above 111 dollars on continued Strait of Hormuz disruption. The Fed holds its final Powell-chaired FOMC meeting today with a universally expected rate hold at 3.5 to 3.75 percent, while Kevin Warsh Senate Banking Committee vote advances the incoming chair confirmation. Gold retreated nearly 2 percent but remains near record highs; Bitcoin slid ahead of the Fed decision.",
+  "movers": [
+    {
+      "name": "Nasdaq",
+      "change_pct": "-0.90%",
+      "reason": "OpenAI revenue and user-growth miss rippled through chip and AI-infrastructure stocks including Oracle, Nvidia, Broadcom and CoreWeave"
+    },
+    {
+      "name": "Brent Crude",
+      "change_pct": "+2.1%",
+      "reason": "US-Iran negotiations stalled; Strait of Hormuz traffic at 5 percent of pre-war levels; IEA called it the largest supply disruption in oil market history"
+    },
+    {
+      "name": "Gold",
+      "change_pct": "-1.85%",
+      "reason": "Profit-taking and rising oil-driven inflation concerns pressure gold ahead of the FOMC; still near 4600 dollars per ounce"
+    },
+    {
+      "name": "IBEX 35",
+      "change_pct": "+1.02%",
+      "reason": "Spanish equities outperformed European peers, closing at 17873 on the strongest eurozone growth outlook"
+    },
+    {
+      "name": "Bitcoin",
+      "change_pct": "-1.8%",
+      "reason": "Risk-off mood ahead of the Fed decision pushed BTC to roughly 76342 after opening Tuesday at 77368"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7138.80",
+      "-35.10",
+      "-0.49%"
+    ],
+    [
+      "NDX",
+      "24663.80",
+      "-224.60",
+      "-0.90%"
+    ],
+    [
+      "DJI",
+      "49141.93",
+      "-25.86",
+      "-0.05%"
+    ],
+    [
+      "N225",
+      "59769",
+      "-769",
+      "-1.27%"
+    ],
+    [
+      "IBEX35",
+      "17873",
+      "+180",
+      "+1.02%"
+    ],
+    [
+      "STOXX50",
+      "~5510",
+      "flat",
+      "est"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1698",
+      "-0.0024",
+      "-0.20%"
+    ]
+  ],
+  "futures": [
+    [
+      "Brent",
+      "111-112",
+      "+2.1%",
+      "US-Iran Hormuz disruption"
+    ],
+    [
+      "Gold",
+      "4596",
+      "-1.85%",
+      "Profit-taking pre-FOMC"
+    ]
+  ],
+  "commodities": [
+    [
+      "Brent Crude",
+      "111-112",
+      "+2.1%"
+    ],
+    [
+      "Gold",
+      "4596",
+      "-1.85%"
+    ],
+    [
+      "VIX",
+      "17.5",
+      "elevated, pre-FOMC caution"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "Monitor SGX",
+      "Singapore REIT sector bouncing; industrial prices up 8th straight quarter"
+    ],
+    [
+      "GCL",
+      "Monitor",
+      "Energy sector benefiting from oil above 111 dollars"
+    ]
+  ],
+  "portfolio": "SGD-base portfolio faces mixed signals. Brent at 111+ is a direct tailwind for energy-linked positions including GCL. Gold at 4596 corrected 2 percent Tuesday but remains near all-time highs; Iran war safe-haven bid supports the position. IBEX 35 at 17873 plus 1.02 percent shows Spain outperforming on a 2.4 percent GDP growth forecast. US equities under pressure from OpenAI miss and oil-driven inflation. Singapore REITs rebounding with SORA at 1.04 percent, supportive for 9G2.SI. BTC slipping ahead of Fed with no structural change to macro crypto thesis. Key watch: FOMC statement language on inflation and energy today.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Strait of Hormuz remains at 5 percent of pre-war traffic. Brent above 111. IEA: largest oil supply disruption in market history. Any escalation re-opens 120+ scenario."
+    },
+    {
+      "level": "danger",
+      "text": "Powells final FOMC meeting today April 29. Rate decision at 2pm ET. Any hawkish language on oil-driven inflation could reprice rate cut expectations significantly."
+    },
+    {
+      "level": "warn",
+      "text": "OpenAI missed revenue and user-growth targets. Dragged Nvidia, Oracle, Broadcom, CoreWeave. Watch for secondary sell-off in AI infrastructure names today."
+    },
+    {
+      "level": "warn",
+      "text": "Kevin Warsh Senate Banking Committee vote expected April 30. Warsh confirmation changes Fed leadership dynamic heading into June meeting."
+    },
+    {
+      "level": "info",
+      "text": "Google committed up to 40B in Anthropic on April 24 at 350B valuation. Anthropic ARR now above 30B, up 30x in one year."
+    },
+    {
+      "level": "info",
+      "text": "EU approved 90B euro Ukraine loan package on April 23-24 after Hungary lifted veto. First disbursements expected Q2 2026."
+    }
+  ],
+  "news": [
+    {
+      "title": "Fed holds final Powell FOMC meeting; rate decision at 2pm ET today",
+      "text": "The FOMC is universally expected to hold the federal funds rate at 3.5 to 3.75 percent for a third consecutive time in 2026. Markets are watching the 2:30pm ET press conference for language on oil-driven inflation and growth. This is Powells final meeting as chair."
+    },
+    {
+      "title": "Kevin Warsh Fed chair nomination advancing; Senate Banking vote set for April 30",
+      "text": "Senator Thom Tillis dropped his hold on the Warsh nomination on April 26 after the DOJ closed its investigation into Powell. The Senate Banking Committee votes April 30 to advance to the full Senate, with confirmation likely before Powells term ends May 15."
+    },
+    {
+      "title": "Strait of Hormuz crisis: traffic at 5 percent of pre-war levels, Brent above 111",
+      "text": "The US-Iran conflict has effectively blocked the Strait of Hormuz since late February. Iran offered to reopen the strait if the US lifts its naval blockade, but Trump refused. The IEA called it the largest supply disruption in oil market history, with Brent touching 112 on Tuesday."
+    },
+    {
+      "title": "EU approves 90 billion euro Ukraine loan package after Hungary drops veto",
+      "text": "The EU Council on April 23 finalised a 90 billion euro two-year loan package for Ukraine after Hungary and Slovakia lifted objections following Druzhba pipeline repairs. New Russia sanctions included. First disbursements expected in Q2 2026."
+    },
+    {
+      "title": "OpenAI misses revenue and user targets ahead of planned IPO",
+      "text": "A Wall Street Journal report on April 28 revealed OpenAI failed to hit internal ChatGPT weekly active user and monthly revenue targets, with Anthropic and Google Gemini gaining share. CFO Sarah Friar flagged concerns about funding future compute commitments. AI infrastructure stocks fell sharply."
+    },
+    {
+      "title": "Google invests up to 40 billion in Anthropic at 350 billion dollar valuation",
+      "text": "Google committed on April 24 to invest up to 40 billion in Anthropic at a 350 billion valuation, providing 5 gigawatts of compute over five years. Anthropic ARR surpassed 30 billion in March 2026, up 30x from roughly 1 billion at the start of 2025."
+    },
+    {
+      "title": "Bank of Japan holds rates at 0.75 percent for fourth consecutive meeting",
+      "text": "The BOJ on April 28 left its policy rate unchanged at 0.75 percent, raised its inflation forecast, and cut its FY2026 growth projection to reflect the Iran war impact. The Nikkei 225 fell 1.27 percent to 59769."
+    },
+    {
+      "title": "Hedge funds buy record 86 billion in equities over five sessions",
+      "text": "Goldman Sachs prime brokerage data shows hedge funds purchased a record 86 billion in global equities over five trading sessions in mid-April as markets rallied on ceasefire hopes. The surge ranked among the fastest accumulations on record."
+    },
+    {
+      "title": "GM raises 2026 guidance after beating earnings with 500 million tariff refund",
+      "text": "General Motors topped Wall Street expectations and raised its full-year 2026 guidance, aided by a 500 million dollar tariff refund, despite supply-chain pressures from elevated energy costs."
+    },
+    {
+      "title": "IMF cuts global growth to 3.1 percent for 2026 citing Iran war energy shock",
+      "text": "The IMF April 2026 World Economic Outlook projects global growth slowing to 3.1 percent in 2026, with inflation rising modestly. The fund cited the Iran conflict, the Hormuz blockade, and residual tariff uncertainty as primary headwinds."
+    },
+    {
+      "title": "Singapore economy grows 4.6 percent year on year in Q1; MAS tightens slightly",
+      "text": "Singapore expanded 4.6 percent year-on-year in Q1 2026 but contracted 0.3 percent quarter-on-quarter. Private economists upgraded the full-year forecast to 3.6 percent. MAS raised the rate of appreciation of the SNEER policy band. Industrial property prices rose for the eighth consecutive quarter."
+    },
+    {
+      "title": "Spain IBEX 35 rises 1.02 percent to 17873 outperforming European peers",
+      "text": "The IBEX 35 closed Tuesday at 17873 gaining 1.02 percent as Spain leads eurozone growth at a projected 2.4 percent GDP in 2026 with inflation easing toward 2 percent."
+    },
+    {
+      "title": "Orban exits Hungarian parliament after April 12 election defeat",
+      "text": "Viktor Orban announced he will not take his seat in parliament following Fidesz April 12 election loss, removing a long-standing veto player who had blocked EU Ukraine aid for months."
+    },
+    {
+      "title": "US retail sales rose 1.7 percent in March beating 1.4 percent consensus",
+      "text": "March retail sales surprised to the upside at plus 1.7 percent month-on-month versus a 1.4 percent forecast and Februarys 0.7 percent, complicating the Feds messaging today as the central bank balances resilient consumption against oil-driven inflation near two-year highs."
+    }
+  ],
+  "day_ahead": "FOMC rate decision at 2pm ET (hold expected at 3.5 to 3.75 percent); Powell press conference at 2:30pm ET, watch language on oil and inflation. Senate Banking Committee advances Kevin Warsh nomination; full Senate vote likely. Monitor Iran-Hormuz diplomatic channel. Big Tech earnings continue. Q1 US GDP advance estimate due this week.",
+  "ai_news": [
+    {
+      "title": "OpenAI misses IPO-year growth targets as Anthropic and Gemini gain share",
+      "text": "OpenAI fell short of internal ChatGPT user and revenue milestones in 2026, with CFO Sarah Friar raising concerns about funding future compute agreements. Codex and GPT-5.5 showed strong benchmark results but have not offset the overall revenue shortfall."
+    },
+    {
+      "title": "Googles 40 billion Anthropic investment reshapes AI funding landscape",
+      "text": "Googles commitment of up to 40 billion in Anthropic, announced April 24, marks the largest single AI investment by a tech incumbent and effectively ends the Big Three era, isolating OpenAI as the sole major AI lab without a dominant cloud hyperscaler parent."
+    },
+    {
+      "title": "Anthropic releases Mythos model to select partners with cybersecurity focus",
+      "text": "Anthropics new flagship model codenamed Mythos was released to a limited group of partners in April 2026, described as the most powerful model to date with significant cybersecurity applications. No broad release date announced."
+    },
+    {
+      "title": "Google releases AI agent tools suite to challenge OpenAI enterprise offerings",
+      "text": "Google on April 22 unveiled tools for building and monitoring AI agents within enterprise environments, targeting multi-step task automation and competing directly with OpenAI enterprise agent products and Anthropics Claude for business."
+    }
+  ]
+}
