@@ -1,0 +1,236 @@
+{
+  "date": "Thursday, April 30 2026",
+  "sentiment": "Cautious",
+  "pulse": "Global markets trade cautiously on Thursday as mega-cap tech earnings season collides with surging oil prices above 120 dollars per barrel driven by Middle East conflict and Strait of Hormuz disruption threats. The Fed held rates at 3.50-3.75 percent with an historic four-dissent split. Risk appetite is bifurcated: tech bulls versus energy and inflation bears.",
+  "movers": [
+    {
+      "name": "BRENT",
+      "change_pct": "+8.13%",
+      "reason": "Trump threatening Iran port blockade, Strait of Hormuz supply shock"
+    },
+    {
+      "name": "SEAGATE",
+      "change_pct": "+18.0%",
+      "reason": "Strong quarterly earnings on data storage demand"
+    },
+    {
+      "name": "VISA",
+      "change_pct": "+8.76%",
+      "reason": "Q1 earnings beat with positive guidance"
+    },
+    {
+      "name": "HOOD",
+      "change_pct": "-10.0%",
+      "reason": "Robinhood Q1 miss; crypto trading fees down 47 percent"
+    },
+    {
+      "name": "ENPH",
+      "change_pct": "-7.2%",
+      "reason": "Weak Q2 guidance; lower US residential solar demand"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7173.91",
+      "+0.12%",
+      "ATH close Apr 29"
+    ],
+    [
+      "NDX",
+      "27303.67",
+      "~flat",
+      "near highs"
+    ],
+    [
+      "DJI",
+      "48861.81",
+      "-0.57%",
+      "fifth consecutive losing day"
+    ],
+    [
+      "N225",
+      "59769",
+      "-1.27%",
+      "Japan holiday-impacted"
+    ],
+    [
+      "STOXX50",
+      "5781",
+      "-0.92%",
+      "energy/inflation pressure"
+    ],
+    [
+      "IBEX35",
+      "17642",
+      "-0.74%",
+      "lost 17700 level"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1696",
+      "-0.13%",
+      "ECB hold, USD resilient"
+    ]
+  ],
+  "futures": [
+    [
+      "S&P 500 futures",
+      "+0.3%",
+      "pre-market Apr 30"
+    ],
+    [
+      "Nasdaq 100 futures",
+      "+0.6%",
+      "tech earnings lift"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold XAU",
+      "4522.97/oz",
+      "-1.59%",
+      "profit-taking after record highs"
+    ],
+    [
+      "Brent",
+      "120.30/bbl",
+      "+8.13%",
+      "Iran blockade fears; highest since Jun 2022"
+    ],
+    [
+      "VIX",
+      "19.31",
+      "elevated",
+      "period range 16.87-31.52"
+    ]
+  ],
+  "stocks": [
+    [
+      "K71U.SI",
+      "SGD 0.97",
+      "Keppel REIT",
+      "52-week range 0.835-1.080"
+    ],
+    [
+      "3800.HK",
+      "HKD 1.17",
+      "GCL-Poly Energy",
+      "solar names under ENPH pressure"
+    ]
+  ],
+  "portfolio": "Gold pulls back 1.6 percent from ATH above 4500 but remains a strong YTD performer. Brent oil surge of 8.1 percent is positive for energy exposure but negative for inflation expectations and rate cut timing. IBEX35 slipped 0.7 percent but Spain growth leadership supports medium-term thesis. STI held 5000 showing Singapore resilience. BTC consolidating 75-80K range. Key risk: oil above 120 forces inflation revisions globally, delays cuts, compresses multiples.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Brent crude above $120/bbl - Iran Strait of Hormuz blockade risk. Watch for escalation."
+    },
+    {
+      "level": "danger",
+      "text": "Fed four-way dissent (first since Oct 1992) - inflation hawks gaining, rate cut timeline pushed out."
+    },
+    {
+      "level": "warn",
+      "text": "Eurozone PMI fell to 48.6 in April - below 50, ending 15-month expansion streak."
+    },
+    {
+      "level": "warn",
+      "text": "IMF cut global growth to 3.1% for 2026; global inflation revised up to 4.4%."
+    },
+    {
+      "level": "warn",
+      "text": "Apple, Mastercard, Eli Lilly, Caterpillar, Merck earnings due today April 30."
+    },
+    {
+      "level": "info",
+      "text": "STI held 5,000; Singapore Q1 GDP +4.6% YoY; MAS tightened in April on energy inflation."
+    },
+    {
+      "level": "info",
+      "text": "Anthropic retiring Claude Sonnet 4/4.5 1M context beta today - migrate to Sonnet 4.6 or Opus 4.6."
+    }
+  ],
+  "news": [
+    {
+      "title": "Fed holds at 3.50-3.75% with historic four-dissent split",
+      "text": "The FOMC voted to hold rates on April 29 but four officials dissented - the most since October 1992. Dissenters included Governor Stephen Miran and regional presidents Beth Hammack, Neel Kashkari, and Lorie Logan. The median PCE inflation forecast was revised up 0.3 percentage points to 2.7 percent."
+    },
+    {
+      "title": "Brent surges past $120/barrel on Iran blockade threats",
+      "text": "Brent crude jumped 8.13 percent to $120.30/barrel on April 29 after reports Trump is preparing to extend a blockade on Iranian ports, potentially disrupting the Strait of Hormuz which handles roughly 35 percent of global seaborne crude. The World Bank projects a 24 percent energy price surge for 2026."
+    },
+    {
+      "title": "S&P 500 and Nasdaq hit record highs ahead of mega-cap tech earnings",
+      "text": "The S&P 500 closed at 7,173.91 and Nasdaq at 24,887.10 on April 29 - both all-time highs - as tech earnings anticipation offset geopolitical headwinds. Alphabet, Amazon, Meta, and Microsoft all reported results after hours with collective 2026 AI capex guidance above $300 billion."
+    },
+    {
+      "title": "EU approves 90 billion euro Ukraine loan and 20th Russia sanctions package",
+      "text": "The EU formally approved on April 23 a 90 billion euro loan to Ukraine after Hungary and Slovakia dropped objections. The 20th sanctions package included 120 new individual designations targeting Russian energy, banking, and cryptocurrency sectors."
+    },
+    {
+      "title": "IMF cuts global growth to 3.1%, raises inflation to 4.4% for 2026",
+      "text": "The IMF April 2026 World Economic Outlook projected global growth at 3.1 percent with headline inflation rising to 4.4 percent. Middle East war, Trump tariffs, and geopolitical fragmentation are main drags; business investment could fall $380 billion under adverse scenarios."
+    },
+    {
+      "title": "China Q1 2026 GDP grew 5.0%, beating expectations",
+      "text": "China reported 5.0 percent year-on-year GDP growth in Q1 2026, up from 4.5 percent in Q4 2025, driven by industrial production rising 6.1 percent YoY. Factory-gate prices turned positive for the first time in three years."
+    },
+    {
+      "title": "US sanctions six Chinese companies linked to Iran on April 30",
+      "text": "The US Treasury Department on April 30 designated six Chinese chemical component companies connected to Iran, escalating secondary sanctions pressure and widening the economic dimensions of the Middle East conflict."
+    },
+    {
+      "title": "Australia proposes 2.25% levy on Meta, Google, TikTok for news funding",
+      "text": "Australia announced draft legislation on April 29 to impose a 2.25 percent levy on Australian revenues of Meta, Google, and TikTok unless they strike deals with local publishers, targeting A$200-250 million annually for domestic journalism."
+    },
+    {
+      "title": "ECB holds rates, signals possible June hike if energy inflation persists",
+      "text": "The ECB held its main refinancing rate at 2.15 percent on April 30 but signalled a possible June hike if Middle East energy price pressures generate broader inflation. Financial markets are now pricing a June hike scenario."
+    },
+    {
+      "title": "IBEX35 slides 0.74% as oil spike rattles Spain",
+      "text": "IBEX35 fell to 17,642 on April 29 as surging oil weighed on energy importers. Spain inflation hit 3.4 percent in March - highest among major EU economies. Economy Ministry warned Iran conflict could shave 0.1-0.4 percentage points off 2026 GDP growth."
+    },
+    {
+      "title": "STI holds above 5,000 as Singapore Q1 GDP grows 4.6% YoY",
+      "text": "STI edged 0.2 percent higher to 5,014.96 on April 29. Singapore Q1 2026 GDP grew 4.6 percent YoY, moderating from 5.7 percent in Q4 2025. MAS tightened its S$NEER policy band in April citing energy-driven inflation risks."
+    },
+    {
+      "title": "Central banks shift from US Treasuries to gold as geopolitical risk spikes",
+      "text": "A survey published April 9 found 70 percent of central banks rank geopolitical tension as their top global risk, up from 35 percent in 2024. Central banks managing over $9.5 trillion in reserves are shifting toward gold and alternative assets."
+    },
+    {
+      "title": "Abalos-Koldo corruption trial enters fourth week in Spain",
+      "text": "The criminal trial of former Spanish Transport Minister Jose Luis Abalos and aide Koldo Garcia entered its fourth week covering alleged irregularities in pandemic-era mask procurement. The case carries political weight for the ruling PSOE government."
+    },
+    {
+      "title": "Eurozone PMI falls to 48.6, ending 15-month expansion",
+      "text": "The eurozone composite PMI dropped 2.1 points to 48.6 in April 2026, falling below 50 for the first time in 15 months. Broad-based weakness reflected energy cost pressure from the Iran conflict and global trade uncertainty."
+    }
+  ],
+  "day_ahead": "Thursday April 30: Major earnings due - Apple, Eli Lilly, Mastercard, Caterpillar, Merck, ConocoPhillips, Amgen. ECB press conference with Lagarde post-hold. US initial jobless claims. Watch Strait of Hormuz for escalation following Treasury new Iran sanctions. Bitcoin Conference follow-through trading.",
+  "ai_news": [
+    {
+      "title": "Anthropic retires 1M context beta; Google commits up to $40B total investment",
+      "text": "Anthropic retires the 1M context window beta for Claude Sonnet 4 and 4.5 today - users must migrate to Sonnet 4.6 or Opus 4.6 where 1M token context is now GA. Google confirmed an additional $10B investment in Anthropic plus up to $30B more on performance targets. Amazon total commitment reached $13B with Anthropic pledging $100B in AWS spending."
+    },
+    {
+      "title": "OpenAI releases GPT-5.5, renegotiates Microsoft deal for AWS access",
+      "text": "OpenAI released GPT-5.5 on April 23 as its smartest and most intuitive model. On April 27, OpenAI and Microsoft renegotiated their partnership allowing OpenAI to sell on AWS; Microsoft stops paying revenue share while OpenAI continues payments through 2030 capped."
+    },
+    {
+      "title": "Google DeepMind launches Deep Research Max on Gemini 3.1 Pro with MCP support",
+      "text": "Google DeepMind launched Deep Research Max on April 21 on Gemini 3.1 Pro with Model Context Protocol support and native visualizations. A new compression algorithm reduces AI memory needs by 6x. CEO Demis Hassabis met Lee Sedol in Seoul on April 29 for the 10th anniversary of the AlphaGo match."
+    },
+    {
+      "title": "Anthropic agent-to-agent marketplace completes $4,000 in autonomous commerce",
+      "text": "Anthropic tested an agent-to-agent commerce marketplace on April 25 where 186 real deals totaling over $4,000 in real goods and money were completed autonomously between AI agents, marking a milestone in multi-agent autonomous execution."
+    },
+    {
+      "title": "DeepSeek releases V4 Flash and V4 Pro with strong coding benchmarks",
+      "text": "China DeepSeek released V4 Flash and V4 Pro in April 2026 with strong coding scores. Current model rankings: Anthropic leads, followed by xAI, Google, OpenAI - a reversal from the OpenAI-dominant landscape of 2024-2025."
+    }
+  ]
+}
