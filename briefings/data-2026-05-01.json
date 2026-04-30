@@ -1,0 +1,243 @@
+{
+  "date": "Friday, May 01 2026",
+  "sentiment": "Risk-On",
+  "pulse": "US equities closed April at record highs on Thursday, with the S&P 500 breaking above 7,200 for the first time ever - its best monthly performance since 2020 - driven by blowout Alphabet earnings and a VIX collapse. Oil surged to a four-year high on reports the Pentagon is preparing Iran strike options, while the Bank of England held at 3.75% but flagged potential hikes if Middle East conflict stokes inflation. European and Singapore markets are closed today for May Day; US markets open for the final session of the week.",
+  "movers": [
+    {
+      "name": "VIX",
+      "change_pct": "-8.40%",
+      "reason": "Fear gauge collapsed as S&P set record, signalling broad risk appetite on strong earnings and partial government shutdown resolution"
+    },
+    {
+      "name": "DJI",
+      "change_pct": "+1.62%",
+      "reason": "Dow surged as blue-chip earnings and energy stocks rallied on oil jump to highest since 2022"
+    },
+    {
+      "name": "Brent",
+      "change_pct": "+0.92%",
+      "reason": "Reports US Central Command prepared short and powerful Iran strike plans sent crude to highest since 2022"
+    },
+    {
+      "name": "N225",
+      "change_pct": "-1.06%",
+      "reason": "Nikkei fell against the regional grain, weighed by yen strengthening and cautious Golden Week positioning"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7209.01",
+      "+73.06",
+      "+1.02%"
+    ],
+    [
+      "COMP",
+      "24892.31",
+      "+219.07",
+      "+0.89%"
+    ],
+    [
+      "DJI",
+      "49652.14",
+      "+790.33",
+      "+1.62%"
+    ],
+    [
+      "N225",
+      "59284.92",
+      "-632.54",
+      "-1.06%"
+    ],
+    [
+      "CAC40",
+      "8114.84",
+      "+42.71",
+      "+0.53%"
+    ],
+    [
+      "IBEX35",
+      "17781.00",
+      "+138.20",
+      "+0.78%"
+    ],
+    [
+      "STI",
+      "4912.69",
+      "+51.72",
+      "+1.06%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1736",
+      "+0.0052",
+      "+0.45%"
+    ]
+  ],
+  "futures": [
+    [
+      "Brent",
+      "111.42",
+      "+1.02",
+      "+0.92%"
+    ],
+    [
+      "Gold",
+      "4642.90",
+      "+13.30",
+      "+0.29%"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold",
+      "4642.90",
+      "+13.30",
+      "+0.29%"
+    ],
+    [
+      "Brent",
+      "111.42",
+      "+1.02",
+      "+0.92%"
+    ],
+    [
+      "VIX",
+      "17.23",
+      "-1.58",
+      "-8.40%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "N/A (SGX closed May Day)",
+      "N/A",
+      "N/A"
+    ],
+    [
+      "GCL.SI",
+      "N/A (SGX closed May Day)",
+      "N/A",
+      "N/A"
+    ]
+  ],
+  "portfolio": "Strong risk-on day for Marc portfolio as of April 30 close. US positions benefit: S&P hit all-time high above 7,200. IBEX 35 and STI closed higher at +0.78% and +1.06% Thursday, both markets closed for May Day today. Oil holdings gain from Iran fears pushing Brent to $111.42, a four-year high. Gold at $4,642.90 with UBS target $5,900 late 2026. BTC flat around $76,235. EUR/USD at 1.1736 has FX implications for SGD base. 9G2.SI and GCL.SI unavailable today as SGX is closed.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "UK terrorism threat raised to SEVERE after Golders Green stabbing. Suspect previously on Prevent watch list."
+    },
+    {
+      "level": "danger",
+      "text": "Oil at 4-year high $111.42 Brent on Iran military strike reports. BoE flagging rates could rise."
+    },
+    {
+      "level": "warn",
+      "text": "Meta slumped on JPMorgan downgrade after AI capex guidance raised - investor patience being tested across big tech."
+    },
+    {
+      "level": "warn",
+      "text": "Nikkei -1.06% only major index in red - yen strength and Golden Week positioning. Japan markets mostly closed next week."
+    },
+    {
+      "level": "info",
+      "text": "US 76-day government shutdown ended partially on April 30."
+    },
+    {
+      "level": "info",
+      "text": "S&P 500 above 7,200 for first time ever on April 30. Best monthly gain since 2020."
+    },
+    {
+      "level": "info",
+      "text": "European and Singapore markets closed today for International Labour Day."
+    }
+  ],
+  "news": [
+    {
+      "title": "S&P 500 Closes Above 7,200 for First Time Ever",
+      "text": "US equities surged April 30, S&P 500 hitting record above 7,200, best April since 2020. Alphabet Q1 earnings beat, shutdown resolution, VIX collapse -8.4%. Dow +1.62%, Nasdaq +0.89%."
+    },
+    {
+      "title": "Alphabet Q1 Earnings Crush Expectations on AI and Cloud",
+      "text": "Google parent Alphabet Q1 results substantially exceeded Wall Street forecasts on AI expansion and Google Cloud growth, triggering a broad tech rally."
+    },
+    {
+      "title": "Meta Slumps After JPMorgan Downgrade on Rising AI Capex",
+      "text": "Meta fell after JPMorgan downgraded citing rising capex guidance that overshadowed solid Q1 results. Divergence from Alphabet cloud returns shaping mega-cap positioning."
+    },
+    {
+      "title": "Oil Hits Highest Since 2022 on US Iran Strike Plans",
+      "text": "Brent reached $111.42, highest since 2022, after reports US Central Command developed plans for short and powerful strikes against Iran, following Strait of Hormuz escalation."
+    },
+    {
+      "title": "Bank of England Holds 3.75%, Warns of Rate Rises on Iran Inflation",
+      "text": "BoE MPC voted April 30 to hold at 3.75% but flagged Iran conflict inflationary effects could force future hikes. Monitoring Middle East oil and supply chain disruptions closely."
+    },
+    {
+      "title": "UK Terrorism Threat Raised to SEVERE After Golders Green Attack",
+      "text": "UK raised threat level to Severe on April 30, first time since November 2021, after Golders Green stabbing. Suspect Essa Suleiman had Prevent referral in 2020 that was subsequently closed."
+    },
+    {
+      "title": "US House Votes to End 76-Day Government Shutdown",
+      "text": "Congress passed legislation April 30 restoring most DHS funding, ending 76-day shutdown. Two immigration enforcement subagencies remain unfunded."
+    },
+    {
+      "title": "Putin Proposes May 9 Ceasefire; Ukraine Expands Russia Oil Strikes",
+      "text": "Putin proposed temporary ceasefire to Trump for May 9 Victory Day anniversary while Ukraine expanded strikes on Russian oil infrastructure on April 30."
+    },
+    {
+      "title": "Israeli Strikes Kill Nine in Lebanon Despite Active Ceasefire",
+      "text": "Israeli operations killed at least nine people including two children in southern Lebanon on April 30 despite active ceasefire agreement, raising durability questions."
+    },
+    {
+      "title": "Apple CEO Tim Cook Stepping Down, John Ternus Named Successor",
+      "text": "Apple reported extraordinary iPhone demand for Q1 but Tim Cook is stepping down after 15 years as CEO. John Ternus, head of hardware engineering, named as successor."
+    },
+    {
+      "title": "Trump Threatens German Troop Cuts Amid Iran Tensions",
+      "text": "Trump signalled potential US military withdrawal from Germany while escalating with Chancellor Merz over Iran policy, injecting NATO eastern flank uncertainty."
+    },
+    {
+      "title": "Belgium to Nationalise Nuclear Power Plants",
+      "text": "Belgian PM De Wever announced state takeover of nuclear facilities April 30 to cut fossil fuel dependence amid Middle East price volatility."
+    },
+    {
+      "title": "Morgan Stanley: Fed Holds Rates Through All 2026",
+      "text": "Morgan Stanley revised forecast April 30 expecting Fed to hold rates unchanged through all 2026 due to sticky inflation from elevated oil and Iran risk premium."
+    },
+    {
+      "title": "UBS Projects Gold at $5,900 by Late 2026",
+      "text": "UBS raised gold target to $5,900 per ounce by late 2026, citing election uncertainty and tariff concerns. Gold closed at $4,642.90 on April 30, implying 27% further upside."
+    },
+    {
+      "title": "Singapore Q1 GDP +4.6%; Trade +38.5%; Philippines Carbon Credits Deal",
+      "text": "Singapore Q1 2026 GDP advanced 4.6% YoY. March CPI 1.8%, manufacturing +10.1%, merchandise trade +38.5%. First carbon credits agreement with Philippines signed under Paris Agreement Article 6 on April 30."
+    }
+  ],
+  "day_ahead": "Friday May 1, International Labour Day. European markets and SGX closed. US markets open. Key data: April Non-Farm Payrolls consensus around 180,000 jobs; ISM Manufacturing PMI for April. Iran escalation headlines are main market risk. No Fed speakers confirmed. Alphabet earnings to price into European and Asian markets on Monday.",
+  "ai_news": [
+    {
+      "title": "Anthropic Raising $50B at $900B Valuation",
+      "text": "TechCrunch reported April 29 Anthropic in discussions for $50 billion round at $900 billion valuation, following Google $40 billion commitment announced April 24."
+    },
+    {
+      "title": "Musk Testifies xAI Trained Grok Using OpenAI Systems",
+      "text": "Day three of Musk vs OpenAI trial: Musk testified April 30 that xAI trained Grok using OpenAI systems, fuelling the nonprofit-to-for-profit dispute."
+    },
+    {
+      "title": "DeepMind David Silver Raises $1.1B for Self-Learning AI",
+      "text": "David Silver, creator of AlphaGo, secured $1.1 billion April 27 for AI systems learning without human training data, a potential paradigm shift beyond supervised fine-tuning."
+    },
+    {
+      "title": "OpenAI Rolls Out Yubico Hardware Keys for ChatGPT Security",
+      "text": "OpenAI announced April 30 partnership with Yubico for hardware authentication key support on ChatGPT accounts, addressing enterprise security demand."
+    },
+    {
+      "title": "Meta AI Capex Surge Triggers JPMorgan Downgrade",
+      "text": "Meta raised AI capex guidance April 30, JPMorgan downgraded. Contrasts with Alphabet cloud-driven monetisation, crystallising investor divide on AI spending cycles."
+    }
+  ]
+}
