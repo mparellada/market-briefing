@@ -1,0 +1,235 @@
+{
+  "date": "Saturday, May 02 2026",
+  "sentiment": "Cautious",
+  "pulse": "U.S. equities closed Friday at all-time highs with S&P 500 at 7,230 and Nasdaq at 25,114, lifted by Apple blowout Q2 earnings and easing Iran-war tensions after Tehran submitted a new peace proposal. Oil dropped almost two percent on ceasefire hopes, while gold slipped one percent and VIX settled below seventeen. Risk appetite is cautiously optimistic but markets face a binary outcome on Iran.",
+  "movers": [
+    {
+      "name": "RDDT",
+      "change_pct": "+16.0%",
+      "reason": "Reddit surged on upbeat quarterly revenue forecast on May 1."
+    },
+    {
+      "name": "RBLX",
+      "change_pct": "-24.0%",
+      "reason": "Roblox slashed full-year 2026 bookings guidance from 6.02-6.29B to 5.87-6.14B."
+    },
+    {
+      "name": "AAPL",
+      "change_pct": "+3.5%",
+      "reason": "Apple beat Q2 EPS (2.01 vs 1.96 est.) on revenue of 111.2B vs 109.7B est.; Q3 guidance of 14-17% crushed 9% consensus."
+    },
+    {
+      "name": "BP",
+      "change_pct": "+32.0% YTD",
+      "reason": "BP Q1 profits more than doubled to 3.2B on exceptional oil trading from Strait of Hormuz disruption."
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7230.12",
+      "+16.53",
+      "+0.29%"
+    ],
+    [
+      "NDX",
+      "27452.12",
+      "+244.10",
+      "+0.90%"
+    ],
+    [
+      "DJI",
+      "49499.27",
+      "-152.87",
+      "-0.31%"
+    ],
+    [
+      "N225",
+      "59513.12",
+      "+228.20",
+      "+0.38%"
+    ],
+    [
+      "STOXX50",
+      "5881.51",
+      "+12.40",
+      "+0.21%"
+    ],
+    [
+      "IBEX35",
+      "N/A",
+      "N/A",
+      "N/A"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1726",
+      "-0.0006",
+      "-0.05%"
+    ]
+  ],
+  "futures": [
+    [
+      "ES S&P fut",
+      "~7245",
+      "flat weekend",
+      "na"
+    ],
+    [
+      "NQ Nasdaq fut",
+      "~27500",
+      "flat weekend",
+      "na"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold XAU",
+      "4571.29",
+      "-51.85",
+      "-1.12%"
+    ],
+    [
+      "Brent Crude",
+      "108.17",
+      "-2.30",
+      "-2.08%"
+    ],
+    [
+      "VIX",
+      "16.89",
+      "-0.44",
+      "-2.54%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "N/A",
+      "N/A",
+      "N/A",
+      "Cromwell EREIT no Friday data"
+    ],
+    [
+      "GCL",
+      "N/A",
+      "N/A",
+      "N/A",
+      "No Friday data retrieved"
+    ]
+  ],
+  "portfolio": "Marc SGD-base portfolio faces pivotal Iran binary. Gold slipped one percent but remains structurally supported near 4570. Oil positions (Brent at 108) under pressure from peace-deal hopes; genuine ceasefire would compress Brent toward 85-90. U.S. equities performing strongly driven by Apple and tech earnings. IBEX35 benefits from Spain GDP outperformance 2.4% vs 1.2% Eurozone average, unemployment below 10% for first time since 2008. BTC at 77k shows cautious sentiment but institutional accumulation robust. Singapore positions feel MAS tightening headwinds but property market cooling is orderly.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Iran peace proposal in play - Trump not satisfied; binary outcome could move oil +/- 15% in one session."
+    },
+    {
+      "level": "warn",
+      "text": "War Powers Act 60-day deadline hit May 1. Senate blocked resolution 47-50. Congressional-executive tension escalating."
+    },
+    {
+      "level": "warn",
+      "text": "Roblox guidance cut sent stock down 24%; watch contagion in gaming names next week."
+    },
+    {
+      "level": "info",
+      "text": "Fed held at 3.5-3.75% on April 29. Median dot: one cut in 2026."
+    },
+    {
+      "level": "info",
+      "text": "Apple Q3 guidance 14-17% vs 9% consensus - AI iPhone cycle intact."
+    },
+    {
+      "level": "info",
+      "text": "Berkshire annual meeting May 2 - first under Greg Abel as CEO."
+    }
+  ],
+  "news": [
+    {
+      "title": "Iran submits new peace proposal; Trump not satisfied",
+      "text": "Pakistan confirmed receipt of updated ceasefire proposal from Iran on May 1. Trump stated he is not satisfied and is being briefed on new military strike options. Brent fell nearly two percent to 108.17 on ceasefire hopes."
+    },
+    {
+      "title": "War Powers Act 60-day deadline passes - Senate blocks resolution 47-50",
+      "text": "May 1 marked 60 days since Trump notified Congress of the Iran military operation. Senate blocked a resolution requiring Congressional approval 47-50. Pentagon estimates two-month campaign has cost 25 billion dollars."
+    },
+    {
+      "title": "Apple Q2 earnings beat; Q3 guidance of 14-17% crushes 9% consensus",
+      "text": "Apple reported May 1 EPS of 2.01 (est 1.96) on revenue of 111.2B (est 109.7B). Services hit all-time high of 31B up 16% year-on-year. iPhone revenue 56.99B. Q3 guidance of 14-17% revenue growth shattered 9.1% consensus."
+    },
+    {
+      "title": "Federal Reserve holds rates at 3.5-3.75%; one cut forecast for 2026",
+      "text": "Fed held rates unchanged at April 29 meeting, Powells final as chair, with median dot plot showing just one cut in 2026. Vote was 8-4. Inflation and labor market pressures from Hormuz supply shock cited as key factors."
+    },
+    {
+      "title": "S&P 500 and Nasdaq at all-time highs; April best month for equities in five years",
+      "text": "S&P 500 closed at 7230 on May 1 up 0.29%, Nasdaq hit fresh record at 25114 up 0.89%. April was best month for U.S. equities in five years with S&P gaining ten percent. Ten of eleven sectors finished positive."
+    },
+    {
+      "title": "BP Q1 profits more than double to 3.2B on Iran-war oil trading",
+      "text": "BP underlying replacement cost profit hit 3.2B in Q1 2026, up from 1.38B a year earlier and above 2.63B analyst estimate. BP credited exceptional performance in oil trading amid Hormuz disruption. BP shares up 32% year to date."
+    },
+    {
+      "title": "Chevron Q1 profit beats on war-driven oil surge; Big Oil warns of cliff edge",
+      "text": "Chevron beat Q1 2026 earnings estimates as Brent averaged near 111 per barrel during the quarter. Major oil CEOs warned energy markets are moving toward a cliff edge if Hormuz supply disruption persists."
+    },
+    {
+      "title": "ExxonMobil Q1 GAAP earnings at 4.2B, down from 7.7B a year ago",
+      "text": "ExxonMobil reported Q1 2026 GAAP earnings of 4.2B (one dollar per diluted share), down from 7.7B in Q1 2025. Adjusted earnings excluding identified items were 8.8B."
+    },
+    {
+      "title": "Reddit surges 16%; Roblox crashes 24% on guidance cut",
+      "text": "Reddit jumped sixteen percent on May 1 on bullish quarterly revenue outlook. Roblox fell twenty-four percent after slashing full-year 2026 bookings guidance from 6.02-6.29B to 5.87-6.14B."
+    },
+    {
+      "title": "Berkshire Hathaway holds first annual meeting under Greg Abel as CEO",
+      "text": "Greg Abel chaired Berkshire annual shareholder meeting May 2, his first as CEO since Buffett stepped down January 1 2026. Abel uses entire 15M after-tax annual salary to buy Berkshire shares. Buffett 95 remains chairman. Berkshire down 5% YTD vs S&P 4% gain."
+    },
+    {
+      "title": "Spain unemployment falls below 10% for first time since 2008",
+      "text": "Spain unemployment dropped to 9.9%, first reading below ten percent since 2008 financial crisis. GDP projected to grow 2.1-2.4% in 2026, nearly double Eurozone average. Sovereign risk premium at just 51 basis points."
+    },
+    {
+      "title": "MAS tightens monetary policy in April; Singapore 2026 GDP forecast 1-3%",
+      "text": "MAS increased rate of S dollar NEER appreciation at April 2026 policy review, responding to elevated imported inflation from Hormuz energy shock. Singapore GDP growth forecast 1-3% in 2026, down from above-trend 4.8% in 2025."
+    },
+    {
+      "title": "Singapore property market cools; HDB resale dips first time in seven years",
+      "text": "Private home price growth slowed to 0.3% in Q1 2026. HDB resale prices dipped 0.1% in Q1, first quarterly decline in nearly seven years. Executive condo sales topped 1000 units for first time in thirteen quarters."
+    },
+    {
+      "title": "Myanmar: Aung San Suu Kyi transferred to house arrest after five years in prison",
+      "text": "Myanmar military junta transferred Aung San Suu Kyi from prison to house arrest on May 1 2026, first significant development since 2021 coup."
+    },
+    {
+      "title": "Nobel economist warns AI threatens jobs with dignity and middle-class wages",
+      "text": "Nobel prize-winning economist warned in late April that AI adoption is eroding middle-class employment faster than new jobs are being created, coinciding with Big Tech 700B AI infrastructure spending commitment for 2026."
+    }
+  ],
+  "day_ahead": "Week of May 4 key events: AMD, Pfizer, PayPal, Arista Networks, Occidental, and Super Micro Computer report earnings. Fed speakers watched for post-Powell-era signals. Iran ceasefire negotiation remains dominant macro flashpoint. Watch Trump response to Iran peace proposal and Congressional War Powers Act moves.",
+  "ai_news": [
+    {
+      "title": "Anthropic revenue surpasses 30B run-rate; Google commits 40B",
+      "text": "Anthropic annualized revenue run-rate exceeded 30B in May 2026, up from roughly 9B at end of 2025. Google announced investment commitment of up to 40B in April 2026."
+    },
+    {
+      "title": "OpenAI passes 25B annualized revenue; GPT-5.5 launched April 24",
+      "text": "OpenAI surpassed 25B in annualized revenue and is taking early steps toward potential IPO as soon as late 2026. GPT-5.5 focused on agentic coding and computer use launched April 24 2026."
+    },
+    {
+      "title": "Big Tech to spend 700B on AI infrastructure in 2026 with no ceiling in sight",
+      "text": "Fortune analysis published April 30 found major hyperscalers will collectively spend approximately 700B on AI data centers, chips, and energy infrastructure in 2026."
+    },
+    {
+      "title": "SoftBank to spin out Roze AI-robotics company targeting 100B valuation",
+      "text": "SoftBank preparing to spin out and list Roze, an AI and robotics company targeting valuation of up to 100B."
+    },
+    {
+      "title": "Novo Nordisk partners with OpenAI across drug discovery through supply chain",
+      "text": "Novo Nordisk announced full-spectrum partnership with OpenAI on April 30, integrating AI across drug discovery, clinical trials, manufacturing, and supply chains, with full deployment by end of 2026."
+    }
+  ]
+}
