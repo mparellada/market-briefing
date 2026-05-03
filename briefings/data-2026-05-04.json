@@ -1,0 +1,289 @@
+{
+  "date": "Monday, May 04 2026",
+  "sentiment": "Cautious",
+  "pulse": "US equities hit all-time highs on Friday as the S&P 500 posted its best month in five years amid Iran ceasefire hopes, but Monday opens with geopolitical complexity: the Strait of Hormuz remains closed, recession warnings are intensifying, and the April jobs report is expected to show a dramatic slowdown to just 50,000 new payrolls. VIX compressed to 16.88 but risks are asymmetric.",
+  "movers": [
+    {
+      "name": "NDX",
+      "change_pct": "+0.89%",
+      "reason": "Nasdaq hit all-time high Friday driven by Apple earnings beat and AI capex supercycle; IT sector up 50% YoY"
+    },
+    {
+      "name": "STOXX50",
+      "change_pct": "+1.12%",
+      "reason": "European equities outperformed on Iran ceasefire extension hopes and ECB rate-cut expectations"
+    },
+    {
+      "name": "KOSPI",
+      "change_pct": "-1.38%",
+      "reason": "Korean equities underperformed as energy import costs weigh and global risk appetite was mixed"
+    },
+    {
+      "name": "HSI",
+      "change_pct": "-1.27%",
+      "reason": "Hang Seng fell on Hormuz disruption impact on Hong Kong trade flows and China growth concerns"
+    },
+    {
+      "name": "GCL 3800.HK",
+      "change_pct": "-5.26%",
+      "reason": "GCL Technology Holdings dropped on solar sector pressure and weaker commodity pricing"
+    },
+    {
+      "name": "G13.SI",
+      "change_pct": "-3.55%",
+      "reason": "Genting Singapore fell on tourism slowdown concerns linked to regional economic headwinds from energy shock"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7230.12",
+      "+16.94",
+      "+0.29%"
+    ],
+    [
+      "NDX",
+      "25114.44",
+      "+222.02",
+      "+0.89%"
+    ],
+    [
+      "DJI",
+      "49499.27",
+      "-153.78",
+      "-0.31%"
+    ],
+    [
+      "N225",
+      "~59500",
+      "est",
+      "+0.40%"
+    ],
+    [
+      "STOXX50",
+      "5881.51",
+      "+65.30",
+      "+1.12%"
+    ],
+    [
+      "IBEX35",
+      "17781.00",
+      "+138.29",
+      "+0.78%"
+    ],
+    [
+      "KOSPI",
+      "6598.8",
+      "-92.2",
+      "-1.38%"
+    ],
+    [
+      "HSI",
+      "est",
+      "est",
+      "-1.27%"
+    ],
+    [
+      "STI",
+      "4921",
+      "+29.4",
+      "+0.60%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1717",
+      "-0.0011",
+      "-0.09%"
+    ],
+    [
+      "EUR/SGD",
+      "1.4920",
+      "--",
+      "--"
+    ],
+    [
+      "USD/SGD",
+      "1.2730",
+      "--",
+      "--"
+    ],
+    [
+      "USD/THB",
+      "31.9500",
+      "--",
+      "--"
+    ]
+  ],
+  "futures": [
+    [
+      "ES S&P Fut",
+      "pre-mkt",
+      "~7215",
+      "--"
+    ],
+    [
+      "NQ Fut",
+      "pre-mkt",
+      "~25050",
+      "--"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold",
+      "~4630/oz",
+      "-0.22%",
+      "Safe haven steady; Iran risk premium priced in"
+    ],
+    [
+      "Brent",
+      "116.10/bbl",
+      "+1.25%",
+      "Hormuz closure sustaining elevated prices; BP profits doubled in Q1"
+    ],
+    [
+      "WTI",
+      "~105/bbl",
+      "est",
+      "Tracking Brent; US strategic reserve discussions active"
+    ],
+    [
+      "VIX",
+      "16.88",
+      "-0.88%",
+      "Volatility compressed 38% monthly but risk asymmetric heading into jobs data"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "monitor",
+      "--",
+      "Genting Singapore proxy G13.SI fell 3.55% on May 1 on tourism/economic headwinds"
+    ],
+    [
+      "GCL 3800.HK",
+      "0.900 HKD",
+      "-5.26%",
+      "Solar sector pressure; Strong Buy consensus, 12m analyst target 1.538 HKD"
+    ]
+  ],
+  "portfolio": "Marc's SGD-base portfolio faces a complex Monday open. US long positions are at all-time highs after April's best month in five years. Consider trimming or hedging into the April jobs print expected at just 50K vs prior 178K. IBEX35 held up well as Spain maintains 2.2% GDP growth. STI recovered slightly but PM Wong's slowdown warning and Singapore's Hormuz dependency are structural headwinds. Genting Singapore G13.SI fell 3.55% â€” tourism exposure sensitive to economic slowdown. GCL Technology at 0.900 HKD near 52-week lows; analyst target 1.538 HKD suggests value but solar sector faces pricing pressure. Gold at approximately 4630 is a strong portfolio anchor. Brent at 116 supports oil positions but recession risk is a double-edged sword. BTC at approximately 77K range-bound but April ETF inflows of 1.97 billion signal institutional accumulation. Key risk this week: April jobs report and Fed Chair succession announcement could reprice rates sharply.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Strait of Hormuz closed since Feb 28 - El-Erian warns 4-8 week window before global recession; Brent at 116"
+    },
+    {
+      "level": "danger",
+      "text": "April payrolls expected at just 50K vs prior 178K - major labor market deterioration signal due this week"
+    },
+    {
+      "level": "warn",
+      "text": "Fed Chair Powell term expiring May 2026 - successor selection imminent; Hassett or Warsh likely; policy uncertainty elevated"
+    },
+    {
+      "level": "warn",
+      "text": "US withdrawing 5,000 troops from Germany - NATO fracture accelerating, European defense risk premium rising"
+    },
+    {
+      "level": "warn",
+      "text": "Pentagon excluded Anthropic from classified AI contracts - OpenAI/Google/MSFT benefit from defense AI push"
+    },
+    {
+      "level": "info",
+      "text": "Anthropic raising at approximately 900B valuation; Google committing up to 40B; GPT-5.4 launched with autonomous workflows"
+    },
+    {
+      "level": "info",
+      "text": "Spain maintaining 2.2% GDP growth; 532K jobs added past year; PM Sanchez denying US military base access"
+    },
+    {
+      "level": "info",
+      "text": "Singapore Q1 GDP +4.6% YoY; PM Wong warns of slowdown from prolonged Hormuz disruptions"
+    }
+  ],
+  "news": [
+    {
+      "title": "Strait of Hormuz Closure Enters Month Three - Recession Clock Ticking",
+      "text": "The Strait of Hormuz has been closed since February 28, 2026 following US-Israeli operations against Iran. UNCTAD estimates the closure disrupts 20% of global oil and gas flows. Mohamed El-Erian warned in late April that the global economy has only 4-8 weeks to avoid a structural recession without the straits reopening. Vessel transit costs surged above 1 million dollars in Iranian transit tolls."
+    },
+    {
+      "title": "S&P 500 and Nasdaq Post All-Time Highs; April Best Month in Five Years",
+      "text": "The S&P 500 closed Friday May 1 at 7,230.12 (+0.29%) and the Nasdaq hit a new all-time high at 25,114.44 (+0.89%), capping April with a 10% monthly gain the best since 2021. Iran ceasefire extension hopes and Apple earnings beat drove the late-April rally. Strategists flagged narrow market breadth as a warning sign heading into May."
+    },
+    {
+      "title": "April Jobs Report Due This Week - Consensus at Just 50,000 New Payrolls",
+      "text": "The April non-farm payrolls report is due this week with consensus at 50,000 new jobs versus March 178,000. Unemployment is forecast to hold at 4.3%. A miss on this scale would signal significant labor market deterioration and sharply increase recession probability."
+    },
+    {
+      "title": "BP Profits Double to 3.2 Billion on Energy Shock",
+      "text": "BP reported Q1 2026 profits of 3.2 billion dollars, more than double the same period last year, driven by Brent crude briefly reaching 126 dollars per barrel amid Hormuz disruptions."
+    },
+    {
+      "title": "US Withdraws 5,000 Troops from Germany - NATO Fracture Deepens",
+      "text": "The Pentagon announced the removal of 5,000 US troops from Germany as Trump fulfills NATO withdrawal commitments. The move has rattled European allies and adds to a European security risk premium already elevated by the Iran conflict."
+    },
+    {
+      "title": "Fed Chair Succession Imminent - Powell Term Expires This Month",
+      "text": "Jerome Powell Federal Reserve term expires in May 2026. Trump is expected to select a successor imminently with Kevin Hassett and Kevin Warsh as leading candidates. Both are seen as more rate-cut friendly as the US effective tariff rate has risen from 2.1% to 11.7% since January 2026."
+    },
+    {
+      "title": "Spain Holds 2.2% GDP Growth Forecast; Denies US Military Base Access",
+      "text": "Spain is maintaining its 2.2% GDP growth forecast for 2026 despite the global energy shock, with 532,000 jobs added in the past year. PM Sanchez has denied US and Israeli forces access to Rota and Moron military bases, drawing trade sanction threats from Washington."
+    },
+    {
+      "title": "Spain April Manufacturing PMI Released - Sector in Contraction",
+      "text": "Spain April Manufacturing PMI follows March reading of 48.7, below the 50-point expansion threshold, with input prices at their highest since late 2022 and business confidence at its worst since October 2023."
+    },
+    {
+      "title": "Singapore PM Wong Warns Economy Will Slow on Hormuz Disruption",
+      "text": "PM Lawrence Wong warned on May 1 that Singapore economy will slow in 2026 due to the prolonged Strait of Hormuz closure. Q1 2026 GDP grew 4.6% year-on-year but contracted 0.3% quarter-on-quarter."
+    },
+    {
+      "title": "Pentagon Awards Classified AI Contracts to Seven Firms, Excluding Anthropic",
+      "text": "The DoD cleared seven AI companies for classified network deployment as of May 1 - OpenAI, Google, Microsoft, AWS, Nvidia, SpaceX, and Reflection AI - but excluded Anthropic over disagreements on modifying safety guardrails for military applications."
+    },
+    {
+      "title": "Anthropic Seeking 50 Billion Round at 900 Billion Valuation",
+      "text": "Anthropic is finalizing a 50 billion dollar funding round at a valuation near 900 billion dollars, with Google anchoring up to 40 billion in total commitments. The round is expected to close within two weeks."
+    },
+    {
+      "title": "Meta Plans 115 to 135 Billion AI Capex in 2026",
+      "text": "Meta announced capital expenditure plans of 115 to 135 billion dollars for AI infrastructure in 2026, nearly double 2025 levels. Markets have rewarded Alphabet for demonstrating AI monetization but remain skeptical of Meta ROI clarity."
+    },
+    {
+      "title": "RBA Expected to Raise Rates 25 Basis Points This Week",
+      "text": "The Reserve Bank of Australia is expected to announce a 25 basis point rate increase this week, continuing its inflation-fighting cycle amid geopolitical disruptions and sticky services inflation."
+    },
+    {
+      "title": "Catalonia: Barcelona Women Reach Champions League Final; R13 Rail Line Closes Two Months",
+      "text": "FC Barcelona women team advanced to the UEFA Champions League final, a top story in Catalonia this week per 3Cat. The R13 commuter rail line will close for two months due to structural concerns in a nineteenth-century tunnel."
+    }
+  ],
+  "day_ahead": "Key events this week: April US non-farm payrolls (consensus 50K vs prior 178K). Reserve Bank of Australia rate decision (25bp hike expected). AMD earnings Tuesday with 34.4% EPS growth consensus. 133 S&P 500 companies reporting this week. Spain April Manufacturing PMI released today May 4. Fed Chair succession announcement could come any day. Watch Brent crude for any Hormuz ceasefire breakthrough signals.",
+  "ai_news": [
+    {
+      "title": "Pentagon Excludes Anthropic from Classified AI Contracts Over Safety Guardrails",
+      "text": "The DoD cleared seven AI companies for classified network deployment on May 1 - OpenAI, Google, Microsoft, AWS, Nvidia, SpaceX, and Reflection AI - but excluded Anthropic over disagreements on modifying safety guardrails for military applications."
+    },
+    {
+      "title": "Anthropic Closing 50 Billion Round at 900 Billion Valuation",
+      "text": "Anthropic is finalizing a 50 billion dollar funding round valuing the company near 900 billion dollars, with Google anchoring up to 40 billion. The round closure is expected within two weeks."
+    },
+    {
+      "title": "GPT-5.4 Launched with Autonomous Workflow Execution Capability",
+      "text": "OpenAI released GPT-5.4 in May 2026 with a one-million-token context window and autonomous multi-step workflow execution, scoring 75% on the OSWorld-V benchmark. The model represents a shift from AI as conversational tool to AI as autonomous digital worker."
+    },
+    {
+      "title": "Novo Nordisk Partners OpenAI for End-to-End Drug Discovery",
+      "text": "Novo Nordisk announced a partnership with OpenAI to integrate AI across drug discovery, clinical trials, manufacturing, and commercial operations, with full deployment targeted by end-2026."
+    },
+    {
+      "title": "AI Supercycle Drives 600 to 645 Billion in Capex Across Four Tech Giants in 2026",
+      "text": "Four major tech companies are projected to spend 600 to 645 billion dollars on AI infrastructure in 2026. IT sector earnings are up 50% year-on-year. AI growth is broadening from hyperscalers into banking, healthcare, logistics, and utilities."
+    }
+  ]
+}
