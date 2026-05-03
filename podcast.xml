@@ -8,7 +8,7 @@
     <atom:link href="https://mparellada.github.io/market-briefing/podcast.xml" rel="self" type="application/rss+xml"/>
     <description>Every weekday morning: global markets, major news, Spain and Catalonia, and AI world updates. Compiled autonomously from BBC, FT, Bloomberg, NYT, The Economist, La Vanguardia, El Economista, and 3cat.cat.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2026 23:17:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 23:09:28 GMT</lastBuildDate>
     <itunes:author>Marc Parellada</itunes:author>
     <itunes:summary>Every weekday morning: global markets, major news, Spain and Catalonia, and AI world updates. Compiled autonomously from BBC, FT, Bloomberg, NYT, The Economist, La Vanguardia, El Economista, and 3cat.cat.</itunes:summary>
     <itunes:owner>
@@ -19,6 +19,17 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
 
+    <item>
+      <title>Market Briefing — Monday, May 04, 2026</title>
+      <description>Market Briefing — Monday, May 04, 2026</description>
+      <pubDate>Mon, 04 May 2026 07:00:00 GMT</pubDate>
+      <enclosure url="https://mparellada.github.io/market-briefing/podcasts/podcast-2026-05-04.mp3" length="10858701" type="audio/mpeg"/>
+      <guid isPermaLink="false">podcast-2026-05-04.mp3</guid>
+      <itunes:author>Marc Parellada</itunes:author>
+      <itunes:summary>Market Briefing — Monday, May 04, 2026</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>20:00</itunes:duration>
+    </item>
     <item>
       <title>Market Briefing — Sunday, May 03, 2026</title>
       <description>Market Briefing — Sunday, May 03, 2026</description>
