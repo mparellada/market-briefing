@@ -1,0 +1,216 @@
+{
+  "date": "Tuesday, May 05 2026",
+  "sentiment": "Cautious",
+  "pulse": "Geopolitical risk dominates as the 2026 Strait of Hormuz crisis pushes Brent crude to a four-year high above 114 dollars per barrel, triggering inflation fears and equity selling in Europe. Central banks remain in hold-or-hike mode with oil-driven inflation keeping policy tight. De-escalation signals from Washington on Iran peace proposal provided some relief to crypto and US equities, but the overall tone remains cautious.",
+  "movers": [
+    {
+      "name": "BRENT",
+      "change_pct": "+5.45%",
+      "reason": "Missiles struck a US warship in the Strait of Hormuz, compounding supply disruption shutting 20-25% of global oil flows"
+    },
+    {
+      "name": "VIX",
+      "change_pct": "+7.36%",
+      "reason": "Geopolitical spike from Hormuz escalation drove a sharp fear premium into options markets"
+    },
+    {
+      "name": "STOXX50",
+      "change_pct": "-2.00%",
+      "reason": "European equities sold off on oil-shock inflation fears and ECB rate-hike signals from Nagel"
+    },
+    {
+      "name": "BTC",
+      "change_pct": "+2.00%",
+      "reason": "Trump measured response to Iran peace proposal cooled inflation expectations, Bitcoin back above $80,000"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7,230.12",
+      "+16.58",
+      "+0.29%"
+    ],
+    [
+      "NDX",
+      "27,710.36",
+      "--",
+      "--"
+    ],
+    [
+      "DJI",
+      "49,499.27",
+      "-153.80",
+      "-0.31%"
+    ],
+    [
+      "N225",
+      "59,513",
+      "+225.5",
+      "+0.38%"
+    ],
+    [
+      "STOXX50",
+      "5,763.61",
+      "-117.90",
+      "-2.00%"
+    ],
+    [
+      "IBEX35",
+      "17,645",
+      "-125",
+      "-0.70%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1700",
+      "+0.005",
+      "+0.43%"
+    ]
+  ],
+  "futures": [],
+  "commodities": [
+    [
+      "Gold",
+      "$4,564/oz",
+      "-$34",
+      "-0.75%"
+    ],
+    [
+      "Brent",
+      "$114.44/bbl",
+      "+$5.94",
+      "+5.45%"
+    ],
+    [
+      "VIX",
+      "18.24",
+      "+1.25",
+      "+7.36%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "--",
+      "--",
+      "--"
+    ],
+    [
+      "GCL",
+      "--",
+      "--",
+      "--"
+    ]
+  ],
+  "portfolio": "Oil position wins big today with Brent at $114 four-year high from Hormuz crisis. Gold -0.75% to $4,564 but retains safe-haven bid. IBEX35 +43.86% YTD strong but STOXX50 -2% is a European caution signal. BTC recovering to $80K positive for crypto. US equities mixed. Key risk: Hormuz escalation to $120+ oil boosts energy but crushes equity multiples.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Strait of Hormuz effectively closed - IEA calls it the largest oil supply disruption in history. Brent four-year high above $114."
+    },
+    {
+      "level": "danger",
+      "text": "Fed held 3.5-3.75% with 4 dissents, most since Oct 1992. Powell departing as Chair."
+    },
+    {
+      "level": "warn",
+      "text": "ECB Nagel signals potential June rate hike. Markets pricing three ECB hikes in 2026."
+    },
+    {
+      "level": "warn",
+      "text": "VIX at 18.24, +7.36% - fear premium rising on Hormuz escalation."
+    },
+    {
+      "level": "info",
+      "text": "GameStop $55.5B unsolicited bid for eBay at $125/share (20% premium)."
+    },
+    {
+      "level": "info",
+      "text": "Andalusian regional election confirmed for May 17, 2026."
+    }
+  ],
+  "news": [
+    {
+      "title": "Strait of Hormuz crisis: Brent surges past $114 on supply shock",
+      "text": "Iran blockade of the Strait of Hormuz sent Brent crude to $114.44/bbl (+5.45%) and WTI to $106.42 (+4.39%). The IEA called this the largest oil supply disruption in history. On May 4, two missiles struck a US warship after it ignored Iranian warnings."
+    },
+    {
+      "title": "Fed holds at 3.5-3.75% with record dissents; Powell to step down as Chair",
+      "text": "At the April 29 FOMC meeting, the Fed held with four dissents, most since October 1992. The Fed projects inflation around 3% through 2026. Powell confirmed he will step aside at term end but remain on the Board."
+    },
+    {
+      "title": "ECB signals potential June rate hike",
+      "text": "Bundesbank President Nagel warned the ECB may need to raise rates in June if inflation projections do not show marked improvement. ECB projects 2.6% headline inflation in 2026. Markets price in three ECB hikes this year."
+    },
+    {
+      "title": "Bank of England holds at 3.75%, one MPC member votes for immediate hike",
+      "text": "MPC voted 8-1 on April 30 to keep Bank Rate at 3.75%, one member calling for a 25bp increase. UK CPI at 3.3% and expected higher as energy costs pass through."
+    },
+    {
+      "title": "GameStop launches unsolicited $55.5 billion bid for eBay",
+      "text": "GameStop announced May 3-4 an unsolicited offer for eBay at $125/share, a 20% premium. CEO Ryan Cohen aims to merge 1,600 US stores with eBay online marketplace. TD Bank provided $20B financing but eBay trades at $109, signalling skepticism."
+    },
+    {
+      "title": "Supreme Court tariff ruling continues to ripple through US economy",
+      "text": "Following the February 20 Supreme Court decision striking down Trump tariffs under IEEPA, businesses are filing for refunds while the administration pursues alternative authorities. Estimated to add 0.5pp to US inflation."
+    },
+    {
+      "title": "IMF revises global growth forecasts down amid oil and geopolitical shocks",
+      "text": "The IMF April 2026 World Economic Outlook projects 2.4% US GDP growth, with global growth constrained by Hormuz disruption, trade fragmentation, and geopolitical uncertainty."
+    },
+    {
+      "title": "China maintains 4.5-5% growth target; 2025 trade surplus hit record $1.2 trillion",
+      "text": "China set 4.5-5% 2026 growth target, IMF revised to 4.4%. 2025 trade surplus reached nearly $1.2 trillion record. US-China trade fell 30% from tariff disputes. Yuan-based trade ties deepening with Saudi Arabia, Brazil, Indonesia."
+    },
+    {
+      "title": "Spain: Begona Gomez case advances, popular prosecution seeks 24 years",
+      "text": "Judge Juan Carlos Peinado ordered criminal proceedings to continue against Begona Gomez on April 11, charging influence peddling, corruption, embezzlement, improper appropriation. Popular prosecution filed for 24 years on April 20 and called for Sanchez to testify."
+    },
+    {
+      "title": "Andalusian regional election set for May 17 - PP defending majority",
+      "text": "Spain Andalusian election confirmed for May 17, all 109 parliament seats contested. PP president Juanma Moreno seeks to maintain majority against PSOE now led by Maria Jesus Montero."
+    },
+    {
+      "title": "Singapore Q1 2026 GDP growth: 4.6% year-on-year",
+      "text": "Singapore economy expanded 4.6% YoY in Q1 2026, moderating from 5.7% in Q4 2025. Full-year 2026 growth forecast 2.5%. AI integration projected to generate S$190 billion in gains by 2030."
+    },
+    {
+      "title": "SGX-Nasdaq Global Listing Board enabled by Securities and Futures Amendment Bill 2026",
+      "text": "Singapore Securities and Futures Amendment Bill 2026 enables a Global Listing Board between SGX and Nasdaq, streamlining dual listing. MAS committed to IMF capacity enhancement at the May 3 ASEAN+3 Finance Ministers meeting in Samarkand."
+    },
+    {
+      "title": "Pentagon signs AI deals with 8 tech firms, excludes Anthropic over safety stance",
+      "text": "DoD announced May 1 agreements with SpaceX, OpenAI, Google, Microsoft, Nvidia, AWS, Oracle, and Reflection for AI access in classified networks. Anthropic excluded over safety guardrails for warfare AI. Discussions reportedly reopened."
+    },
+    {
+      "title": "OpenAI launches GPT-5.5 on May 5 with cybersecurity model",
+      "text": "OpenAI released GPT-5.5 on May 5, available on Amazon Bedrock. Improved coding, computer use, and agent workflows. CEO Altman also announced GPT-5.5-Cyber for trusted security defenders."
+    }
+  ],
+  "day_ahead": "US markets open with Hormuz oil crisis as dominant macro theme. Watch US-Iran diplomatic developments after Trump measured response to 14-point peace proposal. ECB speakers likely to elaborate on June hike signals. Andalusian election campaign ahead of May 17. Advanced Factories 2026 runs May 5-7 at Fira Barcelona. Delta launches Barcelona-Seattle on May 7. Nikkei closed for Japanese public holiday.",
+  "ai_news": [
+    {
+      "title": "OpenAI GPT-5.5 launches May 5 - available on Amazon Bedrock",
+      "text": "OpenAI released GPT-5.5 on May 5, hosting invite-only event in San Francisco and pushing to Amazon Bedrock. Improved coding, computer use, agent workflows. GPT-5.5-Cyber announced for trusted security defenders."
+    },
+    {
+      "title": "Anthropic partners with Blackstone, Goldman Sachs, Hellman and Friedman for enterprise AI",
+      "text": "Anthropic announced May 4 strategic partnership with Blackstone, Hellman and Friedman, and Goldman Sachs to build a new enterprise AI services company. Hosting The Briefing: Financial Services livestream on May 5."
+    },
+    {
+      "title": "Pentagon AI deals: 8 companies in, Anthropic excluded over safety guardrails",
+      "text": "DoD on May 1 signed AI agreements with SpaceX, OpenAI, Google, Microsoft, Nvidia, AWS, Oracle, and Reflection. Anthropic excluded over safety guardrails for warfare AI. Discussions reportedly reopened."
+    },
+    {
+      "title": "SoftBank plans $100B Roze IPO; KKR closes $10B Helix AI infrastructure fund",
+      "text": "SoftBank planning to list Roze, new AI and robotics company, in the US at potential $100B valuation. KKR secured over $10B for Helix Digital Infrastructure fund focused on data centers and power for AI workloads."
+    },
+    {
+      "title": "Google DeepMind Gemini captures 25% of global AI traffic, up from 6% a year ago",
+      "text": "Gemini accounts for a quarter of global AI traffic, up from 6% a year ago. DeepMind expanding with Boston Dynamics on humanoid robotics and with US Department of Energy on scientific AI."
+    }
+  ]
+}
