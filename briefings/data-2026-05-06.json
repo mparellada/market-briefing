@@ -1,0 +1,229 @@
+{
+  "date": "Wednesday, May 06 2026",
+  "sentiment": "Risk-On",
+  "pulse": "US equities closed at fresh records Tuesday with the S and P 500 at 7,259 and Nasdaq at 25,326 as AMD blowout Q1 results drove chip stocks higher and Hormuz ceasefire hopes supported risk appetite. Brent crude slid from its 114 dollar peak to 102 dollars as tensions eased, though the strait remains operationally contested. The Fed held rates at 3.50 to 3.75 percent at its April 29 meeting with inflation still above target at 3.3 percent, keeping rate-cut expectations firmly pushed to late 2026.",
+  "movers": [
+    {
+      "name": "AMD",
+      "change_pct": "+Q1 beat",
+      "reason": "Q1 revenue 10.25B vs 9.89B expected, EPS 1.37 vs 1.29; Q2 guide 11.2B; Meta 6GW GPU deal announced."
+    },
+    {
+      "name": "BRENT",
+      "change_pct": "-3.51pct",
+      "reason": "Ceasefire in Strait of Hormuz holding after US sank 6 Iranian gunboats."
+    },
+    {
+      "name": "RUSSELL 2000",
+      "change_pct": "+1.92pct Tue",
+      "reason": "Small-caps surged to new intraday record as falling oil and reduced VIX drove risk-on rotation."
+    },
+    {
+      "name": "STOXX50",
+      "change_pct": "-2.00pct Tue",
+      "reason": "European equities lagged on regional energy exposure before US afternoon rally."
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7259.22",
+      "+58.60",
+      "+0.81pct"
+    ],
+    [
+      "NDX",
+      "25326.13",
+      "+259.11",
+      "+1.03pct"
+    ],
+    [
+      "DJI",
+      "49298.25",
+      "+356.35",
+      "+0.73pct"
+    ],
+    [
+      "N225",
+      "59513.00",
+      "+223.00",
+      "+0.38pct May4"
+    ],
+    [
+      "STOXX50",
+      "5763.61",
+      "-117.26",
+      "-2.00pct"
+    ],
+    [
+      "IBEX35",
+      "~17800",
+      "n/a",
+      "positive YTD trend"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1720",
+      "+0.0032",
+      "+0.27pct"
+    ]
+  ],
+  "futures": [
+    [
+      "ES1",
+      "7295",
+      "+0.50pct",
+      "S&P 500 futures positive premarket"
+    ],
+    [
+      "NQ1",
+      "25460",
+      "+0.52pct",
+      "Nasdaq futures up"
+    ]
+  ],
+  "commodities": [
+    [
+      "GOLD",
+      "4567.80",
+      "+34.50",
+      "+0.76pct"
+    ],
+    [
+      "BRENT",
+      "102.68",
+      "-3.74",
+      "-3.51pct"
+    ],
+    [
+      "VIX",
+      "17.38",
+      "-0.91",
+      "-4.98pct"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "n/a",
+      "n/a",
+      "AEM Holdings - monitor SGX energy/tech sentiment"
+    ],
+    [
+      "GCL",
+      "n/a",
+      "n/a",
+      "GCL Technology - solar polysilicon, China energy policy watch"
+    ]
+  ],
+  "portfolio": "US equities at all-time highs benefit the US position. Gold at 4567 continues to outperform as safe-haven and energy-shock hedge. Oil falling from 114 to 102 is a headwind for the Oil position but a tailwind for Asia and Spain. IBEX35 trending positive YTD. MAS tightened slope. STI and 9G2.SI face regional headwind from Asia energy cost inflation. BTC at 81361 - modest gains. GCL faces cross-winds between China energy transition and US-China trade friction.",
+  "alerts": [
+    {
+      "level": "warn",
+      "text": "Brent at 102 down from 114 but Hormuz still contested. Any renewed Iran-US clash could spike energy again."
+    },
+    {
+      "level": "warn",
+      "text": "Fed on hold; inflation at 3.3pct - rate cuts pushed to late 2026. Duration risk elevated."
+    },
+    {
+      "level": "info",
+      "text": "AMD Q1 beat driving AI chip stocks; positive read-through for Nvidia, Micron, ASML."
+    },
+    {
+      "level": "info",
+      "text": "Anthropic launched Claude Opus 4.7 plus 1.5B JV with Blackstone/Goldman/GIC."
+    },
+    {
+      "level": "info",
+      "text": "Singapore MAS tightened exchange rate slope - watch SGX rate-sensitives."
+    }
+  ],
+  "news": [
+    {
+      "title": "Strait of Hormuz ceasefire holds but contested",
+      "text": "US military sank six Iranian gunboats May 4-5 under Project Freedom; two US-flagged ships transited. Iran insists strait closed. Brent fell from 114 to 102 as ceasefire holds but shipping companies hesitant."
+    },
+    {
+      "title": "S and P 500 and Nasdaq close at all-time highs May 5",
+      "text": "S and P 500 rose 0.81pct to 7,259.22 and Nasdaq gained 1.03pct to 25,326.13 - both record closes. Russell 2000 set new intraday record up nearly 2pct."
+    },
+    {
+      "title": "AMD Q1 2026 beats on AI data center surge",
+      "text": "AMD posted Q1 revenue 10.25 billion vs 9.89 billion expected, EPS 1.37 vs 1.29 expected. Q2 guidance approximately 11.2 billion representing 46pct year-over-year growth. Meta signed multiyear deal deploying up to 6 gigawatts of AMD GPUs."
+    },
+    {
+      "title": "Federal Reserve holds rates at 3.50 to 3.75 percent",
+      "text": "At its April 29 meeting the FOMC held the funds rate unchanged. CPI at 3.3pct in March - highest since May 2024. Markets now pricing Fed on hold through year-end."
+    },
+    {
+      "title": "Anthropic launches Claude Opus 4.7 and 1.5 billion Wall Street JV",
+      "text": "On May 4-5 Anthropic launched Claude Opus 4.7 and announced a 1.5 billion dollar joint venture with Blackstone, Hellman and Friedman, Goldman Sachs, GIC, Apollo, Sequoia, and others."
+    },
+    {
+      "title": "Pentagon signs AI contracts with 7 firms; Anthropic excluded",
+      "text": "The Defense Department finalized AI contracts with OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI. Anthropic was excluded after refusing to permit all lawful use of Claude, citing domestic surveillance and autonomous weapons concerns."
+    },
+    {
+      "title": "US withdrawing 5,000 troops from Germany amid Trump-Merz spat",
+      "text": "US Defense Department confirmed 5,000 military personnel will leave German bases over 6-12 months following a dispute between Trump and Chancellor Merz over the Iran war and NATO obligations."
+    },
+    {
+      "title": "Begona Gomez formally charged; prosecution seeks 24 years",
+      "text": "Judge Juan Carlos Peinado agreed to prosecute Begona Gomez, wife of PM Pedro Sanchez, for influence peddling, corruption in business, embezzlement and misappropriation."
+    },
+    {
+      "title": "Myanmar: Aung San Suu Kyi moved from prison to house arrest",
+      "text": "Myanmar authorities transferred Nobel laureate Aung San Suu Kyi from prison to house arrest. No details on conditions or duration provided."
+    },
+    {
+      "title": "US gas prices hit 4.46 dollars a gallon - highest in four years",
+      "text": "Average US retail gasoline reached 4.46 dollars per gallon on May 4, up from 4.11 the prior week. Voter anger over energy costs is emerging as a factor in November midterm dynamics."
+    },
+    {
+      "title": "Singapore MAS tightens exchange rate slope amid oil shock",
+      "text": "The Monetary Authority of Singapore increased the slope of its exchange rate policy band, leading Asia in tightening. GDP growth forecast at 2.2pct for 2026, down from 4.8pct in 2025."
+    },
+    {
+      "title": "Japan faces stagflation: 0.5pct growth forecast for 2026",
+      "text": "With Brent above 100 dollars and the yen at 157 after suspected 35 billion dollar intervention, Japan faces roughly 0.5pct GDP growth in 2026."
+    },
+    {
+      "title": "IMF: Energy shock pushing emerging Asia inflation to 2.6pct in 2026",
+      "text": "The IMF projected emerging Asia inflation rising from 1.1pct in 2025 to 2.6pct in 2026. ADB cut developing Asia growth forecast to 4.7pct."
+    },
+    {
+      "title": "Singapore private property prices rose 1.3pct in Q1 2026",
+      "text": "URA Q1 data showed non-landed private home prices up 1.3pct, reversing Q4 2025 dip. OCR led with 2.2pct. HDB resale volume fell 18pct year-on-year."
+    },
+    {
+      "title": "James Murdoch in advanced talks to buy New York magazine from Vox",
+      "text": "James Murdoch in advanced negotiations to acquire New York magazine and several podcasts from Vox Media, per Bloomberg."
+    }
+  ],
+  "day_ahead": "No FOMC meeting today - next decision June. Watch Fed speakers on May CPI trajectory given the energy spike. AMD earnings fully digested. Oil price direction from Hormuz is the primary macro variable. ECB speakers on deck given eurozone inflation at 3pct; markets pricing 80pct chance of June hike.",
+  "ai_news": [
+    {
+      "title": "Claude Opus 4.7 launches with financial services focus",
+      "text": "Anthropic Opus 4.7 announced May 5 is the most capable model with pre-built AI agents for banks. Improvements in advanced software engineering and difficult reasoning. Paired with Claude Security beta for enterprise code vulnerability scanning."
+    },
+    {
+      "title": "Anthropic forms 1.5B AI services JV with Blackstone, Goldman, GIC",
+      "text": "The new firm embeds Anthropic engineers directly with enterprise clients. Singapore GIC is a co-investor - sovereign wealth betting on Claude-native enterprise adoption. The JV is a direct shot at the consulting industry."
+    },
+    {
+      "title": "Pentagon AI contracts: 7 companies in, Anthropic out",
+      "text": "OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI secured DoD contracts for classified AI environments. Anthropic exclusion stems from refusing to permit all lawful use of Claude."
+    },
+    {
+      "title": "AMD Meta deal signals next wave of AI infrastructure build",
+      "text": "Meta agreement to deploy up to 6GW of AMD GPUs marks significant diversification from Nvidia dominance. Multi-vendor AI data center stack accelerating."
+    },
+    {
+      "title": "Google commits up to 40 billion to Anthropic - largest AI investment on record",
+      "text": "Reported April 24: Google committed up to 40 billion dollars in cash and compute to Anthropic, underpinning Claude Opus 4.7 compute availability."
+    }
+  ]
+}
