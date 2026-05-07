@@ -1,0 +1,69 @@
+{
+  "date": "Friday, May 08 2026",
+  "sentiment": "Mixed",
+  "pulse": "US equity markets pulled back modestly on May 7 after a multi-day record run, with the S&P 500 slipping 0.38% as Iran deal optimism tempered slightly on fresh Trump bomb threats. Asian markets surged powerfully, led by the Nikkei's 5% leap to 62,833 on AMD-driven AI euphoria and Iran ceasefire hopes. Oil retreated toward $100 on deal progress, easing pressure on global inflation but keeping the Fed in hold mode.",
+  "movers": [
+    {"name":"AMD","change_pct":"+16.0%","reason":"Q1 2026 earnings beat: revenue $10.25B vs $9.89B expected, up 38% YoY; Q2 guidance of $11.2B above consensus; Goldman upgraded to Buy, target raised to $450"},
+    {"name":"SOFTBANK","change_pct":"+18.0%","reason":"Nikkei heavyweight surged on AMD AI optimism spillover and improved sentiment on Iran ceasefire progress"},
+    {"name":"IBIDEN","change_pct":"+22.0%","reason":"Japanese chip packaging firm rallied sharply as AMD's AI demand outlook boosted entire semiconductor supply chain"},
+    {"name":"ARM","change_pct":"+11.0%","reason":"AMD AI chip demand beat drove broad semiconductor sector rally; Arm designs underpin AI inference workloads"},
+    {"name":"BRENT","change_pct":"-4.0%","reason":"Reports of US-Iran closing in on 14-point MoU ceasefire framework sent crude lower; Strait of Hormuz reopening in sight"}
+  ],
+  "indices": [
+    ["SPX","7337.11","-28.0","-0.38%"],
+    ["NDX","25806.20","-34.0","-0.13%"],
+    ["DJI","49596.97","-313.62","-0.63%"],
+    ["N225","62833.84","+2840.0","+4.72%"],
+    ["STOXX50","5972.65","-54.0","-0.90%"],
+    ["IBEX35","18134.84","+47.0","+0.26%"]
+  ],
+  "currencies": [
+    ["EUR/USD","1.0820","-0.0035","-0.32%"]
+  ],
+  "futures": [
+    ["ES1! (S&P Fut)","7345","flat","pre-market steady"],
+    ["NQ1! (NQ Fut)","25830","flat","pre-market steady"]
+  ],
+  "commodities": [
+    ["Gold","4712.00","-18.0","-0.38%"],
+    ["Brent","101.91","+0.64","+0.63%"],
+    ["VIX","17.39","+0.01","+0.06%"]
+  ],
+  "stocks": [
+    ["9G2.SI","N/A","N/A","Singapore-listed; monitor STI correlation"],
+    ["GCL","N/A","N/A","Monitor AI/energy sector crosscurrents"]
+  ],
+  "portfolio": "Marc's SGD-base portfolio faces mixed signals. US positions benefit from AMD-driven tech surge and near-record S&P levels, though the index pulled back 0.38% on May 7 after a strong run. IBEX35 held firm at 18,134 (+0.26%), outperforming STOXX50 (-0.90%), reflecting Spain's above-EU-average GDP growth. Asia exposure via STI and 9G2.SI benefits from Nikkei's 5% surge and improved regional sentiment on Iran deal hopes. Gold at ~$4,712 remains a strong hedge â€” the metal has doubled from pre-crisis levels. Oil exposure through Brent at $101.91 faces near-term headwind if Iran MoU is signed. BTC at ~$82K consolidates above key support; $85K next target. Key risk: Iran deal collapse would send Brent above $120 and re-ignite VIX.",
+  "alerts": [
+    {"level":"warn","text":"US-Iran MoU talks at critical juncture â€” Trump renewed bomb threats May 5 even as Witkoff/Kushner near 14-point framework. Any breakdown sends Brent above $120 and triggers risk-off."},
+    {"level":"warn","text":"Fed holds rates at 3.50-3.75% through 2026; no cuts expected. Core PCE at 3.0% with oil above $100 keeps inflation sticky."},
+    {"level":"info","text":"AMD Q1 beat confirms AI capex supercycle intact â€” positive for tech/chip holdings and broadly supportive of Nasdaq and Nikkei exposure."},
+    {"level":"info","text":"Nikkei 225 hit 62,833 on May 7, a new milestone, led by Softbank (+18%) and Ibiden (+22%)."},
+    {"level":"info","text":"Singapore property prices +0.9% Q1 2026 with OCR leading at +2.2%; SGX EQDP expanded to S$6.5B â€” supportive of SGX-listed positions."}
+  ],
+  "news": [
+    {"title":"US and Iran Near 14-Point Ceasefire MoU â€” Oil Retreats Below $102","text":"The White House believes it is nearing a memorandum of understanding with Iran to end the war, outlining a framework for nuclear talks. The 14-point MoU is being crafted by envoys Witkoff and Kushner with Iranian officials. A ceasefire has held since April 8 but Trump renewed bomb threats on May 5. Oil dipped below $100 before recovering to $101.91."},
+    {"title":"AMD Q1 2026 Earnings Spark Global Chip Rally","text":"AMD reported May 6 revenue of $10.25B, up 38% YoY, beating the $9.89B consensus. Q2 guidance of $11.2B also exceeded expectations. Stock surged 16% and lifted Arm (+11%), Intel (+6%), Qualcomm (+4%), Micron (+6.4%). Goldman upgraded AMD to Buy, target $450."},
+    {"title":"Nikkei 225 Surges 5% to 62,833 â€” New Milestone","text":"Japan's Nikkei 225 advanced more than 5% on May 7 to 62,833.84, driven by Softbank +18% and Ibiden +22%. Korea's Kospi gained 1.43% to 7,490. AMD AI optimism and Iran ceasefire sentiment drove the broad Asia-Pacific rally."},
+    {"title":"S&P 500 Slips 0.38% After Record Run â€” Iran Caution Weighs","text":"The S&P 500 fell 0.38% to 7,337.11 on May 7, Dow shed 313 points to 49,596.97, as investors paused after a multi-session record run. STOXX50 declined 0.90%."},
+    {"title":"Fed Holds Rates at 3.50-3.75%; No 2026 Cuts Expected","text":"The Fed held rates steady at its April 29 meeting. Powell confirmed he will stay on as a board governor. Market pricing implies no cuts through year-end 2026 as core PCE remains at 3.0% and oil above $100 keeps inflation risks elevated."},
+    {"title":"Pentagon Signs AI Deals With Seven Tech Firms â€” Anthropic Excluded","text":"DoD finalized AI agreements around May 1 with OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI into classified environments. Anthropic was cut from the contracts citing supply-chain risk following a contract dispute."},
+    {"title":"Rubio in Rome for Vatican Meeting â€” Middle East Diplomacy","text":"US Secretary of State Marco Rubio arrived in Rome on May 7 for meetings with Italian leaders and Pope Leo XIV at the Vatican, part of broader Middle East diplomacy connected to Iran negotiations."},
+    {"title":"Airbnb Boosts 2026 Revenue Outlook on Strong Bookings","text":"Airbnb raised its full-year 2026 revenue growth forecast to low-to-mid teens from low double digits, citing robust booking trends across the Americas, announced May 7."},
+    {"title":"New York Retreats From Climate Law Citing Soaring Energy Costs","text":"Governor Kathy Hochul announced New York will roll back one of its most ambitious climate laws, citing need to protect residents from energy price inflation exacerbated by the Iran-driven oil shock. A signal of broader political pressure on green mandates."},
+    {"title":"Somali Piracy Returns â€” Three Ships Hijacked in One Week","text":"Three commercial vessels hijacked off Somalia's coast in the past week, with maritime security experts warning reduced Western naval patrols in the Gulf of Aden have created an opening for armed groups while naval focus shifts to the Strait of Hormuz."},
+    {"title":"IBEX35 Holds at 18,134 â€” Spain GDP Seen at 2.2% in 2026","text":"Spain's IBEX35 gained 0.26% on May 7 to 18,134.84, outperforming STOXX50. Spain's economy forecast to grow 2.2% in 2026, roughly double the eurozone average. ECB holds rates at 2.00%."},
+    {"title":"Catalonia Electricity: 64.69 Euros per MWh on May 8","text":"Average electricity price in Catalonia for Friday May 8 is 64.69 euros per MWh, reflecting easing but still elevated energy costs tied to LNG and Strait of Hormuz dynamics."},
+    {"title":"Singapore Property Up 0.9% in Q1; Budget 2026 Expands EQDP to S$6.5B","text":"URA data showed Singapore private residential prices rose 0.9% in Q1 2026, with OCR properties at +2.2%. Budget 2026 expanded the EQDP to S$6.5B. MAS pursues SGX liquidity reforms including reducing board lot sizes for high-priced securities."},
+    {"title":"OpenAI Tops $25B Revenue, Eyes IPO; Brockman Stake at $30B","text":"OpenAI surpassed $25B in annualized revenue and is taking early steps toward a potential public listing in late 2026. President Greg Brockman disclosed in court his equity stake is worth approximately $30B, providing a rare valuation signal."},
+    {"title":"Saudi Arabia Ends LIV Golf Funding â€” Billions Written Off","text":"Saudi Arabia's PIF has decided to stop funding the LIV Golf tour after spending several billion dollars to challenge the PGA Tour, marking a significant retreat in the kingdom's golf sports-washing strategy."}
+  ],
+  "day_ahead": "Friday May 8: US pre-market futures flat. Key watch: any US-Iran MoU developments â€” White House briefings could move oil sharply. Fed speakers possible; no major FOMC meeting. University of Michigan consumer sentiment survey due. European session: STOXX50 recovery attempt, ECB commentary. Singapore markets: Vesak Day proximity â€” verify trading hours for SGX.",
+  "ai_news": [
+    {"title":"Pentagon's Seven-Firm AI Sweep Excludes Anthropic","text":"DoD's AI contract awards to OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI mark a defining moment in defense AI. Anthropic's exclusion over supply-chain concerns is a setback â€” the company is reportedly contesting the decision."},
+    {"title":"Anthropic Unveils Claude Mythos Preview â€” Cybersecurity Focus","text":"Anthropic launched Claude Mythos Preview, specialized in identifying software vulnerabilities, under 'Project Glasswing' with limited rollout to select security firms."},
+    {"title":"Meta's Muse Spark: First Flagship LLM â€” Multimodal at Fraction of Compute","text":"Meta unveiled Muse Spark, its first flagship large language model, delivering competitive multimodal, reasoning, and agentic performance at significantly lower compute cost than frontier rivals."},
+    {"title":"Google Gemini 3.1 Flash-Lite: 2.5x Faster Output","text":"Google released Gemini 3.1 Flash-Lite, delivering 2.5x faster response times and 45% quicker output generation versus prior Gemini versions, reflecting the industry shift toward cost-effective frontier AI."},
+    {"title":"Trump Admin Stress-Tests Google, Microsoft, xAI Models â€” Oversight Era Begins","text":"CAISI announced May 5 agreements with Google DeepMind, Microsoft, and xAI to evaluate AI models pre-release, building on prior OpenAI and Anthropic partnerships â€” a significant step toward structured federal AI oversight."}
+  ]
+}
