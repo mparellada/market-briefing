@@ -1,0 +1,73 @@
+{
+  "date": "Saturday, May 09 2026",
+  "sentiment": "Mixed",
+  "pulse": "U.S. equities surged to fresh all-time highs on Friday May 8 after a stronger-than-expected April jobs report, with the S&P 500 clearing 7,398 and the Nasdaq advancing 1.71%. The Nikkei 225 led global gains with a 5.58% jump. Geopolitical risk remains elevated as Iran-U.S. tensions persist with the Strait of Hormuz still closed, keeping Brent crude above 100 dollars per barrel and gold near record highs above 4,700 dollars.",
+  "movers": [
+    {"name": "N225", "change_pct": "+5.58%", "reason": "Strong U.S. jobs data and yen stabilization drove broad-based Japan equity rally to 62,833"},
+    {"name": "NDX", "change_pct": "+1.71%", "reason": "Alphabet beat earnings, tech sector led gains; AI infrastructure spending narrative intact"},
+    {"name": "WTI", "change_pct": "+2.58%", "reason": "Iran-U.S. ceasefire talks unresolved; Strait of Hormuz supply disruption persisting"},
+    {"name": "SPX", "change_pct": "+0.84%", "reason": "April jobs report showed resilient labor market; index closed at new record 7,398.93"}
+  ],
+  "indices": [
+    ["SPX", "7,398.93", "+61.92", "+0.84%"],
+    ["NDX", "26,247.08", "N/A", "+1.71%"],
+    ["DJI", "49,609.16", "+12.19", "+0.02%"],
+    ["N225", "62,833.84", "+3,332", "+5.58%"],
+    ["HSI", "26,626.28", "N/A", "+1.57%"],
+    ["STI", "4,941.96", "N/A", "+0.30%"],
+    ["KOSPI", "N/A", "N/A", "-0.20%"],
+    ["STOXX50", "N/A", "N/A", "lower"],
+    ["IBEX35", "N/A", "N/A", "lower"]
+  ],
+  "currencies": [
+    ["EUR/USD", "N/A", "N/A", "N/A"],
+    ["EUR/SGD", "1.4890", "N/A", "N/A"],
+    ["USD/SGD", "~1.267", "N/A", "N/A"],
+    ["USD/THB", "32.20", "N/A", "N/A"]
+  ],
+  "futures": [],
+  "commodities": [
+    ["Gold", "$4,732.70", "+0.46%", "Safe-haven demand amid Iran-U.S. tensions"],
+    ["Brent", "$100.54", "+0.48%", "Strait of Hormuz closure continues largest oil disruption in history"],
+    ["WTI", "$97.26", "+2.58%", "Supply disruption from ongoing Middle East conflict"],
+    ["VIX", "17.18", "+0.59%", "Moderate volatility; markets pricing geopolitical premium"]
+  ],
+  "stocks": [
+    ["9G2.SI", "N/A", "N/A", "N/A"],
+    ["GCL", "N/A", "N/A", "N/A"]
+  ],
+  "portfolio": "Marc's SGD-based portfolio faces a constructive but cautious setup heading into the weekend. STI closed at 4,941.96 (+0.30%) providing domestic stability; CapitaLand's Asia Square Tower 2 sale ($2.48B) and Paragon acquisition ($3.9B) signal active Singapore real estate deal-making. Gold at $4,732.70 provides strong portfolio protection amid the Iran-U.S. conflict and inflationary oil-price regime. Brent at $100.54 supports oil-linked positions. Bitcoin at ~$79,743 pulled back from its $82,000 weekly high but holding above $78,000 support. US equity positions benefiting from record SPX 7,399 and NDX 26,247. IBEX35 and European positions under pressure from Trump's July 4 EU tariff threat. N225 outperformance (+5.58%) is a positive read-through for Asia exposure. USD/SGD ~1.267; monitor Fed rate path as Brent-driven inflation complicates the cutting cycle.",
+  "alerts": [
+    {"level": "danger", "text": "Iran-U.S. conflict: Strait of Hormuz remains closed since March 4; ~2,000 ships stranded; ceasefire talks ongoing but unresolved. IEA calls it largest oil supply disruption in history."},
+    {"level": "danger", "text": "Trump threatens 'much higher' EU tariffs by July 4 deadline; European markets closed lower May 8; STOXX50 and IBEX35 under pressure."},
+    {"level": "warn", "text": "Brent crude above $100/barrel for two months; gasoline futures surging; inflation risks for food and transport sectors globally."},
+    {"level": "warn", "text": "Bitcoin pulled back from $82,000 weekly high to $79,743; key support at $78,000; watch institutional flow signals."},
+    {"level": "info", "text": "Pentagon excluded Anthropic from classified AI defense contracts; OpenAI, Google, Microsoft, Amazon, Nvidia secured deals."},
+    {"level": "info", "text": "CapitaLand Singapore: Asia Square Tower 2 sold for $2.48B; Paragon acquired for $3.9B. Olam Agri sale to SALIC cleared regulators."}
+  ],
+  "news": [
+    {"title": "S&P 500 and Nasdaq Close at Record Highs on Strong April Jobs Data", "text": "The S&P 500 closed at 7,398.93 (+0.84%) and the Nasdaq surged 1.71% to 26,247.08 on Friday May 8, both posting new all-time intraday records after the April payrolls report showed stronger-than-expected hiring and steady unemployment at 4.3%."},
+    {"title": "Iran-U.S. Ceasefire Talks Ongoing as Hormuz Stays Shut", "text": "The U.S. awaits Iran's formal response to a war-ending proposal as of May 8. The Strait of Hormuz has been closed since March 4 with approximately 2,000 ships stranded. A CMA CGM vessel was struck by a cruise missile on May 5, injuring 8 crew. Brent crude holds above $100/barrel."},
+    {"title": "Nikkei 225 Surges 5.58% to 62,833 in Best Single-Day Gain in Months", "text": "Japan's Nikkei 225 jumped 5.58% to close at 62,833.84 on Friday May 8, leading global equity gains in a broad-based rally driven by yen stabilization and strong U.S. macro signals from the April employment report."},
+    {"title": "Trump Threatens Higher EU Tariffs by July 4 Deadline", "text": "U.S. President Trump threatened to impose 'much higher' tariffs on the European Union before the July 4 deadline, adding to existing trade tensions and pushing European markets lower on May 8."},
+    {"title": "Pentagon Signs AI Deals with OpenAI, Google, Microsoft; Excludes Anthropic", "text": "The U.S. Defense Department finalized AI agreements in early May 2026 with OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI for classified deployment. Anthropic was excluded over supply-chain risk concerns tied to contract disputes."},
+    {"title": "Big Tech Earnings Mixed: Alphabet Beats, Meta Disappoints", "text": "Alphabet shares climbed as much as 6% after beating earnings and raising AI capex guidance. Meta fell more than 5% after flagging flat Q2 revenue growth. Amazon and Microsoft fell about 3% each. Combined AI infrastructure spending across major tech firms is projected to exceed $700 billion in 2026."},
+    {"title": "Anthropic Q1 Revenue Hits $44B Annualized Run Rate; Launches Cybersecurity Model", "text": "Anthropic reported an 80-fold Q1 revenue surge to a $44 billion annualized run rate, committed $200 billion to Google Cloud, signed a SpaceX compute deal, and launched Claude Mythos Preview for cybersecurity vulnerability identification under Project Glasswing. CEO Dario Amodei briefed senior Trump administration officials at the White House."},
+    {"title": "The Economist Warns of Bond Market Crisis Risk as Rich Countries Overspend", "text": "The Economist flagged growing risk of a bond-market crisis as major developed economies continue to live beyond their means, warning that fiscal dominance trends are reshaping global financial system dynamics."},
+    {"title": "CapitaLand Sells Asia Square Tower 2 for $2.48B, Acquires Paragon for $3.9B", "text": "Singapore's CapitaLand announced the divestment of Asia Square Tower 2 for $2.48 billion and the acquisition of Paragon shopping centre for $3.9 billion, signaling continued active portfolio restructuring in prime Singapore commercial and retail real estate."},
+    {"title": "Olam Agri Sale to SALIC Receives Regulatory Clearance", "text": "Singapore-listed Olam received regulatory approvals for the sale of its remaining controlling stake in Olam Agri to Saudi Agricultural and Livestock Investment Company (SALIC), clearing the path for completion."},
+    {"title": "Thailand AI Firm Under Investigation for Suspected Nvidia Server Smuggling to China", "text": "Thailand's national AI effort company is under investigation for suspected smuggling of billions of dollars worth of Nvidia servers to China, raising concerns about export control enforcement and semiconductor supply chain integrity in Southeast Asia."},
+    {"title": "Bloomberg Wins 2026 Pulitzer Prize for India Digital Arrests Investigation", "text": "Bloomberg News was awarded the 2026 Pulitzer Prize for Illustrated Reporting for its investigation into India's wave of 'digital arrests', where scammers impersonating law enforcement coerced victims into transferring funds via video calls."},
+    {"title": "Spain Government Approves 37,017 Public Sector Jobs Focused on AI and Digitalization", "text": "The Spanish government approved its 2026 Public Employment Offer with 37,017 positions, with a significant focus on digitalization and artificial intelligence, reflecting Madrid's push to modernize public sector workforce capabilities."},
+    {"title": "Warner Bros. Discovery Books $2.9B Net Loss on Paramount Deal", "text": "Warner Bros. Discovery recorded a $2.9 billion net loss tied to its Paramount acquisition, underscoring the financial challenges of legacy media consolidation as streaming competition intensifies."},
+    {"title": "CAISI Establishes AI Pre-Deployment Evaluation Agreements with Google DeepMind, Microsoft, xAI", "text": "The U.S. Center for AI Standards and Innovation reached agreements with Google DeepMind, Microsoft, and xAI to allow government pre-deployment evaluations of frontier AI models, covering capability assessments and AI security research."}
+  ],
+  "day_ahead": "Saturday May 9 is a non-trading day. Weekend watch: any Iran-U.S. ceasefire development could open oil markets sharply on Sunday night/Monday. Trump's EU tariff July 4 deadline remains a persistent market overhang. Key events next week: Asian markets Monday open expected to digest Nikkei's Friday surge and U.S. record highs; U.S. CPI data expected mid-week critical for Fed rate path given Brent-driven inflation; further big-cap earnings; potential Fed speaker commentary on labor market strength vs. energy inflation tradeoff.",
+  "ai_news": [
+    {"title": "Pentagon Selects OpenAI, Google, Microsoft for Classified AI; Anthropic Excluded", "text": "Defense Department AI partnership agreements in early May 2026 cover OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI for classified analysis and logistics. Anthropic's exclusion over supply-chain risk is a material competitive setback in the government AI market."},
+    {"title": "Anthropic Project Glasswing: Claude Mythos Preview for Cybersecurity Vulnerabilities", "text": "Anthropic launched Claude Mythos Preview, a specialized model for identifying software vulnerabilities, in a limited rollout to select companies. CEO Dario Amodei personally briefed senior Trump administration officials at the White House on Mythos capabilities."},
+    {"title": "Anthropic Hits $44B Annualized Revenue Run Rate; Signs Google Cloud and SpaceX Deals", "text": "Anthropic reported an 80-fold Q1 revenue increase reaching a $44 billion annualized run rate, committed $200 billion to Google Cloud infrastructure, signed a SpaceX compute deal, launched Claude Code Auto Mode, and rolled out ten financial-services agents with JPMorgan's Jamie Dimon."},
+    {"title": "AI Infrastructure Spending to Exceed $700B in 2026 Across Major Tech Firms", "text": "Combined AI infrastructure investment across major tech companies is projected to exceed $700 billion in 2026. Alphabet raised capex guidance after beating Q1 estimates; the sector-wide compute arms race shows no sign of slowing."},
+    {"title": "CAISI AI Pre-Deployment Evaluations Now Cover Google DeepMind, Microsoft, xAI", "text": "The Center for AI Standards and Innovation established formal pre-deployment evaluation agreements with Google DeepMind, Microsoft, and xAI, allowing the U.S. government to assess frontier AI capabilities and security characteristics before public release."}
+  ]
+}
