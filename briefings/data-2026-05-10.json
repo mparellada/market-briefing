@@ -1,0 +1,217 @@
+{
+  "date": "Sunday, May 10 2026",
+  "sentiment": "Mixed",
+  "pulse": "US equities closed Friday May 8 at record highs, driven by a Goldilocks April jobs print and an AMD blowout quarter that triggered a nineteen percent surge and a broader AI chip rotation. Brent crude pushed above one hundred four dollars after fresh US-Iran military exchanges in the Strait of Hormuz, ECB June hike odds topped seventy-five percent lifting EUR/USD above one-seventeen, and Spain IBEX35 fell one percent on political risk. Markets open Monday carrying record US index levels against elevated oil and geopolitical tension.",
+  "movers": [
+    {
+      "name": "AMD",
+      "change_pct": "+19.0%",
+      "reason": "Q1 revenue 10.3B up 38% YoY, data center 5.78B up 57%, EPS 1.37 vs 1.27 estimate; CEO Lisa Su doubled server CPU market forecast to 120B citing agentic AI"
+    },
+    {
+      "name": "NASDAQ Composite",
+      "change_pct": "+1.71%",
+      "reason": "AMD-led AI chip surge; Wall Street declaring changing of the guard from Nvidia to Intel AMD Micron"
+    },
+    {
+      "name": "IBEX35",
+      "change_pct": "-1.01%",
+      "reason": "Spain underperformed on political headwinds from Begona Gomez corruption charges and Hormuz oil risk"
+    },
+    {
+      "name": "Brent Crude",
+      "change_pct": "above $104",
+      "reason": "US struck two Iranian oil tankers May 8 threatening ceasefire; Hormuz blocking roughly 1,600 commercial ships"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7,398.93",
+      "+61.92",
+      "+0.84%"
+    ],
+    [
+      "NDX (NASDAQ)",
+      "26,247.08",
+      "+441.67",
+      "+1.71%"
+    ],
+    [
+      "DJI",
+      "49,609.16",
+      "+8.46",
+      "+0.02%"
+    ],
+    [
+      "N225",
+      "62,713",
+      "-119",
+      "-0.19%"
+    ],
+    [
+      "STOXX50",
+      "~5,190",
+      "N/A",
+      "week +1.5%"
+    ],
+    [
+      "IBEX35",
+      "17,879",
+      "-182",
+      "-1.01%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1774",
+      "+0.0048",
+      "+0.41%"
+    ]
+  ],
+  "futures": [
+    [
+      "ES (S&P Futures)",
+      "~7,415",
+      "+0.22%",
+      "Sunday indication"
+    ],
+    [
+      "NQ (Nasdaq Futures)",
+      "~26,310",
+      "+0.24%",
+      "Sunday indication"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold (XAU/USD)",
+      "$4,732.70",
+      "N/A",
+      "Near record high; Hormuz safe-haven bid"
+    ],
+    [
+      "Brent Crude",
+      "$104.07",
+      "N/A",
+      "Above $100 for second month on Hormuz tension"
+    ],
+    [
+      "VIX",
+      "17.18",
+      "N/A",
+      "Moderate; complacency risk given oil above $100"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI / CRPU.SI (Sasseur REIT)",
+      "S$0.67",
+      "+0.75%",
+      "PB 0.84x; 52-wk S$0.61-0.74; China outlet retail REIT"
+    ],
+    [
+      "GCL (GCL Global Holdings, NASDAQ)",
+      "$0.60",
+      "N/A",
+      "Small-cap; limited May 8 data"
+    ]
+  ],
+  "portfolio": "US equity positions at record highs - hold, monitor AI chip rotation. AMD plus 19 percent validates AI infrastructure supercycle; Nvidia relative underperformance creates rotation opportunity to Intel and AMD. IBEX35 under pressure from Sanchez coalition risk. Gold at 4,732 near all-time highs - maintain as Hormuz and Fed-on-hold support safe-haven. Brent 104 benefits oil positions but watch for sudden ceasefire that could collapse prices to 85-90. BTC at 80-82K consolidating below 85K resistance. Sasseur REIT at S$0.67, PB 0.84x - China retail outlet exposure, monitor mainland recovery signals. Singapore structurally positive: STI up 20% past year, SGX-Nasdaq dual listing bill passed May 8. FX: EUR/USD at 1.1774, ECB June hike at 75 percent plus odds - EUR strength could compress margins for European-facing holdings.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "US-Iran: US struck two Iranian oil tankers May 8 - ceasefire technically holds but military exchanges escalating. ~1,600 ships stranded in Hormuz. Full ceasefire breakdown = oil spike and risk-off."
+    },
+    {
+      "level": "warn",
+      "text": "ECB June hike: >75% probability, 50bp total priced by year-end. EUR/USD above 1.1774. Headwind for European equities and IBEX exporters."
+    },
+    {
+      "level": "warn",
+      "text": "Fed on hold all year: April jobs +115K with wages +3.6% YoY and Brent above $104 keeps inflation sticky. No cuts expected through year-end."
+    },
+    {
+      "level": "info",
+      "text": "AMD changing of guard in AI chips - Intel, AMD, Micron vs Nvidia. Watch Nvidia reaction Monday open."
+    },
+    {
+      "level": "info",
+      "text": "Singapore SGX-Nasdaq dual listing bill passed May 8 - structurally bullish for Singapore equities."
+    }
+  ],
+  "news": [
+    {
+      "title": "US Strikes Iranian Oil Tankers as Hormuz Ceasefire Frays",
+      "text": "US forces fired on two Iranian-flagged oil tankers on May 8 after exchanging fire in the Strait of Hormuz. The UAE reported concurrent Iranian missile and drone attacks. The April 7-8 ceasefire technically holds but military exchanges have intensified. About 1,600 commercial vessels remain stranded. Trump signaled a deal is close even as strikes continued."
+    },
+    {
+      "title": "April Jobs Report: 115K Added, Unemployment Steady at 4.3%",
+      "text": "US nonfarm payrolls rose 115,000 in April, well above the 55,000 estimate. Unemployment held at 4.3%. Average hourly earnings grew 3.6% YoY, below the 3.8% forecast. Healthcare led with 37,000 new jobs; manufacturing shed 2,000. The Goldilocks print powered Friday equity rally while keeping the Fed on hold through year-end."
+    },
+    {
+      "title": "AMD Surges 19% - Wall Street Calls Changing of the Guard in AI Chips",
+      "text": "AMD posted Q1 revenue of 10.3 billion, up 38% YoY, beating the 9.85 billion consensus. Data center revenue hit 5.78 billion, up 57%. EPS of 1.37 beat the 1.27 estimate. CEO Lisa Su doubled the server CPU market forecast to 120 billion citing agentic AI as the next demand wave. Intel and Micron also surged double digits on the week."
+    },
+    {
+      "title": "Anthropic Commits 200 Billion to Google Cloud; Launches Claude Mythos Preview",
+      "text": "Anthropic annual revenue run rate reached 44 billion after 80-fold Q1 growth. The company committed 200 billion to Google Cloud, signed a SpaceX compute deal, launched Claude Mythos Preview for cybersecurity vulnerability identification, and deployed ten financial-services agents with JPMorgan CEO Jamie Dimon."
+    },
+    {
+      "title": "Pentagon Signs AI Deals with Eight Tech Giants, Initially Excluding Anthropic",
+      "text": "The US Defense Department on May 4 finalized AI agreements for classified environments with OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI. Anthropic was excluded, though the White House reopened talks after the Mythos announcement."
+    },
+    {
+      "title": "EUR/USD Climbs Above 1.17 as ECB June Hike Odds Exceed 75%",
+      "text": "The euro rose to 1.1774 on May 8, its strongest level since late April. Money markets are pricing more than 50 basis points of ECB tightening by year-end, with June hike probability above 75%. Persistent eurozone inflation and resilient growth drove the hawkish repricing."
+    },
+    {
+      "title": "Begona Gomez Formally Charged with Embezzlement and Corruption",
+      "text": "Pedro Sanchez wife Begona Gomez was formally charged on April 13 with embezzlement, influence peddling, corruption in business dealings, and misappropriation of funds. Analysts describe the parliamentary coalition as broken, with general elections possibly called for spring 2027."
+    },
+    {
+      "title": "Singapore Passes SGX-Nasdaq Dual Listing Bill on May 8",
+      "text": "Singapore parliament passed the Securities and Futures Amendment Bill 2026 on May 8, enabling MAS to establish a Global Listing Board for simultaneous SGX and Nasdaq listings. STI trading volumes in Q1 rose 32% quarter-on-quarter to 126 billion SGD, the highest in nearly twenty years."
+    },
+    {
+      "title": "The Economist: Bond Market Crisis Risk Rising as Rich Countries Overspend",
+      "text": "The Economist warns that rich countries living beyond their means face growing risk of a bond-market crisis. A steep sell-off in France, Japan, or the US could sharply tighten global financial conditions. AI infrastructure spending may be masking underlying economic weakness."
+    },
+    {
+      "title": "Google DeepMind, Microsoft, xAI Agree to US AI Safety Testing Program",
+      "text": "CAISI announced on May 5 agreements with Google DeepMind, Microsoft, and xAI to evaluate AI models before public release, expanding a framework previously covering only OpenAI and Anthropic."
+    },
+    {
+      "title": "Catalonia Teachers Begin Month of Strikes Over Pay and Conditions",
+      "text": "Majority unions in Catalonia education sector launched seventeen stoppages across May from May 7 over pay and working conditions. Separately, 55% of books sold on Sant Jordi Day were in Catalan - the highest share in six years."
+    },
+    {
+      "title": "US Midterm Enthusiasm Gap: Democrats 61%, Republicans 53%",
+      "text": "An NPR/PBS/Marist poll published May 7 shows 61% of Democrats are very enthusiastic about voting in November 2026 midterms versus 53% of Republicans. Democrats won Virginia and New Jersey gubernatorial races by wider-than-expected margins in November 2025."
+    },
+    {
+      "title": "Brent Crude Above 104 as Hormuz Crisis Drives Consumer Inflation",
+      "text": "Brent futures closed above 104 dollars per barrel on May 8. Consumer surveys show nearly one-third of Americans citing gasoline prices as a top concern, with nearly 30% citing tariffs. The squeeze is complicating the Fed path and limiting consumer sentiment recovery."
+    }
+  ],
+  "day_ahead": "Monday May 11: No major US economic data releases. Watch Fed speaker commentary on April jobs interpretation and June FOMC positioning. Singapore: first full SGX trading week since dual listing bill passage - watch for sentiment lift in STI. Any Hormuz ceasefire news over the weekend would trigger sharp Brent sell-off toward 90 support. EUR/USD watch above 1.18 on ECB hawkish momentum. AMD options positioning for Monday open after Friday surge.",
+  "ai_news": [
+    {
+      "title": "Anthropic Hits 44 Billion Annual Run Rate; Claude Mythos Preview for Cybersecurity",
+      "text": "Anthropic reported 80-fold Q1 revenue growth reaching a 44 billion annualized run rate. Claude Mythos Preview, specialized in identifying software security vulnerabilities, launched in limited rollout. Ten financial-services agents deployed with JPMorgan CEO Jamie Dimon. 200 billion committed to Google Cloud."
+    },
+    {
+      "title": "Pentagon Finalizes AI Deals with Eight Firms; Anthropic Excluded Initially",
+      "text": "Defense Department on May 4 signed AI agreements for classified environments with OpenAI, Google, Microsoft, Amazon, Oracle, Nvidia, SpaceX, and Reflection AI. Anthropic was excluded but White House reopened talks following Mythos announcement."
+    },
+    {
+      "title": "Google DeepMind, Microsoft, xAI Submit to US Government AI Pre-Deployment Testing",
+      "text": "CAISI announced May 5 voluntary testing agreements with Google DeepMind, Microsoft, and xAI, expanding a framework already covering OpenAI and Anthropic. Models evaluated for capabilities and security before public release."
+    },
+    {
+      "title": "AMD AI Chip Surge Reframes Competitive Landscape vs Nvidia",
+      "text": "AMD 57% data center revenue surge and CEO Lisa Su 120 billion server CPU market forecast sparked Wall Street calls of a fundamental shift from Nvidia toward CPU-plus-memory AI stack. Intel and Micron doubled in value year-to-date. Nvidia relative underperformance has traders watching next GPU cycle announcement closely."
+    }
+  ]
+}
