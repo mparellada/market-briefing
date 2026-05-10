@@ -1,0 +1,77 @@
+{
+  "date": "Monday, May 11 2026",
+  "sentiment": "Cautious",
+  "pulse": "Global markets enter the week under dual pressure: the US-Iran Strait of Hormuz standoff remains unresolved after Trump declared Iran's latest ceasefire response 'totally unacceptable', keeping Brent crude elevated near $101. US equities closed Friday May 9 at or near record highs â€” S&P 500 at 7,399 â€” but European and Asian indices were mixed-to-weak on renewed Hormuz skirmishes. The week's critical catalyst is US April CPI on Tuesday May 12, the last major inflation print before the Fed's June meeting.",
+  "sentiment_rationale": "US equities at records but geopolitical tail risk elevated; oil above $100; CPI uncertainty; European underperformance. Mixed signals = Cautious.",
+  "movers": [
+    {"name":"NDX","change_pct":"+1.70%","reason":"Tech led Friday's rally on AI-sector optimism and brief hopes of ceasefire progress easing energy costs"},
+    {"name":"KOSPI","change_pct":"+1.43%","reason":"South Korean equities extended extraordinary 2026 run to 7,490 on semiconductor demand tied to the global AI super-cycle"},
+    {"name":"IBEX35","change_pct":"-0.95%","reason":"Spanish index underperformed as Hormuz tensions weighed on energy-sensitive industrials and rising sovereign debt costs pressured sentiment"},
+    {"name":"STOXX50","change_pct":"-0.90%","reason":"Eurozone blue chips retreated as renewed US-Iran naval clashes in the Strait of Hormuz reignited geopolitical risk premium"},
+    {"name":"BTC","change_pct":"~flat","reason":"Bitcoin consolidating near $100K with institutional accumulation ongoing; S&P record highs providing macro tailwind"}
+  ],
+  "indices": [
+    ["SPX","7399","+59",""+0.80%"],
+    ["NDX","26247","+436","+1.70%"],
+    ["DJI","49609","+12","+0.02%"],
+    ["N225","62713","-119","-0.19%"],
+    ["STOXX50","5972","-54","-0.90%"],
+    ["IBEX35","17889","-172","-0.95%"],
+    ["STI","4921","-20","-0.41%"],
+    ["KOSPI","7490","+106","+1.43%"],
+    ["HSI","est.","~+1.57%","May 7 data"]
+  ],
+  "currencies": [
+    ["EUR/USD","~1.130","--","Euro firming vs dollar on US fiscal concerns"],
+    ["USD/SGD","~1.276","--","SGD firm; MAS holding policy steady"],
+    ["EUR/SGD","~1.437","--","Derived cross rate"],
+    ["USD/THB","~33.2","--","Baht stable"]
+  ],
+  "futures": [
+    ["ES (S&P Fut)","~7410","Pre-market Monday estimate"],
+    ["NQ (Nasdaq Fut)","~26350","Pre-market Monday estimate"]
+  ],
+  "commodities": [
+    ["Gold (XAU)","4730.70","+19.80","+0.42%"],
+    ["Brent Crude","101.00","+1.20","+1.20%"],
+    ["WTI Crude","~98.50","est.","-3 discount to Brent"],
+    ["VIX","17.19","+0.11","+0.64%"]
+  ],
+  "stocks": [
+    ["9G2.SI","--","Boustead Singapore â€” monitor SGX open Monday"],
+    ["GCL","--","AI compute/data-center play â€” supported by Pentagon deals and AI capex cycle"]
+  ],
+  "portfolio": "Marc's SGD-based portfolio faces a nuanced week. US equity longs (SPX/NDX) remain constructive â€” S&P 500 closed at fresh records on May 9 at 7,399. IBEX35 position under short-term pressure: Spanish stocks fell 0.95% Friday and Spanish sovereign debt costs hit their highest since 2018 at 2.41%. Gold continues to perform well at $4,730 (+0.42% Friday), providing an effective geopolitical hedge. Oil exposure (Brent ~$101) is supportive while Hormuz closure drags on, but a ceasefire breakthrough could trigger a sharp reversal. BTC near $100K is positive with institutional flows intact. STI held 4,900 â€” 9G2.SI needs monitoring at SGX open Monday. GCL (AI compute/data-center play) supported by Pentagon AI deals and ongoing AI super-cycle capex surge. FX: SGD firm at ~1.276 vs USD; EUR strengthening slightly vs USD. Key risk this week: US April CPI on Tuesday â€” a hot print could reset Fed rate-cut expectations and pressure all equity longs simultaneously.",
+  "alerts": [
+    {"level":"danger","text":"US-Iran Strait of Hormuz standoff: Trump declared Iran ceasefire response 'totally unacceptable' on May 10. US Navy fired on Iranian tankers. Brent above $100. Escalation risk elevated."},
+    {"level":"warn","text":"US April CPI due Tuesday May 12 at 8:30 AM ET â€” last major inflation print before the Fed's June 16-17 FOMC meeting. Hot print could sharply reprice rate-cut odds."},
+    {"level":"warn","text":"Senate confirmation vote for new Fed Chair nominee expected this week â€” potential policy uncertainty and market volatility around the leadership transition."},
+    {"level":"warn","text":"IBEX35 fell 0.95% Friday; Spanish Treasury average debt cost rose to 2.41%, highest since late 2018. Monitor Spanish sovereign spread vs Bunds."},
+    {"level":"info","text":"Pentagon signed AI deals with OpenAI, Google, Microsoft, Nvidia on May 4, initially excluding Anthropic. White House has since reopened Anthropic discussions."},
+    {"level":"info","text":"Anthropic committed $200 billion to Google Cloud â€” largest single AI infrastructure commitment announced to date. Signals AI arms race in compute continues unabated."}
+  ],
+  "news": [
+    {"title":"Trump declares Iran ceasefire response 'totally unacceptable'; Hormuz standoff deepens","text":"President Trump on May 10 rejected Iran's latest ceasefire proposal as 'totally unacceptable', even as a fragile nominal pause remained nominally in place. US Navy destroyers fired on Iranian tankers in the Strait of Hormuz, with both sides claiming the other shot first. The strait has seen only a handful of crossings in recent days, sustaining an effective global oil supply shock."},
+    {"title":"Ukraine: US-brokered 3-day ceasefire holds for Russia's Victory Day","text":"A US-brokered three-day ceasefire held over the May 9 Victory Day celebrations, allowing Putin to host foreign leaders â€” including several from Asia and Africa â€” at the Moscow parade without major incident. Zelenskyy and Putin's foreign adviser Ushakov both confirmed a prisoner exchange agreement. Long-term peace talks remain stalled."},
+    {"title":"US fires on Iranian oil tankers; Hormuz naval escalation intensifies","text":"Three US Navy destroyers transited the Strait of Hormuz and exchanged fire with Iranian forces in the most serious naval clash of the current standoff. Trump described the strikes as 'just a love tap', signaling the White House is managing escalation optics even as the military posture firms."},
+    {"title":"US withdraws 5,000 troops from Germany after Trump-Merz public spat","text":"The US Defense Department announced 5,000 military personnel stationed in Germany will depart over the next 6 to 12 months. The withdrawal follows a public dispute between Trump and German Chancellor Merz over the Iran conflict and European defense burden-sharing, a significant fracture in the NATO alliance."},
+    {"title":"Pentagon signs AI deals with OpenAI, Google, Microsoft, Nvidia â€” Anthropic excluded initially","text":"The Department of Defense finalized AI agreements with eight companies on May 4, notably cutting out Anthropic. The White House subsequently reopened talks with Anthropic after the company announced technology breakthroughs. Deals cover military AI applications in logistics, intelligence analysis, and decision support."},
+    {"title":"Anthropic commits $200 billion to Google Cloud in landmark infrastructure deal","text":"Anthropic has committed to spending $200 billion on Google's cloud infrastructure and chips, according to reporting by The Information. The commitment deepens the Alphabet-Anthropic strategic partnership and signals the extraordinary scale of frontier AI infrastructure investment now underway."},
+    {"title":"S&P 500 closes at fresh record at 7,399; markets recover fully from March pullback","text":"The S&P 500 closed at 7,399 on May 9, extending its record run that began when the index first closed above 7,300 on May 5. AI-sector optimism, earnings beats from enterprise tech names like Datadog, and temporary ceasefire hopes drove the recovery from the March energy-shock correction."},
+    {"title":"US April CPI due Tuesday May 12 â€” pivotal print before June Fed meeting","text":"The Bureau of Labor Statistics releases April consumer price data at 8:30 AM ET on Tuesday. With NFP, CPI, and PPI all landing within the same five trading days, this is the last complete inflation and labor picture the Fed will have before its June 16-17 FOMC meeting. Markets currently price two rate cuts for 2026."},
+    {"title":"EU finalizes AI Act compliance deal; Google DeepMind holds first union vote","text":"The EU struck its AI Act compliance deal, requiring frontier AI developers to conduct safety evaluations, provide technical documentation, and register systems in a central EU database before deployment. Separately, workers at Google DeepMind held the first union vote at a top AI lab, a landmark for labor organizing in the sector."},
+    {"title":"Spain defense spending hits 2.1% of GDP; Renault factory dispute creates jobs risk","text":"Spain's defense expenditure registered the largest increase among high-spending NATO members, reaching 2.1% of GDP â€” still below Trump's demanded threshold. On the industrial front, Turkey is positioning as a rival to Spain for new Renault production models, as a labor dispute at Valladolid and Palencia plants creates uncertainty for Spanish manufacturing jobs."},
+    {"title":"Spanish Treasury average debt cost rises to 2.41%, highest since late 2018","text":"The average interest rate Spain pays on its sovereign debt rose to 2.41% at end of April, the highest since late 2018. Rising yields reflect global rate pressure and investors demanding higher compensation for duration exposure amid geopolitical and fiscal uncertainty."},
+    {"title":"Hantavirus cruise ship heading for Spain's Canary Islands","text":"Spanish health authorities are preparing to receive over 140 passengers and crew aboard a hantavirus-stricken cruise ship en route to the Canary Islands. European CDC protocols are being coordinated to manage outbreak risk."},
+    {"title":"Singapore STI holds above 4,900 through volatile week","text":"The Straits Times Index closed at 4,921.90 on May 8, slipping 0.41% but holding the key 4,900 technical support through a choppy week driven by Hormuz oil risk and mixed Asian sentiment. MAS policy stability and SGX financials' limited direct Hormuz exposure provided a buffer."},
+    {"title":"Google DeepMind, Microsoft, xAI agree to US government pre-deployment AI testing","text":"The Commerce Department's Center for AI Standards and Innovation announced on May 8 that Google DeepMind, Microsoft, and xAI agreed to have their frontier AI models tested before public deployment. The programme assesses systems for hacking capabilities, military misuse potential, and unexpected emergent behaviors."}
+  ],
+  "day_ahead": "Tuesday May 12: US April CPI at 8:30 AM ET â€” the week's pivotal data release. Senate confirmation vote for new Fed Chair nominee expected this week. Fed Governor Waller and Vice Chair Bowman speaking at the Hoover Institution Monetary Policy Conference in Stanford. Iran ceasefire and nuclear talks continue via Pakistani mediators â€” any breakthrough could send Brent down $5-10 sharply. SGX opens Monday for 9G2.SI monitoring. Watch for Strait of Hormuz vessel crossing data as a daily sentiment indicator for oil.",
+  "ai_news": [
+    {"title":"Pentagon AI deals: OpenAI, Google, Microsoft, Nvidia in; Anthropic initially out but talks reopened","text":"The Defense Department signed AI agreements with eight companies on May 4, with Anthropic notably excluded. The White House subsequently reopened discussions after Anthropic announced breakthroughs including Claude Code Auto Mode. The episode highlights how government AI relationships now carry geopolitical weight."},
+    {"title":"Anthropic's $200B Google Cloud commitment: the AI infrastructure arms race in numbers","text":"Anthropic's commitment to spend $200 billion on Google Cloud â€” including compute, TPU access, and an engineering partnership â€” plus a separate SpaceX compute deal, underscores that frontier AI infrastructure investment is scaling faster than any prior technology wave. Anthropic reported an $44 billion annualized revenue run rate in Q1 2026, up 80-fold year-on-year."},
+    {"title":"EU AI Act compliance framework finalized â€” frontier AI now regulated in Europe","text":"The EU struck its final AI Act compliance deal, establishing mandatory safety evaluations, technical documentation requirements, and central registration for frontier AI systems before European deployment. The framework is the world's first binding comprehensive AI regulation and sets a template other jurisdictions may follow."},
+    {"title":"Trump administration expands AI oversight to Google DeepMind, Microsoft, xAI","text":"The Center for AI Standards and Innovation extended pre-deployment model testing to cover Google DeepMind, Microsoft, and xAI on May 8, building on earlier agreements with OpenAI and Anthropic. Tests cover cybersecurity risks, military misuse potential, and emergent behavior in frontier models."},
+    {"title":"AI super-cycle reshaping chip foundry landscape; Apple-Intel deal reported","text":"Reports of a major Apple-Intel chipmaking deal emerged this week, potentially reshaping the global foundry landscape as AI compute demand vastly outstrips manufacturing capacity. Datadog surged after raising its full-year guidance, while analysts note the AI super-cycle is indiscriminately bidding up any company with credible high-end compute capacity."}
+  ]
+}
