@@ -1,0 +1,254 @@
+{
+  "date": "Wednesday, May 13 2026",
+  "sentiment": "Cautious",
+  "pulse": "Markets ended Tuesday in cautious mood after US April CPI hit 3.8 percent annually, the hottest since May 2023, driven by a 17.9 percent energy surge from the Hormuz crisis. STOXX50 fell 1.4 percent, Nasdaq shed 0.71 percent. Trump-Xi summit in Beijing begins today through May 15.",
+  "movers": [
+    {
+      "name": "STOXX50",
+      "change_pct": "-1.40%",
+      "reason": "Energy price surge; banks slumped; ASML hit by AI sector rout"
+    },
+    {
+      "name": "KOSPI",
+      "change_pct": "-2.29%",
+      "reason": "Pullback from Monday record highs; profit-taking"
+    },
+    {
+      "name": "Nasdaq",
+      "change_pct": "-0.71%",
+      "reason": "Hot inflation print raised Fed rate-hike odds to 30 percent"
+    },
+    {
+      "name": "N225",
+      "change_pct": "+0.52%",
+      "reason": "Yen weakness supported exporters"
+    },
+    {
+      "name": "Brent",
+      "change_pct": "+3.22%",
+      "reason": "Trump rejected Iran ceasefire counter-offer; Hormuz near standstill"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7400.96",
+      "-11.87",
+      "-0.16%"
+    ],
+    [
+      "Nasdaq",
+      "26088.20",
+      "-186.71",
+      "-0.71%"
+    ],
+    [
+      "DJI",
+      "49760.56",
+      "+56.09",
+      "+0.11%"
+    ],
+    [
+      "N225",
+      "62742.57",
+      "+323.14",
+      "+0.52%"
+    ],
+    [
+      "STOXX50",
+      "5815.00",
+      "-82.41",
+      "-1.40%"
+    ],
+    [
+      "IBEX35",
+      "17700.30",
+      "-152.20",
+      "-0.85%"
+    ],
+    [
+      "STI",
+      "4921.90",
+      "-20.35",
+      "-0.41%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1733",
+      "-0.0051",
+      "-0.43%"
+    ]
+  ],
+  "futures": [
+    [
+      "Brent",
+      "107.57",
+      "+3.36",
+      "+3.22%"
+    ],
+    [
+      "WTI",
+      "97.04",
+      "+2.10",
+      "+2.21%"
+    ],
+    [
+      "Gold",
+      "4667.50",
+      "-63.20",
+      "-1.34%"
+    ],
+    [
+      "VIX",
+      "18.74",
+      "+0.36",
+      "+1.96%"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold",
+      "4667.50",
+      "-63.20",
+      "-1.34%"
+    ],
+    [
+      "Brent",
+      "107.57",
+      "+3.36",
+      "+3.22%"
+    ],
+    [
+      "WTI",
+      "97.04",
+      "+2.10",
+      "+2.21%"
+    ],
+    [
+      "VIX",
+      "18.74",
+      "+0.36",
+      "+1.96%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "N/A",
+      "N/A",
+      "Data unavailable"
+    ],
+    [
+      "GCL",
+      "N/A",
+      "N/A",
+      "Data unavailable"
+    ]
+  ],
+  "portfolio": "Gold at 4667 on Hormuz safe-haven demand; ceasefire could reverse gold and oil. Brent above 107 supports oil exposure. BTC near 80860 under mild CPI pressure. Nasdaq down 0.71 percent. IBEX35 down 0.85 percent but Spain GDP solid. STI resilient near 4921. EUR/USD at 1.1733.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "US April CPI 3.8 percent YoY, highest since May 2023. Fed rate-hike odds 30 percent. Energy +17.9 percent YoY."
+    },
+    {
+      "level": "danger",
+      "text": "Iran ceasefire on massive life support. Trump rejected Tehran offer May 12. Brent above 107."
+    },
+    {
+      "level": "warn",
+      "text": "Trump-Xi Beijing summit May 13-15. Trade, Hormuz, Taiwan, semiconductors on agenda."
+    },
+    {
+      "level": "warn",
+      "text": "STOXX50 -1.4 percent. Munich Re -6.3 percent. ASML -3.1 percent."
+    },
+    {
+      "level": "info",
+      "text": "TSK Engineering IPO today May 13 on Spanish BME. First Spanish IPO 2026."
+    },
+    {
+      "level": "info",
+      "text": "Anthropic launched Claude Mythos Preview under Project Glasswing."
+    }
+  ],
+  "news": [
+    {
+      "title": "Trump-Xi Beijing Summit Begins",
+      "text": "Trump arrived in Beijing on May 13 for summit with Xi Jinping through May 15. Agenda: trade, Hormuz crisis, Taiwan, semiconductors. Delegation includes Musk, Cook, and Boeing CEO Ortberg."
+    },
+    {
+      "title": "Iran Ceasefire on Massive Life Support",
+      "text": "On May 12 Trump declared ceasefire on massive life support after Tehran demanded reparations and Hormuz control. Strait shutdown affects 20 million barrels per day or 20 percent of global seaborne oil. Brent at 107.57."
+    },
+    {
+      "title": "US April CPI 3.8 Percent, Highest Since May 2023",
+      "text": "BLS reported April CPI 3.8 percent annually on May 12. Energy over 40 percent of the gain; gasoline up 28.4 percent YoY. Core CPI 2.8 percent. Fed hike odds raised to 30 percent."
+    },
+    {
+      "title": "JPMorgan Record Markets Quarter",
+      "text": "JPMorgan on May 12 reported prime brokerage balances soared to a record. Clients bullish, unwinding conflict hedges, focused on AI earnings."
+    },
+    {
+      "title": "STOXX50 Drops 1.4 Percent",
+      "text": "Euro Stoxx 50 fell 1.4 percent to 5815 on May 12. Santander, BNP, ING each fell 2.3 percent. Munich Re sank 6.3 percent. ASML fell 3.1 percent. ECB kept rates unchanged."
+    },
+    {
+      "title": "Israel Deploys Iron Dome to UAE",
+      "text": "Israel sent Iron Dome batteries to UAE during the Iran conflict. Kuwait accused Iran of a failed attack on an island where China is building a port."
+    },
+    {
+      "title": "EU Imposes Measures Over Gaza Crisis",
+      "text": "EU unanimously imposed new measures related to the Israel-Hamas war due to outrage over Gaza conditions, marking a significant policy shift."
+    },
+    {
+      "title": "Netanyahu Coalition Dissolution Threatened",
+      "text": "An ultra-Orthodox party in Netanyahu coalition called for parliament to be dissolved, threatening government collapse."
+    },
+    {
+      "title": "Global Growth Cut to 2.7 Percent",
+      "text": "Forecasters revised global growth to 2.7 percent for 2026. EU at 1.3 percent, China at 4.4 percent. Hormuz flagged as key downside risk."
+    },
+    {
+      "title": "Spain GDP Plus 2.7 Percent YoY Q1 2026",
+      "text": "Spain GDP grew 0.6 percent QoQ and 2.7 percent YoY in Q1 2026. Employment up 0.8 percent quarterly. Real estate investment up 56 percent to 6.2 billion euros."
+    },
+    {
+      "title": "TSK Engineering IPO Today on Spanish Exchange",
+      "text": "TSK debuts on the Spanish Stock Exchange on May 13, the first IPO of 2026 in Spain, specializing in renewable energy infrastructure."
+    },
+    {
+      "title": "Singapore Private Home Prices Up 0.9 Percent Q1",
+      "text": "Singapore private home prices rose 0.9 percent in Q1 2026, OCR up 2.2 percent. HDB resale volumes fell 18 percent YoY. Government released 4575 units via H1 2026 GLS list."
+    },
+    {
+      "title": "Pentagon AI Deals With Big Tech, Anthropic Excluded",
+      "text": "Pentagon signed AI agreements with OpenAI, Google, Microsoft, and Nvidia on May 4, excluding Anthropic. Anthropic then launched Claude Mythos Preview. Musk restructured xAI on May 6, transferring compute to Anthropic."
+    },
+    {
+      "title": "Bloomberg 2026 Pulitzer for trAPPed India Investigation",
+      "text": "Bloomberg News won the 2026 Pulitzer Prize for Illustrated Reporting for trAPPed, investigating India digital-arrest scams where criminals impersonate law enforcement."
+    }
+  ],
+  "day_ahead": "Trump-Xi meetings continue in Beijing through May 15. Watch for trade tariff communiques, Hormuz mediation, and Taiwan statements. TSK IPO opens on Madrid BME today. US jobless claims Thursday. Monitor for Iran ceasefire breakthrough.",
+  "ai_news": [
+    {
+      "title": "Anthropic Launches Claude Mythos Preview",
+      "text": "Anthropic announced Claude Mythos Preview to identify software vulnerabilities and security flaws. Limited rollout under Project Glasswing. Positions Anthropic in national security AI despite exclusion from Pentagon May 4 deal."
+    },
+    {
+      "title": "Elon Musk Dissolves xAI, Transfers Compute to Anthropic",
+      "text": "On May 6 Musk announced xAI would no longer operate independently and transferred large AI computing resources to Anthropic."
+    },
+    {
+      "title": "Microsoft and OpenAI Drop Exclusive Software Partnership",
+      "text": "Microsoft and OpenAI ended Microsoft exclusive rights to OpenAI software per Bloomberg. Opens door for other cloud providers. Recent releases: GPT-5.5 and DeepSeek v4."
+    },
+    {
+      "title": "Trump Administration Expands AI Oversight",
+      "text": "CAIS confirmed on May 5 that Google DeepMind, Microsoft, and xAI will submit models for pre-release evaluation by the Commerce Department, per Trump AI Action Plan."
+    }
+  ]
+}
