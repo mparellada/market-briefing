@@ -1,0 +1,232 @@
+{
+  "date": "Thursday, May 14 2026",
+  "sentiment": "Mixed",
+  "pulse": "Markets pushed to fresh records as tech megacaps surged despite a PPI shock, with Nasdaq up 1.2 percent and S&P 500 closing at a new all-time high. The Trump-Xi summit in Beijing dominates geopolitics with tariff relief, Taiwan, and Iran pressure on the agenda. Brent crude remains elevated above 107 dollars as the Strait of Hormuz standoff persists and the US-Iran ceasefire hangs by a thread.",
+  "movers": [
+    {
+      "name": "COMP (Nasdaq)",
+      "change_pct": "+1.2%",
+      "reason": "Tech megacaps surged as Nvidia, Tesla, Apple CEOs joined Trump China delegation; AI optimism drove gains despite PPI shock"
+    },
+    {
+      "name": "SPX (S&P 500)",
+      "change_pct": "+0.58%",
+      "reason": "Record close driven by tech leadership; wholesale inflation hit fastest pace since 2022 but risk-on prevailed"
+    },
+    {
+      "name": "N225 (Nikkei)",
+      "change_pct": "+0.84%",
+      "reason": "Asian markets rallied on hopes for Trump-Xi summit trade progress"
+    },
+    {
+      "name": "Brent Crude",
+      "change_pct": "$107.32",
+      "reason": "Elevated on Hormuz closure fears after Trump rejected Iran peace offer"
+    },
+    {
+      "name": "DJI (Dow Jones)",
+      "change_pct": "-0.14%",
+      "reason": "Rotation out of old-economy names into tech; PPI shock weighed on rate-sensitive sectors"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7,444.25",
+      "+43.32",
+      "+0.58%"
+    ],
+    [
+      "COMP",
+      "26,402.34",
+      "+313.7",
+      "+1.20%"
+    ],
+    [
+      "DJI",
+      "49,693.20",
+      "-67.36",
+      "-0.14%"
+    ],
+    [
+      "N225",
+      "63,272",
+      "+527",
+      "+0.84%"
+    ],
+    [
+      "STOXX50",
+      "5,842.36",
+      "+33.9",
+      "+0.58%"
+    ],
+    [
+      "IBEX35",
+      "~17,851",
+      "record",
+      "record high"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1700",
+      "-0.30%",
+      "Dollar firmed on Iran tensions; ECB June hike priced at 86%"
+    ]
+  ],
+  "futures": [
+    [
+      "E-mini S&P (ES1)",
+      "~7,450",
+      "+0.1%",
+      "Slight positive bias pre-market"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold (XAU)",
+      "$4,733.62",
+      "N/A",
+      "Safe haven demand; WGC 45-ton ETF inflow April"
+    ],
+    [
+      "Brent Crude",
+      "$107.32",
+      "N/A",
+      "Hormuz blockage fears; Iran ceasefire on life support"
+    ],
+    [
+      "WTI Crude",
+      "$101.81",
+      "N/A",
+      "Above 100 dollars as Hormuz transit disrupted"
+    ],
+    [
+      "VIX",
+      "17.99",
+      "N/A",
+      "Below 20 despite tensions; tech rally suppressing fear gauge"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "Monitor for SGX moves; MAS holding policy steady, Singapore GDP slowing to 2.2% in 2026",
+      ""
+    ],
+    [
+      "GCL",
+      "Watch IBEX35 banking rally; index at record highs on banking strength",
+      ""
+    ]
+  ],
+  "portfolio": "Marc portfolio: US equities at record highs benefit US allocation. IBEX35 at record near 17,851 strongly positive for Spanish exposure driven by banking stocks up 44% in 12 months. Gold at 4,734 dollars functions as primary macro hedge with 45-ton ETF inflows in April. Brent above 107 dollars positive for oil exposure. BTC near 81,000 dollars retreated as Iran risk-off pressures speculative assets. SGD-base note: MAS on hold, Singapore GDP slowing to 2.2% from 4.8%. STI likely underperforming US and European indices. Key risk: PPI at 6% annually keeps Fed on hold and Kevin Warsh proves more hawkish than Powell, long-duration assets face re-rating. Watch Trump-Xi summit for tariff relief catalyst.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Iran ceasefire on life support - Trump rejected Tehran peace offer; Brent above 107 dollars with Hormuz effectively closed. Saudi Aramco warns market will not normalize until 2027 if blockage extends past mid-June."
+    },
+    {
+      "level": "danger",
+      "text": "US PPI surged 6.0% annually - fastest since December 2022; CPI at 3.7%. Fed rate cuts priced out for 2026. Kevin Warsh takes office as Fed Chair on May 15 - potential hawkish shift."
+    },
+    {
+      "level": "warn",
+      "text": "Trump-Xi summit continues May 14 in Beijing - 30 billion dollar managed trade mechanism on table but no comprehensive deal expected. Taiwan arms sales and Iran leverage remain unresolved."
+    },
+    {
+      "level": "warn",
+      "text": "30-year Treasury yield hit 5% at 25 billion dollar auction - highest since 2007. Fiscal stress building as bond market tests Washington borrowing capacity."
+    },
+    {
+      "level": "info",
+      "text": "Begona Gomez, wife of Spanish PM Sanchez, formally charged with influence peddling and corruption - parties have 5 days to request oral proceedings."
+    }
+  ],
+  "news": [
+    {
+      "title": "Trump-Xi Beijing Summit Opens (May 13-14)",
+      "text": "President Trump arrived in Beijing on May 13 for a high-stakes two-day summit with Xi Jinping. Talks cover a potential 30 billion dollar managed trade mechanism, Taiwan arms sales, and US pressure on Beijing to help broker an Iran ceasefire. Nvidia, Tesla, and Apple CEOs joined the US business delegation. No comprehensive deal expected but a Chinese purchase of US agricultural products may be announced."
+    },
+    {
+      "title": "Iran Ceasefire On Life Support - Brent Stays Above 107 Dollars",
+      "text": "Trump rejected Iran latest peace proposal as garbage on May 12, keeping Brent crude above 107 dollars per barrel. The Strait of Hormuz remains effectively closed. Saudi Aramco CEO Amin Nasser warned the oil market will not normalize until 2027 if the blockage extends past mid-June. Hormuz volumes collapsed from 4.07 million barrels per day to just 648,000."
+    },
+    {
+      "title": "US PPI Shocks - Wholesale Inflation at Fastest Pace Since 2022",
+      "text": "US producer prices jumped 6.0% annually in April, well above the 4.9% forecast, and 1.4% month-on-month. Headline CPI rose to 3.7% annually. The Fed held rates at 3.5 to 3.75% and markets have entirely priced out rate cuts for 2026. BofA expects the Fed on hold through year-end."
+    },
+    {
+      "title": "30-Year Treasury Yields Hit 5% at 25 Billion Dollar Auction",
+      "text": "The US Treasury sold 25 billion dollars in 30-year bonds at a 5% yield, the highest level since 2007, as persistent inflation fears and heavy government borrowing weigh on the long end of the yield curve."
+    },
+    {
+      "title": "Kevin Warsh Set to Replace Powell as Fed Chair on May 15",
+      "text": "The Senate is set to confirm Kevin Warsh as Federal Reserve Chair on May 15, succeeding Jerome Powell. The DOJ dropped its criminal investigation into Powell, clearing the path. Warsh is broadly expected to take a more hawkish stance, with some analysts suggesting possible rate hikes rather than cuts."
+    },
+    {
+      "title": "Tech Megacaps Drive Nasdaq to Record - S&P 500 Joins",
+      "text": "Nasdaq Composite gained 1.2% to close at 26,402 on May 13, with S&P 500 rising 0.58% to a fresh record at 7,444. Nvidia, Tesla, and Apple CEOs attending Trump China delegation provided a catalyst. The Dow shed 67 points as old-economy names lagged."
+    },
+    {
+      "title": "Begona Gomez Formally Charged - Trial Looms for Spanish PM Wife",
+      "text": "Judge Juan Carlos Peinado indicted Begona Gomez, wife of Prime Minister Pedro Sanchez, for influence peddling, corruption in business, and misappropriation of public funds. Parties have five days to request oral proceedings, bringing a formal trial significantly closer."
+    },
+    {
+      "title": "IBEX35 at All-Time Highs - Spanish Stocks Up 44% in 12 Months",
+      "text": "Spain IBEX35 hit a record near 17,851 index points, rising 44.26% over the past 12 months, powered by heavyweight banking stocks. Spain economy projected to grow 2.4% in 2026, one of the strongest trajectories in the eurozone."
+    },
+    {
+      "title": "Catalan Economy Projects 2.3% Growth in 2026",
+      "text": "The Generalitat de Catalunya forecasts the Catalan economy will grow 2.3% in 2026 despite geopolitical uncertainty and global trade disruptions from the Iran crisis and Hormuz closure."
+    },
+    {
+      "title": "Singapore GDP Growth Moderating to 2.2% in 2026",
+      "text": "Singapore economy expected to grow at 2.2% in 2026, slowing sharply from 4.8% in 2025. Elevated energy costs from the Hormuz crisis are key headwinds. MAS maintaining current policy while the Equity Market Implementation Committee advances SGX reform."
+    },
+    {
+      "title": "Singapore Property Market Cools - Foreign Buyers at Record Lows",
+      "text": "HDB resale transaction volumes fell 18% year-on-year in Q1 2026, with price gains moderating to 2.8% - slowest since Q3 2023. Foreign buyers accounted for just 4.2% of private property purchases in Q1, down from 7.8% a year earlier, following December 2025 ABSD increase for foreigners from 30% to 35%."
+    },
+    {
+      "title": "Anthropic Launches Mythos Cybersecurity Model Under Project Glasswing",
+      "text": "Anthropic unveiled Mythos, an AI model designed to identify software vulnerabilities, in a restricted rollout under Project Glasswing. CEO Dario Amodei met with Trump administration officials at the White House. Pentagon subsequently reopened AI contract discussions with Anthropic after initially excluding the company."
+    },
+    {
+      "title": "xAI Transfers Compute to Anthropic - Musk Restructures AI Holdings (May 6)",
+      "text": "Elon Musk announced on May 6 that xAI would cease independent operation and transfer a large share of its AI compute capacity to Anthropic, marking a significant reshuffling of AI infrastructure in the sector."
+    },
+    {
+      "title": "Google Races to Embed Gemini in Android Ahead of Apple AI Overhaul",
+      "text": "Alphabet pushing aggressively to position Gemini at the center of Android before Apple executes its anticipated AI product reboot, aiming to lock in model leadership across consumer devices and Google broader product ecosystem."
+    },
+    {
+      "title": "Gold ETF Inflows Signal Institutional Hedge - 45 Tons in April",
+      "text": "World Gold Council reported a 45-ton inflow into gold ETFs in April, reversing heavy March outflows. Institutional investors repositioning into bullion as hedge against stagflation risk, with gold at 4,733 dollars per ounce."
+    }
+  ],
+  "day_ahead": "Trump-Xi summit continues in Beijing on May 14 - watch for joint communique or managed trade announcement. Kevin Warsh Fed Chair confirmation vote scheduled May 15. ECB speakers expected with markets pricing 86% probability of a June rate hike. US weekly jobless claims data due today. Watch Iran ceasefire developments, Brent crude direction above 107 dollars, and guidance from the tech business delegation in China on tariff relief implications.",
+  "ai_news": [
+    {
+      "title": "Anthropic Mythos Cybersecurity Model - Project Glasswing Launched",
+      "text": "Anthropic Mythos model, specialized in identifying software vulnerabilities, launched in restricted rollout under Project Glasswing. CEO Dario Amodei briefed Trump administration officials. Pentagon reopened AI contract talks with Anthropic after initially blacklisting the company over safety guardrail requirements for warfare AI use."
+    },
+    {
+      "title": "xAI Transfers AI Compute to Anthropic (May 6)",
+      "text": "Musk announced on May 6 that xAI would hand its AI compute resources to Anthropic and cease independent operation. This consolidates significant AI infrastructure under Anthropic umbrella in what analysts call a major sector reshuffling."
+    },
+    {
+      "title": "Google Gemini vs Apple AI - Android Critical Integration Race",
+      "text": "Alphabet racing to embed Gemini as the AI backbone of Android before Apple anticipated AI reboot, positioning Gemini across Search, Maps, Pixel, and the broader Android ecosystem. The outcome will be a key determinant of AI platform loyalty for the next consumer device cycle."
+    },
+    {
+      "title": "Pentagon AI Contracts - 8 Companies, Anthropic Initially Excluded",
+      "text": "Department of Defense signed AI contracts on May 1 with OpenAI, Google, Microsoft, Nvidia, AWS, Oracle, SpaceX, and Reflection. Anthropic was initially excluded over safety guardrail demands for warfare AI but the White House has since reopened discussions following the Mythos announcement."
+    },
+    {
+      "title": "Government AI Oversight Expands Under Trump AI Action Plan",
+      "text": "NIST Center for AI Standards and Innovation formalized pre-deployment model evaluation agreements with Google DeepMind, Microsoft, and xAI. OpenAI and Anthropic renegotiated existing oversight agreements to align with the Trump administration AI Action Plan priorities."
+    }
+  ]
+}
