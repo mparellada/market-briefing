@@ -1,0 +1,225 @@
+{
+  "date": "Friday, May 15 2026",
+  "sentiment": "Cautious",
+  "pulse": "US equities extended their run Thursday as Cisco surged 13 percent on earnings, pushing the S and P 500 and Dow to fresh all-time highs. Sentiment turns cautious Friday as Powell leaves and Kevin Warsh takes the Fed helm amid rising rate-hike odds. The Trump-Xi Beijing summit delivered AI guardrail agreements but stopped short of a trade reset.",
+  "movers": [
+    {
+      "name": "CSCO",
+      "change_pct": "+13.0%",
+      "reason": "Q3 earnings beat plus job cuts; enterprise software resilience"
+    },
+    {
+      "name": "BA",
+      "change_pct": "-3.8%",
+      "reason": "China jet deal at 200 aircraft vs larger expectations"
+    },
+    {
+      "name": "POET",
+      "change_pct": "+43.2%",
+      "reason": "AI optical interconnect demand surge"
+    },
+    {
+      "name": "DOCS",
+      "change_pct": "-23.0%",
+      "reason": "Doximity earnings miss and guidance cut"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7,501.24",
+      "+57.8",
+      "+0.77%"
+    ],
+    [
+      "NDX",
+      "29,366.94",
+      "+216.5",
+      "+0.74%"
+    ],
+    [
+      "DJI",
+      "50,063.46",
+      "+375.2",
+      "+0.75%"
+    ],
+    [
+      "N225",
+      "63,742.50",
+      "--",
+      "flat"
+    ],
+    [
+      "STOXX50",
+      "5,934.96",
+      "+126.5",
+      "+2.18%"
+    ],
+    [
+      "IBEX35",
+      "17,809.20",
+      "+",
+      "positive"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1700",
+      "-0.0020",
+      "-0.17%"
+    ]
+  ],
+  "futures": [
+    [
+      "ES",
+      "7,489.25",
+      "-12.0",
+      "-0.16%"
+    ],
+    [
+      "NQ",
+      "29,750.75",
+      "+384.0",
+      "+1.31%"
+    ],
+    [
+      "YM",
+      "50,109.00",
+      "+45.5",
+      "+0.09%"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold (XAU)",
+      "4,651.93",
+      "-36.1",
+      "-0.77%"
+    ],
+    [
+      "Brent Crude",
+      "105.87",
+      "+0.23",
+      "+0.22%"
+    ],
+    [
+      "VIX",
+      "17.90",
+      "--",
+      "stable"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "--",
+      "STI at 4,977.58; Citadel HK relocation to Singapore ongoing"
+    ],
+    [
+      "GCL",
+      "--",
+      "No specific GCL data today"
+    ]
+  ],
+  "portfolio": "Risk-cautious posture warranted. SPX and NDX at record highs but Fed leadership transition risk is live today. Gold pulled back on stronger USD but remains up 46 percent year on year. Brent at 105.87 supports oil positions. STI at 4,977 approaching 5,000 ceiling. BTC neutral-to-bearish technically.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "Fed Chair transition today. April PPI +1.4% MoM blew past +0.4% consensus. Rate-hike bets rising."
+    },
+    {
+      "level": "danger",
+      "text": "US-China summit: AI guardrail deal reached, no trade reset. EU auto tariffs announced."
+    },
+    {
+      "level": "warn",
+      "text": "Gold retreating from ATH on USD strength. Watch 4,600 support."
+    },
+    {
+      "level": "warn",
+      "text": "Boeing -3.8%: China jet order at 200 aircraft seen as diplomatic minimum."
+    },
+    {
+      "level": "info",
+      "text": "Cisco +13% on Q3 beat: enterprise AI infrastructure demand intact."
+    }
+  ],
+  "news": [
+    {
+      "title": "Fed Chair Transition Powell Out Warsh In",
+      "text": "Jerome Powell tenure as Federal Reserve Chair ends today May 15. Senate confirmed Kevin Warsh as successor. Rate-hike odds rising on April PPI of +1.4% MoM versus +0.4% expected."
+    },
+    {
+      "title": "US April PPI Surges to Fastest Pace Since 2022",
+      "text": "PPI rose 1.4% monthly in April, core PPI up 1.0%, both double expectations. US CPI at 3.8%. Bond traders repricing for potential rate hike."
+    },
+    {
+      "title": "Trump-Xi Beijing Summit AI Guardrails No Trade Reset",
+      "text": "Trump and Xi met in Beijing on May 14-15. Bilateral AI oversight boards agreed. No broad trade deal reached."
+    },
+    {
+      "title": "US Retail Sales April +0.5 percent",
+      "text": "April retail sales rose 0.5% as forecast, ex-autos up 0.7%. Consumer spending remains resilient."
+    },
+    {
+      "title": "Russia Launches Mass Attack on Kyiv",
+      "text": "Russia struck Kyiv with drones and missiles on May 14, killing one and injuring 31. Escalation continues."
+    },
+    {
+      "title": "ECB to Hike Twice in 2026 on Iran-Driven Inflation",
+      "text": "Bloomberg survey shows ECB expected to raise rates twice in 2026. Bank of Japan also signaled potential hike next month."
+    },
+    {
+      "title": "EURO STOXX 50 Surges 2.18 percent",
+      "text": "EURO STOXX 50 rose 2.18% to 5,934.96 on May 14. IBEX35 lifted to 17,809. European earnings driving gains."
+    },
+    {
+      "title": "Citadel Relocating HK Quant Staff to Singapore",
+      "text": "Citadel told Hong Kong quantitative researchers on May 13 to relocate or quit. Singapore and Miami are primary destinations."
+    },
+    {
+      "title": "Boeing Shares Fall 3.8 percent on China Jet Deal",
+      "text": "Boeing fell 3.8% after Trump announced China would purchase 200 aircraft, seen by analysts as a diplomatic gesture."
+    },
+    {
+      "title": "Gold Up 46 percent Year-on-Year",
+      "text": "Gold risen 46% over 12 months to just above 4,700 dollars, closing Thursday at 4,651 down 0.77% on USD strength. Silver surged 141% to near 80 dollars."
+    },
+    {
+      "title": "Spain TSK First Madrid IPO of 2026",
+      "text": "TSK completed Spain first stock market debut of 2026. Spanish banking sector forecast to extend profit growth 4% in 2026."
+    },
+    {
+      "title": "Singapore MAS Advances Securities and TLAC Frameworks",
+      "text": "MAS progressed Securities and Futures Amendment Bill and issued TLAC consultation for systemically important banks. STI at 4,977.58."
+    },
+    {
+      "title": "China Extends Tariff-Free Trade to 53 African Nations",
+      "text": "Beijing announced 53 African states will enjoy tariff-free Chinese market access, excluding only Eswatini."
+    },
+    {
+      "title": "EU Auto Tariffs Trump Targets European Carmakers",
+      "text": "Trump announced tariffs on EU cars and trucks. European automakers including Volkswagen and BMW under pressure."
+    }
+  ],
+  "day_ahead": "Key events Friday May 15: Fed Chair formally transitions to Kevin Warsh. University of Michigan Consumer Sentiment May preliminary expected mid-morning ET. Fed speakers may address rate path. Trump-Xi summit wrap-up statements could move tech and semiconductors.",
+  "ai_news": [
+    {
+      "title": "OpenAI Deploys GPT-5.5 Instant as ChatGPT Default",
+      "text": "OpenAI made GPT-5.5 Instant default ChatGPT model, citing 52.5% hallucination reduction. New voice models include GPT-Realtime-2. GPT-5.5-Cyber granted to EU partners including BBVA and Telefonica."
+    },
+    {
+      "title": "Anthropic Claude Opus 4.7 Generally Available",
+      "text": "Claude Opus 4.7 generally available across Claude.ai, API, Amazon Bedrock, Google Cloud Vertex AI, and Microsoft Foundry. High-resolution vision up to 2,576 pixels. 20-plus legal MCP connectors for law firms."
+    },
+    {
+      "title": "Google DeepMind AI Pointer and Math Breakthroughs",
+      "text": "DeepMind unveiled AI pointer system powered by Gemini for direct workflow actions. AI Co-Mathematician achieved new benchmark on decades-old mathematical challenge."
+    },
+    {
+      "title": "Microsoft Google xAI Agree to Pre-Launch Government AI Testing",
+      "text": "On May 5, Microsoft, Google, and xAI agreed to share unreleased AI models with US Department of Commerce for national security evaluation. Microsoft launched Agent 365 at 15 dollars per user per month."
+    }
+  ]
+}
