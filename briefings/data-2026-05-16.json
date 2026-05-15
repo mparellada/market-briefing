@@ -1,0 +1,296 @@
+{
+  "date": "Saturday, May 16 2026",
+  "sentiment": "Risk-Off",
+  "pulse": "A global inflation shock dominated Friday session. US April CPI came in at 3.8%, the hottest reading since May 2023, sending the 10-year Treasury yield to 4.595% and triggering a synchronised selloff in equities, bonds, precious metals, and crypto. The Trump-Xi Beijing summit produced no major policy breakthrough, while Strait of Hormuz tensions pushed Brent crude to approximately 107 dollars per barrel.",
+  "movers": [
+    {
+      "name": "KOSPI",
+      "change_pct": "-3.30%",
+      "reason": "Sharp retreat from recent record high as semiconductor stocks tracked global tech selloff driven by US inflation shock"
+    },
+    {
+      "name": "N225",
+      "change_pct": "-2.00%",
+      "reason": "Japan 30-year bond yield hit 4% for the first time; global bond rout spread and tech exposure compounded losses"
+    },
+    {
+      "name": "Gold/XAU",
+      "change_pct": "-1.83%",
+      "reason": "Hot US CPI crushed rate-cut hopes; India raised gold import tariffs to 15% from 6%; silver fell 7% simultaneously"
+    },
+    {
+      "name": "BTC",
+      "change_pct": "-2.80%",
+      "reason": "Rising bond yields and inflation fears triggered crypto selloff; BTC dropped below 79000 intraday"
+    },
+    {
+      "name": "Euro STOXX 50",
+      "change_pct": "+1.20%",
+      "reason": "European markets closed before US CPI data dropped, capturing morning gains from Trump-Xi summit optimism"
+    }
+  ],
+  "indices": [
+    [
+      "SPX",
+      "7408.50",
+      "-93.00",
+      "-1.24%"
+    ],
+    [
+      "NDX/Nasdaq Comp",
+      "26225.14",
+      "-411.00",
+      "-1.54%"
+    ],
+    [
+      "DJI",
+      "49526.17",
+      "-537.00",
+      "-1.07%"
+    ],
+    [
+      "N225",
+      "61409.29",
+      "-1254.00",
+      "-2.00%"
+    ],
+    [
+      "STOXX50",
+      "5931.00",
+      "+70.00",
+      "+1.20%"
+    ],
+    [
+      "IBEX35",
+      "17645.00",
+      "-164.00",
+      "-0.92%"
+    ],
+    [
+      "KOSPI",
+      "7493.18",
+      "-255.00",
+      "-3.30%"
+    ],
+    [
+      "HSI",
+      "26550.00",
+      "-279.00",
+      "-1.04%"
+    ],
+    [
+      "STI",
+      "4989.00",
+      "-7.00",
+      "-0.14%"
+    ]
+  ],
+  "currencies": [
+    [
+      "EUR/USD",
+      "1.1624",
+      "-0.0043",
+      "-0.37%"
+    ],
+    [
+      "USD/SGD",
+      "1.2800",
+      "--",
+      "--"
+    ],
+    [
+      "EUR/SGD",
+      "1.4900",
+      "--",
+      "--"
+    ],
+    [
+      "USD/THB",
+      "33.00",
+      "--",
+      "--"
+    ],
+    [
+      "SGD/THB",
+      "25.14",
+      "--",
+      "--"
+    ]
+  ],
+  "futures": [
+    [
+      "US 10Y Yield",
+      "4.595%",
+      "+14bps",
+      "Inflation shock"
+    ],
+    [
+      "Japan 30Y Yield",
+      "4.00%",
+      "Record high",
+      "Global bond rout"
+    ]
+  ],
+  "commodities": [
+    [
+      "Gold (XAU/USD)",
+      "$4,564/oz",
+      "-$85",
+      "-1.83%"
+    ],
+    [
+      "Brent Crude",
+      "$106.89/bbl",
+      "+$1.17",
+      "+1.11%"
+    ],
+    [
+      "WTI Crude",
+      "$106.92/bbl",
+      "+10% WoW",
+      "Hormuz tensions"
+    ],
+    [
+      "VIX",
+      "18.10",
+      "+0.84",
+      "+4.87%"
+    ]
+  ],
+  "stocks": [
+    [
+      "9G2.SI",
+      "SGD 0.073",
+      "+0.004",
+      "+5.80%",
+      "Singapore Institute of Advanced Medicine Holdings"
+    ],
+    [
+      "GCL",
+      "USD 0.5074",
+      "+0.0095",
+      "+1.92%",
+      "GCL Global Holdings (NASDAQ)"
+    ]
+  ],
+  "portfolio": "Marc SGD-base portfolio: STI resilient at -0.14%, 9G2.SI recovered +5.80% after April 30 crash. IBEX35 -0.92% on global risk-off. US exposure hit: SPX -1.24%, NDX -1.54%. Asian equities: N225 -2.00%, HSI -1.04%. Gold -1.83% on crushed rate-cut hopes. Oil bright spot: Brent +1.11% day, +63% YoY on Hormuz. BTC -2.80% tracking risk-off. GCL +1.92%. EUR/USD -0.37%. Key risk next week: US 10Y at 4.595% -- if it breaches 4.75%, expect further equity pressure.",
+  "alerts": [
+    {
+      "level": "danger",
+      "text": "US 10Y yield at 4.595% (+14bps Friday) -- highest in months. Bond rout could extend. Watch 4.75% level."
+    },
+    {
+      "level": "danger",
+      "text": "Japan 30Y yield hit 4.00% record -- BoJ under pressure; N225 -2% Friday."
+    },
+    {
+      "level": "warn",
+      "text": "US CPI April 2026: 3.8% -- hottest since May 2023. Fed rate-cut expectations sharply repriced lower."
+    },
+    {
+      "level": "warn",
+      "text": "Strait of Hormuz escalating: US Navy sank 7 Iranian boats; Brent at ~$107. Energy costs rising globally."
+    },
+    {
+      "level": "warn",
+      "text": "KOSPI -3.3% Friday -- steepest decline among major indices. Semis/tech major drag."
+    },
+    {
+      "level": "info",
+      "text": "9G2.SI +5.80% Friday -- partial recovery after -8.7% on April 30. Watch for follow-through."
+    },
+    {
+      "level": "info",
+      "text": "Trump-Xi Beijing summit: No breakthrough but diplomatic engagement maintained."
+    },
+    {
+      "level": "info",
+      "text": "Kyiv missile strike: At least 24 killed including 3 children. Russia-Ukraine war escalation."
+    }
+  ],
+  "news": [
+    {
+      "title": "US April CPI Shocks Markets at 3.8%",
+      "text": "US Consumer Price Index for April 2026 came in at 3.8%, the highest since May 2023, far above expectations. The data crushed hopes for Federal Reserve rate cuts and sent Treasury yields surging: the 10-year to 4.595% (+14bps), the 30-year to 5.121%. Wall Street reversed sharply, with SPX falling 1.24%."
+    },
+    {
+      "title": "Treasuries Suffer Worst Weekly Rout in a Year",
+      "text": "US bonds led a global fixed income selloff on May 15, recording their worst weekly performance in over a year. Japan 30-year yield hit 4% for the first time ever. Bloomberg reported the synchronized global yield surge as the defining market story of the week."
+    },
+    {
+      "title": "Trump-Xi Beijing Summit: No Policy Breakthrough",
+      "text": "Trump and Xi met in Beijing on May 15 in a visually reassuring but substantively thin summit -- no breakthroughs on trade, Taiwan, or technology restrictions. Markets which had priced in some optimism were disappointed."
+    },
+    {
+      "title": "Iran Seizes Vessel; US Navy Sinks 7 Iranian Boats in Hormuz Escalation",
+      "text": "Strait of Hormuz tensions escalated on May 15: Iranian forces seized a floating armoury vessel in the Gulf of Oman while the US Navy sank 7 small Iranian boats. Brent rose to approximately $107. US-Iran nuclear talks remain stalled."
+    },
+    {
+      "title": "Kyiv Hit by Deadly Russian Missile Strike -- 24 Killed",
+      "text": "A Russian missile struck a residential apartment building in Kyiv on May 15, killing at least 24 people including three children -- one of the deadliest attacks on the capital since the war began. Zelenskyy called for additional Western air defense support."
+    },
+    {
+      "title": "Brent Crude at $107, Up 63% Year-on-Year",
+      "text": "Brent crude closed at approximately $107 per barrel on May 15, gaining over 1% on the session and more than 10% on the week, driven by Hormuz risk, stalled US-Iran talks, and OPEC discipline. Year-on-year gains exceed 63%."
+    },
+    {
+      "title": "Bitcoin Falls Below $79,000 on Inflation Shock",
+      "text": "Bitcoin dropped to around $79,000 on May 15, declining approximately 2.8%, as rising bond yields and inflation fears triggered a synchronized selloff. BTC dominance held at 60.3%, with altcoins underperforming."
+    },
+    {
+      "title": "China Credit Growth Misses Despite Stimulus",
+      "text": "New loan data from China for April 2026 came in below expectations despite ongoing stimulus efforts, raising questions about monetary easing efficacy amid weak private sector confidence."
+    },
+    {
+      "title": "Spain IBEX35 -0.92%; Economy Could Grow 2%+ If Hormuz Resolved",
+      "text": "IBEX35 closed down 0.92% on May 15 on global risk-off. El Economista reported Spain could still grow above 2% in 2026 if Hormuz tensions resolve soon, but energy cost pass-through is a key risk."
+    },
+    {
+      "title": "Spain First IPO of 2026: Engineering Firm TSK Debuts in Madrid",
+      "text": "TSK, a Spanish engineering company, became the first firm to debut on the Madrid stock exchange in 2026, generating investor interest and signaling renewed confidence in Spanish capital markets."
+    },
+    {
+      "title": "Catalonia Rodalies Rail Strike Called for May 27 and June 5",
+      "text": "Unions CCOO and UGT called a new Rodalies commuter rail strike for May 27 and June 5, coinciding with teacher strikes. The action will affect tens of thousands of Barcelona area commuters."
+    },
+    {
+      "title": "Singapore Introduces Community Rehab for First-Time Drug Offenders from May 16",
+      "text": "From May 16, all first-time drug abusers who surrender to Singapore Central Narcotics Bureau will be rehabilitated in the community rather than incarcerated -- a major criminal justice reform announced by Minister Edwin Tong."
+    },
+    {
+      "title": "Singtel, OCBC, Keppel Lead Singapore Share Buyback Wave in 2026",
+      "text": "Singtel, OCBC, and Keppel are the three most aggressive share repurchasers in Singapore in the first four months of 2026 per The Business Times, signaling management confidence and bullish for SGX dividend investors."
+    },
+    {
+      "title": "Google Commits $40 Billion Investment in Anthropic",
+      "text": "Alphabet has committed to invest up to $40 billion in Anthropic, one of the largest AI investment deals on record, deepening Google competitive position in large language models and significantly bolstering Anthropic development resources."
+    },
+    {
+      "title": "Pentagon Formalises AI Contracts with Eight Tech Giants",
+      "text": "The Trump White House extended AI safety evaluation agreements to Google DeepMind, Microsoft, and xAI, while the Pentagon formalised AI contracts with eight major tech companies including SpaceX, OpenAI, Google, Microsoft, Nvidia, AWS, Oracle, and Reflection."
+    }
+  ],
+  "day_ahead": "Saturday May 16 -- markets closed. Weekend watch: US-Iran nuclear talks and Hormuz developments; G7/G20 statements on inflation coordination; fallout from Trump-Xi summit; Russia-Ukraine escalation after Kyiv strike. Monday May 18 Asian open digests the week US CPI shock, global bond selloff, and oil at $107. Key data next week: US PPI, FOMC minutes, UK CPI, Singapore trade data.",
+  "ai_news": [
+    {
+      "title": "Google Commits $40 Billion to Anthropic in Landmark AI Deal",
+      "text": "Alphabet has committed up to $40 billion to invest in Anthropic -- one of the single largest AI investment transactions ever recorded -- cementing Google stake in OpenAI closest rival and deepening frontier LLM competition."
+    },
+    {
+      "title": "Anthropic Introduces Mythos Model to Select Partners",
+      "text": "Anthropic has introduced its most powerful model to date, internally named Mythos, to a limited circle of trusted partners with notable cybersecurity applications. The controlled release reflects Anthropic constitutional AI safety approach to frontier model deployment."
+    },
+    {
+      "title": "Google DeepMind Releases Gemma 4 Open-Weight Models",
+      "text": "Google DeepMind released Gemma 4, a new series of open-weight models with four variants emphasising coding, agentic AI, reasoning, and multimodal inputs, continuing Google strategy of open-sourcing capable smaller models."
+    },
+    {
+      "title": "Trump Administration Extends AI Oversight to DeepMind, Microsoft, xAI",
+      "text": "The Trump White House Center for AI Standards and Innovation extended AI safety evaluation agreements to Google DeepMind, Microsoft, and xAI, building on earlier deals with OpenAI and Anthropic, while Pentagon formalised AI defence contracts with eight major tech firms."
+    },
+    {
+      "title": "Hyperliquid Surges on Bitwise Spot ETF Filing",
+      "text": "Hyperliquid token was among the week strongest crypto performers after Bitwise filed for a spot Hyperliquid ETF, extending the institutional ETF product wave beyond Bitcoin and Ethereum. Coinbase was named official USDC treasury deployer."
+    }
+  ]
+}
